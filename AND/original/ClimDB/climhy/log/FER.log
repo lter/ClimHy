@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store
+Connection: close
+Date: Fri, 07 Nov 2008 14:51:59 GMT
+Accept-Ranges: bytes
+ETag: "2c030-13a15-491455b7"
+Server: EarthServer/1.0
+Content-Length: 80405
+Content-MD5: ZSig6NKnzGTUENCJFN9Fnw==
+Content-Type: text/plain
+Last-Modified: Fri, 07 Nov 2008 14:50:31 GMT
+Client-Date: Fri, 07 Nov 2008 14:51:59 GMT
+Client-Peer: 80.67.66.56:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 11/07/2008
+
+FER
+Started with FER,WS1,20070101
+Ended with FER,WS1,20071231
+Started with FER,WS2,20070101
+Ended with FER,WS2,20071231
+Started with FER,WS3,20070101
+Ended with FER,WS3,20071231
+Started with FER,WS4,20070101
+Ended with FER,WS4,20071231
+Started with FER,WS5,20070101
+Ended with FER,WS5,20071231
+Started with FER,WS6,20070101
+Ended with FER,WS6,20071231
+Started with FER,WS7,20070101
+Ended with FER,WS7,20071231
+Started with FER,STATIONB,20070101
+Finished with FER,STATIONB,20080114
+
+
+Summary of FER follows:
+	ON INPUT:
+		2793 lines read. 
+		0 blank lines. 
+		8 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		5749 data points prepared for entry into centralized database.

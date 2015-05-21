@@ -1,0 +1,110 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Wed, 04 Mar 2009 21:55:20 GMT
+Accept-Ranges: bytes
+ETag: "c30ca4-dbb4-463d5973724c0"
+Server: 
+Content-Length: 56244
+Content-Type: text/plain
+Last-Modified: Thu, 26 Feb 2009 17:22:03 GMT
+Client-Date: Wed, 04 Mar 2009 21:55:14 GMT
+Client-Peer: 131.94.130.48:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+C:\Inetpub\climhy\harvest.pl executed 03/04/2009
+
+FCE
+Started with FCE,EVERGLADES,20080501
+WARNING(101): PREC = 9999.00 (min=0.00 max=317.50) failed QC test at:
+	 FCE,EVERGLADES,20090123	 input file (FCE) line 299
+
+Ended with FCE,EVERGLADES,20090131
+Started with FCE,FLAMINGORS,20080501
+Ended with FCE,FLAMINGORS,20090131
+Started with FCE,MIA,20080501
+Ended with FCE,MIA,20081231
+Started with FCE,ROYALPALMR,20080501
+WARNING(101): PREC = 9999.00 (min=0.00 max=242.82) failed QC test at:
+	 FCE,ROYALPALMR,20090122	 input file (FCE) line 1098
+
+Ended with FCE,ROYALPALMR,20090131
+Started with FCE,TAVERNIER,20080501
+Finished with FCE,TAVERNIER,20081130
+
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-01 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-02 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-03 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-04 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-05 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-06 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-07 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-08 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-09 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-10 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-11 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-12 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-13 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-14 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-15 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-16 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-17 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-18 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-19 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-20 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-21 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-22 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-23 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-24 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-25 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-26 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-27 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-28 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-29 
+FATAL ERROR(906): Duplicate found
+FCE,EVERGLADES,2008-06-30 
+
+Summary of FCE follows:
+	ON INPUT:
+		1322 lines read. 
+		0 blank lines. 
+		5 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		Fatal process errors raised. 
+		2 warnings raised. 
+	ON OUTPUT:
+		5268 data points prepared for entry into centralized database.
+
+
+		Due to the fatal error listed above the database can not been updated.

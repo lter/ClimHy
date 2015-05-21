@@ -1,0 +1,60 @@
+
+<service name="climdb_agg">
+ <documentation>This web service allows a remote user to access the climdb_agg table from the CLIMHY database. See xxx for more documentation.</documentation>
+ <method name="get_agg_monthly" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>SELECT site_code, station, variable, aggregate_type, year, month, value FROM climdb_agg WHERE site_code =  ? and station = ? and variable = ? and aggregate_type =  ? and year &gt;= ? and year &lt;= ? </sqlcmd>
+  <documentation>Gets the aggregated data from climdb_raw for a given range of years. Begin and end are years e.g. 1990</documentation>
+  <request_names type="string">site_code</request_names>
+  <request_names type="string">station</request_names>
+  <request_names type="string">variable</request_names>
+  <request_names type="string">aggregate_type</request_names>
+  <request_names type="string">begin</request_names>
+  <request_names type="string">end</request_names>
+  <response_names type="string">site_code</response_names>
+  <response_names type="string">station</response_names>
+  <response_names type="string">variable</response_names>
+  <response_names type="string">aggregate_type</response_names>
+  <response_names type="string">year</response_names>
+  <response_names type="string">month</response_names>
+  <response_names type="string">value</response_names>
+ </method>
+ <method name="get_agg_yearly" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>SELECT site_code, station, variable, aggregate_type, year, value FROM climdb_agg WHERE site_code = ? and station = ? and variable = ? and aggregate_type = ? and year &gt;= ? and year &lt;= ? and month = 99</sqlcmd>
+  <request_names type="string">site_code</request_names>
+  <request_names type="string">station</request_names>
+  <request_names type="string">variable</request_names>
+  <request_names type="string">aggregate_type</request_names>
+  <request_names type="string">begin</request_names>
+  <request_names type="string">end</request_names>
+  <response_names type="string">site_code</response_names>
+  <response_names type="string">station</response_names>
+  <response_names type="string">variable</response_names>
+  <response_names type="string">aggregate_type</response_names>
+  <response_names type="string">year</response_names>
+  <response_names type="string">value</response_names>
+  <documentation>This returns the yearly value of the aggregated varaible over a given range of years. Begin and end are years e.g. 1990</documentation>
+ </method>
+ <method name="agg_over_all" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>SELECT site_code, station, variable, aggregate_type, year, value FROM climdb_agg WHERE site_code = ? and station = ? and variable = ? and aggregate_type = ? and year = 0</sqlcmd>
+  <request_names type="string">site_code</request_names>
+  <request_names type="string">station</request_names>
+  <request_names type="string">variable</request_names>
+  <request_names type="string">aggregate_type</request_names>
+  <response_names type="string">site_code</response_names>
+  <response_names type="string">station</response_names>
+  <response_names type="string">variable</response_names>
+  <response_names type="string">aggregate_type</response_names>
+  <response_names type="string">year</response_names>
+  <response_names type="string">value</response_names>
+  <documentation>This returns the monthly value of the aggregated varaible over the entire period of record.</documentation>
+ </method>
+</service>

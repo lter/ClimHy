@@ -1,0 +1,78 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:10:17 GMT
+Accept-Ranges: bytes
+ETag: "3c6c285b4a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 327078
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:04:26 GMT
+Client-Date: Fri, 23 Jan 2009 11:10:21 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+FCE
+Started with FCE,C111_S18C,20071030
+WARNING(101): DSCH = -940119.42 (min=-5493.47 max=83251.54) failed QC test at:
+	 FCE,C111_S18C,20080208	 input file (FCE) line 103
+
+WARNING(101): DSCH = -276372.46 (min=-5493.47 max=83251.54) failed QC test at:
+	 FCE,C111_S18C,20080217	 input file (FCE) line 112
+
+WARNING(101): DSCH = -467228.03 (min=-5493.47 max=83251.54) failed QC test at:
+	 FCE,C111_S18C,20080225	 input file (FCE) line 120
+
+Ended with FCE,C111_S18C,20090122
+Started with FCE,LEVEE31_1,20071019
+WARNING(101): DSCH = 31998.04 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081112	 input file (FCE) line 844
+
+WARNING(101): DSCH = 32564.38 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081113	 input file (FCE) line 845
+
+WARNING(101): DSCH = 32281.21 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081114	 input file (FCE) line 846
+
+WARNING(101): DSCH = 31714.87 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081115	 input file (FCE) line 847
+
+WARNING(101): DSCH = 31431.70 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081118	 input file (FCE) line 850
+
+WARNING(101): DSCH = 31431.70 (min=-5125.35 max=30865.37) failed QC test at:
+	 FCE,LEVEE31_1,20081119	 input file (FCE) line 851
+
+Ended with FCE,LEVEE31_1,20090122
+Started with FCE,LEVEE31_3,20071020
+Ended with FCE,LEVEE31_3,20090122
+Started with FCE,LEVEE31_4,20071019
+Ended with FCE,LEVEE31_4,20090122
+Started with FCE,LEVEE31_5,20061118
+Ended with FCE,LEVEE31_5,20090122
+Started with FCE,LEVEE31_7,20071020
+Ended with FCE,LEVEE31_7,20090122
+Started with FCE,TAM_S12A,20001211
+Ended with FCE,TAM_S12A,20090122
+Started with FCE,TAM_S12C,20011211
+Ended with FCE,TAM_S12C,20090122
+Started with FCE,TAM_S12D,20031211
+Ended with FCE,TAM_S12D,20090122
+Started with FCE,WELLFIELD,20071013
+Finished with FCE,WELLFIELD,20090122
+
+
+Summary of FCE follows:
+	ON INPUT:
+		11007 lines read. 
+		0 blank lines. 
+		10 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		9 warnings raised. 
+	ON OUTPUT:
+		10997 data points prepared for entry into centralized database.

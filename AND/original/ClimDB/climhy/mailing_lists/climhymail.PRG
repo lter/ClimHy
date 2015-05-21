@@ -1,0 +1,32 @@
+*Modified maillist program from LTERMETA (maillist.prg)
+*Suzanne Remillard (October 4, 2001)
+
+set safety off
+clos all
+clear
+set defa to H:\climhy\mailing_lists
+
+connh = SQLSTRINGCONNECT('dsn=Rocky_lter_climdb;uid=climdb;pwd=adm4cdb*')	&&This is the connection handle
+retstat=sqlexec(connh,'use climdb')					&&This activates the directory climdb
+retstat=sqlexec(connh,'get_personnel_mailing_list', 'list') &&This is the name of the stored procedure and the cursor is called list
+*retstat=sqlexec(connh,'select * from mailing_list', 'mlist') &&This is direct SQL select and the cursor is called mlist
+ =sqldisconnect(connh)	 	 							&&This disconnects
+
+SELECT list
+m_name=''
+m_id=''
+m_pfile=''
+FOR n=1 TO 4
+	select distinct mailing_list_name from list where mailing_list_id=n into cursor temp1
+	m_name=ALLTRIM(mailing_list_name)
+   select email1 from list order by fullname ;
+     where mailing_list_id=n and email1<>'     ' into dbf mlist nocon 
+   ? str(_tally,4)+' records printed to ' + m_name
+   m_pfile=m_name + '.'
+   copy to (m_pfile) sdf
+   select list
+endfor 
+
+set safety on
+close all
+delete file mlist.dbf

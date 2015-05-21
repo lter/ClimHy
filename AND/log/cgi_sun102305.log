@@ -1,0 +1,10 @@
+[Sun Oct 23 18:53:08 2005] harvest.pl: Use of uninitialized value in string eq at D:\forwww\lter\climhy\harvest.pl line 54.
+[Sun Oct 23 18:53:08 2005] harvest.pl: Use of uninitialized value in string ne at D:\forwww\lter\climhy\harvest.pl line 57.
+[Sun Oct 23 18:53:08 2005] harvest.pl: Argument "<" isn't numeric in numeric eq (==) at D:\forwww\lter\climhy\harvest.pl line 61.
+[Sun Oct 23 18:53:08 2005] harvest.pl: Use of uninitialized value in string ne at D:\forwww\lter\climhy\harvest.pl line 80.
+[Sun Oct 23 18:53:08 2005] harvest.pl: Use of uninitialized value in concatenation (.) or string at .\bin/sql_cmd.pm line 26.
+[Sun Oct 23 18:53:08 2005] harvest.pl: DBD::ODBC::st execute failed: [Microsoft][ODBC SQL Server Driver][SQL Server]Line 7: Incorrect syntax near '='. (SQL-37000)
+[Sun Oct 23 18:53:08 2005] harvest.pl: [Microsoft][ODBC SQL Server Driver][SQL Server]Statement(s) could not be prepared. (SQL-37000)(DBD: st_execute/SQLExecute err=-1) at .\bin/clim_lib.pm line 60.
+[Sun Oct 23 18:53:08 2005] harvest.pl: DBD::ODBC::st fetchrow_array failed: (DBD: no select statement currently executing err=-1) at .\bin/clim_lib.pm line 61.
+[Sun Oct 23 18:53:08 2005] harvest.pl: DBD::ODBC::st execute failed: [Microsoft][ODBC SQL Server Driver][SQL Server]Syntax error converting the varchar value '<' to a column of data type int. (SQL-22005)(DBD: st_execute/SQLExecute err=-1) at .\bin/clim_lib.pm line 67.
+[Sun Oct 23 18:53:08 2005] harvest.pl: DBD::ODBC::st fetchrow_array failed: (DBD: no select statement currently executing err=-1) at .\bin/clim_lib.pm line 68.

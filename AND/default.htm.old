@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ClimDB/HydroDB Database Projects</title>
+<link rel="stylesheet" type="text/css" href="http://localhost/climhy/images/expe1011.css">
+</head>
+
+<body>
+<table width="819">
+<tr><td width="103"><a href="http://lternet.edu/"><img src="http://localhost/climhy/images/lternetlogo.gif" alt="LTER Network" border="0"></a></td>
+<td width="702">
+<h1 align="center" >Climate and Hydrology Database Projects (CLIMDB/HYDRODB)</h1>
+<h2 align="center">Climatological and Hydrological Data Access</h2>
+<h3 align="center">
+<font size="-2"><i>Please note that these pages work better using the most recent versions of Internet Explorer and Netscape.</i></font></h3>
+</td>
+<td width="194">
+    <p align="center">
+    <a href="http://www.fs.fed.us/pnw/corvallis/index.html"><img src="http://localhost/climhy/images/fs_shiel.gif" alt="USDA Forest Service Shield" width="68" height="75" border="0"></a>
+    </p>
+  </td>
+</tr></table>
+<hr align="center">
+<p>Welcome to CLIMDB/HYDRODB, a centralized server to provide open access to long-term meteorological
+and streamflow records from a collection of research sites</p>
+<table width="826" height="281">
+<tr><td width="50%">
+<ul>
+<li><a href="http://localhost/climhy"><b>Contributors</b></a>
+<table>
+<tr><td>
+	<table border=2>
+	<tr><td width=50></td><th>View All</th><th>LTER</th><th>USFS</th><th>USGS</th></tr>
+	<tr>
+<FORM METHOD="GET" ACTION="http://localhost/climhy/products.pl">
+		<td align=left><input type="submit" value="Sites"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="0" Checked></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="1"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="2"></td>
+		<td	align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="3"></td>
+<INPUT TYPE="hidden" NAME="use" VALUE="sites">
+<INPUT TYPE="hidden" NAME="sort" VALUE="code">
+</form>
+	</tr>
+
+	<tr>
+<FORM METHOD="GET" ACTION="http://localhost/climhy/products.pl">
+		<td align=left><input type="submit" value="Stations"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="0" Checked></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="1"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="2"></td>
+		<td	align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="3"></td>
+<INPUT TYPE="hidden" NAME="use" VALUE="stations">
+<INPUT TYPE="hidden" NAME="sort" VALUE="code">
+</form>
+	</tr>
+
+	<tr>
+<FORM METHOD="GET" ACTION="http://localhost/climhy/products.pl">
+		<td align=left><input type="submit" value="Variables"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="0" Checked></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="1"></td>
+		<td align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="2"></td>
+		<td	align=center>
+			<INPUT	TYPE="radio" NAME="module" VALUE="3"></td>
+<INPUT TYPE="hidden" NAME="use" VALUE="variables">
+<INPUT TYPE="hidden" NAME="sort" VALUE="code">
+</form>
+	</tr>
+
+</tr>
+</table>
+</td>
+  </tr>    
+</table>
+
+
+<hr>
+<ul>
+<li><a href="http://localhost/climhy/plot.pl?module=1"><b>Data, Plots, and Downloads</b></a>
+<li><a href="http://localhost/climhy/siteDB.pl?use=Report"><b>Metadata Reports</b></a>
+<li><a href="http://localhost/climhy/siteDB.pl?use=Update"><b>Metadata Update</b></a>
+<li><a href="http://localhost/climhy/sitePDF.pl"><b>PDF Metadata Report</b></a>
+<li><a href="http://localhost/climhy/harvest.pl?module=4"><b>harvest</b></a>
+<li><a href="http://localhost/climhy/variable_desc.pl"><b>variables</b></a>
+<li><a href="http://localhost/climhy/glitch/sample_form.html"><b>GLITCH</b></a>
+</ul>
+<hr>
+		<FORM METHOD="post" ACTION="bin/feedback.pl">
+		<INPUT TYPE='hidden' NAME='prg' VALUE='climhy_local.htm'>
+		<INPUT TYPE='hidden' NAME='title' VALUE='climDB/HydroDB Database Projects'>
+		<P><INPUT TYPE=submit VALUE='Feedback?'>
+		</form>
+<HR>
+<ul>
+<li><a href="http://localhost/climhy"><b>General Description</b></a>
+    <ul>
+    <li><a href="http://localhost/climhy">Maps of Site Locations</a>
+   	  <ul>
+	  <li><a href="http://localhost/climhy/lter_sites.htm">LTER</a>
+	  <li><a href="http://localhost/climhy/usfs_sites.htm">USFS</a>
+	  </ul>
+	<li><a href="http://localhost/climhy/documents/climhydro_userguide.htm">User Guide</a>
+	<li><a href="http://localhost/climhy/references.htm">References</a>
+	</ul>
+</ul>
+</td>
+<td align='center' width="50%" ><img src="http://www.fsl.orst.edu/images/hja/cd_aaq/aaq_013.jpg" HEIGHT="300" WIDTH="375" border="0" alt="Central Met Station, Al Levno (1/99)"></td>
+</tr>
+</table>
+<p>For information on becoming a participating site, contact the <a href="mailto:suzanne.remillard@orst.edu">CLIMHY Data Manager</a>.</p>
+
+
+
+</body>
+</html>
+

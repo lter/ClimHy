@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 29 Dec 2008 18:40:18 GMT
+Accept-Ranges: bytes
+ETag: "26fbe5dee469c91:8e2"
+Server: Microsoft-IIS/5.0
+Content-Length: 1389244
+Content-Type: application/octet-stream
+Last-Modified: Mon, 29 Dec 2008 18:40:06 GMT
+Client-Date: Mon, 29 Dec 2008 18:40:20 GMT
+Client-Peer: 129.82.36.73:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 12/29/2008
+
+SGS
+Started with SGS,11,19690101
+Ended with SGS,11,20080731
+Started with SGS,12,19860101
+WARNING(101): GRAD = 46.98 (min=0 max=40) failed QC test at:
+	 SGS,12,20080726	 input file (SGS) line 22701
+
+Finished with SGS,12,20081212
+
+
+Summary of SGS follows:
+	ON INPUT:
+		22840 lines read. 
+		0 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		1 warnings raised. 
+	ON OUTPUT:
+		182704 data points prepared for entry into centralized database.

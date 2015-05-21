@@ -1,0 +1,12 @@
+set terminal gif small size 640,480
+set output 'C:\inetpub\wwwroot\climhy\temp\uAQKlgbQ3o.gif'
+set data style linespoints
+set xlabel 'Date'
+set xdata time
+set grid
+set missing 'M'
+set timefmt '%Y-%m-%d'
+set title 'Precip (total mm)'
+show title
+set ylabel 'TLKMAIN_PREC'
+plot 'C:\inetpub\wwwroot\climhy\temp\Iu1A4b06C0' index 0 using 1:(valid(2)?$2:1/0) axes x1y1 title 'TLKMAIN_PREC'

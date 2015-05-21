@@ -1,0 +1,23 @@
+Wed Oct  5 12:19:03 2011
+/var/www/climhy/wambam/soap_server.pl
+
+DEBUGGING INFO
+
+---------------------------------------------------------
+[INFO] The following paths have been set as global values:
+
+PATH        ->	/var/www/climhy/wambam/
+SERVICE     ->	climdb_raw
+SERVICE_DIR ->	/var/www/climhy/wambam/services/
+URL         ->	http://climhy.lternet.edu/wambam/soap_server.pl
+WSDL        ->	http://climhy.lternet.edu/wambam/soap_server.pl?wsdl=climdb_raw
+PROPERTIES  ->	/var/www/climhy/wambam/services/climdb_raw.xml
+PORT		->	http://climhy.lternet.edu/wambam/services/climdb_raw_handler.pl
+---------------------------------------------------------
+
+
+[INFO] File called '/var/www/climhy/wambam/services/climdb_raw.xml' has been located
+[INFO] '/var/www/climhy/wambam/services/climdb_raw_handler.pl' is up to date:
+	 skipping
+[INFO] '/var/www/climhy/wambam/services/climdb_raw_client.pl' is up to date:
+	 skipping

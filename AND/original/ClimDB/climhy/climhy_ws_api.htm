@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The ClimDB and HydroDB Web Service API</title>
+<link rev="made" href="mailto:root@localhost" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#the_climhy_web_service_api">The ClimDB and HydroDB Web Service API</a></li>
+	<li><a href="#description">Description</a></li>
+	<li><a href="#tutorial">Tutorial</a></li>
+	<ul>
+
+		<li><a href="#climhy">ClimDB and HydroDB</a></li>
+		<li><a href="#soap">Soap</a></li>
+	</ul>
+
+	<li><a href="#climdb_agg">ClimDB_agg</a></li>
+	<ul>
+
+		<li><a href="#methods">Methods</a></li>
+		<ul>
+
+			<li><a href="#get_agg_monthly">get_agg_monthly</a></li>
+			<li><a href="#get_agg_yearly">get_agg_yearly</a></li>
+			<li><a href="#agg_over_all">agg_over_all</a></li>
+		</ul>
+
+	</ul>
+
+	<li><a href="#climdb_raw">ClimDB_raw</a></li>
+	<ul>
+
+		<li><a href="#methods">Methods</a></li>
+		<ul>
+
+			<li><a href="#get_day">get_day</a></li>
+			<li><a href="#last_harvest">last_harvest</a></li>
+			<li><a href="#get_variable">get_variable</a></li>
+		</ul>
+
+	</ul>
+
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="the_climhy_web_service_api">The ClimDB and HydroDB Web Service API</a></h1>
+<p>
+</p>
+<hr />
+<h1><a name="description">Description</a></h1>
+<p>The ClimDB and HydroDB database offers several web services in an effort to allow programmatic access to the LTER data contained therein. This document attempts to describe the API's to two of these web services. The two web services described in this document are <a href="#climdb_agg">climdb_agg</a> and <a href="#climdb_raw">climdb_raw</a>.</p>
+<p>These web services are built using Perl and Soap. Sample Perl clients and a link to a third party web based client (<a href="http://www.soapclient.com/">http://www.soapclient.com/</a>) are supplied. A brief <a href="#tutorial">tutorial</a> is also included.</p>
+<p>
+</p>
+<hr />
+<h1><a name="tutorial">Tutorial</a></h1>
+<p>
+</p>
+<h2><a name="climhy">ClimDB and HydroDB</a></h2>
+<p>This tutorial will use the <a href="#get_agg_monthly">get_agg_monthly</a> method of the <a href="#climdb_agg">ClimDB_agg</a> web service for demonstration. <a href="#get_agg_monthly">get_agg_monthly</a> gives you monthly aggregates for ClimDB and HydroDB data. For example you could get the aggregate values (max,mean,min,or total) for any <a href="http://lterweb.forestry.oregonstate.edu/climhy/products.pl?use=variables&module=0&sort=code">variable</a> for any <a href="http://lterweb.forestry.oregonstate.edu/climhy/products.pl?use=sites&module=0&sort=code">site</a> at any <a href="http://lterweb.forestry.oregonstate.edu/climhy/products.pl?use=stations&module=0&sort=code">station</a> that is participating in the ClimDB and HydroDB program.</p>
+<p>The sites, stations, and variables listed above apply to all of the methods described in this document. Variables are all the ClimDB and HydroDB short names;</p>
+<pre>
+ ATM     =&gt; DAILY_ATMPRESSURE_MEAN_HPA
+ DEW     =&gt; DAILY_DEWPOINT_MEAN_C
+ DSCH    =&gt; DAILY_DISCHARGE_MEAN_LPS
+ GRAD    =&gt; DAILY_GLOBALRAD_TOTAL_MJM2
+ PREC    =&gt; DAILY_PRECIP_TOTAL_MM
+ RH      =&gt; DAILY_RH_MEAN_PCT
+ RWDI    =&gt; DAILY_RESWINDDIR_MEAN_DEG
+ RWSP    =&gt; DAILY_RESWINDSP_MEAN_MSEC
+ SM      =&gt; DAILY_SOILMOISTURE_MEAN_MPA
+ SMAX    =&gt; DAILY_SOILTEMP_ABSMAX_C
+ SMEA    =&gt; DAILY_SOILTEMP_MEAN_C
+ SMIN    =&gt; DAILY_SOILTEMP_ABSMIN_C
+ SNOW    =&gt; DAILY_SNOWH20_INSTANT_MM
+ TMAX    =&gt; DAILY_AIRTEMP_ABSMAX_C
+ TMIN    =&gt; DAILY_AIRTEMP_ABSMIN_C
+ TMEA    =&gt; DAILY_AIRTEMP_MEAN_C
+ VAP     =&gt; DAILY_VAPPRESSURE_MEAN_HPA
+ WDIR    =&gt; DAILY_WINDDIR_MEAN_DEG
+ WMAX    =&gt; DAILY_WATERTEMP_ABSMAX_C
+ WMEA    =&gt; DAILY_WATERTEMP_MEAN_C
+ WMIN    =&gt; DAILY_WATERTEMP_ABSMIN_C
+ WSP     =&gt; DAILY_WINDSP_MEAN_MSEC</pre>
+
+
+<p>As new variables are added this list will grow, but keep in mind not all variables are submitted for all sites and stations. If a variable is requested that does not exist for that station or time period no result will be returned, however no error will be indicated.</p>
+<p>Please refer to the ClimDB and HydroDB documentation for more information about variables.</p>
+<p>
+</p>
+<h2><a name="soap">Soap</a></h2>
+<p>As an example, assume you wished to know the average monthly values of maximum air temperature (TMAX) at the primary meteorological station (PRIMET) at the H.J. Andrews LTER site (AND) for the years of 1997 and 1999. <strong>NOTE:</strong> All values are soap types of string.</p>
+<p>A typical soap request would look something like:</p>
+<pre>
+ &lt;SOAP-ENV:Body&gt;
+   &lt;namesp1:get_agg_monthly xmlns:namesp1=&quot;urn:climdb_agg&quot;&gt;
+        &lt;site_code xsi:type=&quot;xsd:string&quot;&gt;and&lt;/site_code&gt;
+        &lt;station xsi:type=&quot;xsd:string&quot;&gt;primet&lt;/station&gt;
+        &lt;variable xsi:type=&quot;xsd:string&quot;&gt;tmax&lt;/variable&gt;
+        &lt;aggregate_type xsi:type=&quot;xsd:string&quot;&gt;mean&lt;/aggregate_type&gt;
+        &lt;begin xsi:type=&quot;xsd:string&quot;&gt;1997&lt;/begin&gt;
+        &lt;end xsi:type=&quot;xsd:string&quot;&gt;1999&lt;/end&gt;
+   &lt;/namesp1:get_agg_monthly&gt;
+ &lt;/SOAP-ENV:Body&gt;</pre>
+<p>You should expect a response something like:</p>
+<pre>
+ &lt;SOAP-ENV:Body&gt;
+  &lt;namesp1:get_agg_monthlyResponse xmlns:namesp1=&quot;urn:climdb_agg&quot;&gt;
+        &lt;get_agg_monthly&gt;
+                &lt;row&gt;
+                        &lt;site_code xsi:type=&quot;xsd:string&quot;&gt;AND&lt;/site_code&gt;
+                        &lt;station xsi:type=&quot;xsd:string&quot;&gt;PRIMET&lt;/station&gt;
+                        &lt;variable xsi:type=&quot;xsd:string&quot;&gt;TMAX&lt;/variable&gt;
+                        &lt;aggregate_type xsi:type=&quot;xsd:string&quot;&gt;MEAN&lt;/aggregate_type&gt;
+                        &lt;year xsi:type=&quot;xsd:string&quot;&gt;1997&lt;/year&gt;
+                        &lt;month xsi:type=&quot;xsd:string&quot;&gt;1&lt;/month&gt;
+                        &lt;value xsi:type=&quot;xsd:string&quot;&gt;6.7129&lt;/value&gt;
+                &lt;/row&gt;
+                &lt;row&gt;
+                        &lt;site_code xsi:type=&quot;xsd:string&quot;&gt;AND&lt;/site_code&gt;
+                        &lt;station xsi:type=&quot;xsd:string&quot;&gt;PRIMET&lt;/station&gt;
+                        &lt;variable ...</pre>
+<p>Using a simple Perl client (climdb_agg_client.pl) to access and deserialize this services response.</p>
+<pre>
+ #!/usr/bin/perl
+ # climdb_agg_client.pl</pre>
+<pre>
+ use SOAP::Lite;
+ $method = shift;
+ $soap =  SOAP::Lite
+        -&gt;uri(&quot;urn:climdb_agg&quot;)
+        -&gt;proxy(&quot;<a href="http://lterweb.forestry.oregonstate.edu/climhy/wambam/services/climdb_agg_handler.pl&quot">http://lterweb.forestry.oregonstate.edu/climhy/wambam/services/climdb_agg_handler.pl&quot</a>;)
+        -&gt;$method(@ARGV);</pre>
+<pre>
+ use Data::Dumper;
+ print Dumper($soap-&gt;valueof('//row'));</pre>
+<p>Example usage;</p>
+<p><code>perl climdb_agg_client.pl get_agg_monthly AND PRIMET TMAX MEAN 1997 1999</code></p>
+<p>Would yield a result of</p>
+<pre>
+ $VAR1 = {
+          'aggregate_type' =&gt; 'MEAN',
+          'station' =&gt; 'PRIMET',
+          'variable' =&gt; 'TMAX',
+          'value' =&gt; '6.7129',
+          'month' =&gt; '1',
+          'site_code' =&gt; 'AND',
+          'year' =&gt; '1997'
+        };
+ $VAR2 = {
+          'aggregate_type' =&gt; 'MEAN',
+          'station' =&gt; 'PRIMET',
+          'variable' =&gt; 'TMAX',
+          'value' =&gt; '9.8',
+          'month' =&gt; '2',
+          'site_code' =&gt; 'AND',
+          'year' =&gt; '1997'
+        };
+ $VAR3 = {
+          'aggregate_type' =&gt; 'MEAN',
+          'station' =&gt; 'PRIMET',
+		  'variable' =&gt; 'TMAX'
+		  ...</pre>
+<p>
+</p>
+<hr />
+<h1><a name="climdb_agg">ClimDB_agg</a></h1>
+<p>This web service allows remote access to the ClimDB_agg table in the ClimDB and HydroDB database. ClimDB_agg is aggregated data (means, totals, etc.) for various time frames. Three methods are presently offered; <a href="#get_agg_monthly">get_agg_monthly</a>, <a href="#get_agg_yearly">get_agg_yearly</a>, and <a href="#agg_over_all">agg_over_all</a>.</p>
+<p>The (<a href="http://lterweb.forestry.oregonstate.edu/climhy/wambam/soap_server.pl?wsdl=climdb_agg">WSDL</a>) for ClimDB_agg is available. The actual service can be found at http://lterweb.forestry.oregonstate.edu/climhy/wambam/services/climdb_agg_handler.pl. You may test this service at <a href="http://www.soapclient.com/soapclient?template=/clientform.html&fn=soapform&SoapTemplate=none&SoapWSDL=http://lterweb.forestry.oregonstate.edu/climhy/wambam/soap_server.pl?wsdl=climdb_agg">http://www.soapclient.com/soapclient</a>.</p>
+<p>
+</p>
+<h2><a name="methods">Methods</a></h2>
+<p>
+</p>
+<h3><a name="get_agg_monthly">get_agg_monthly</a></h3>
+<p>This method gives you monthly aggregates for ClimDB and HydroDB data. The request would consist of site_code, station, variable, aggregate_type, begin, and  end. Begin and end are both of the form YYYY-MM-DD. All other variables are as described in the <a href="#tutorial">tutorial</a></p>
+<p>The response would consist of site_code, station, variable, aggregate_type, year, month, and value. Month is a value between 1 and 12 where 1 is January, 12 is December.</p>
+<p>
+</p>
+<h3><a name="get_agg_yearly">get_agg_yearly</a></h3>
+<p>This method gives you yearly aggregates for ClimDB and HydroDB data. The request would consist of site_code, station, variable, aggregate_type, begin, and end. Begin and end are both years (YYYY). All other variables are as described in the <a href="#tutorial">tutorial</a></p>
+<p>The response would consist of site_code, station, variable, aggregate_type, year, and value.</p>
+<p>
+</p>
+<h3><a name="agg_over_all">agg_over_all</a></h3>
+<p>This method gives you monthly values aggregated over all available years for ClimDB and HydroDB data. The request would consist of site_code, station, variable, aggregate_type. All other variables are as described in the <a href="#tutorial">tutorial</a></p>
+<p>The response would consist of site_code, station, variable, aggregate_type, month, and value.</p>
+<p>
+</p>
+<hr />
+<h1><a name="climdb_raw">ClimDB_raw</a></h1>
+<p>This web service allows remote access to the ClimDB_raw table in the ClimDB and HydroDB database. ClimDB_raw is the raw data that was harvested for the various stations. Three methods are presently offered; <a href="get_day">get_day</a>, <a href="#last_harvest">last_harvest</a>, and <a href="#get_variable">get_variable</a>.</p>
+<p>The (<a href="http://lterweb.forestry.oregonstate.edu/climhy/wambam/soap_server.pl?wsdl=climdb_raw">WSDL</a>) for ClimDB_raw is available. The actual service can be found at http://lterweb.forestry.oregonstate.edu/climhy/wambam/services/climdb_raw_handler.pl. You may test this service at <a href="http://www.soapclient.com/soapclient?template=/clientform.html&fn=soapform&SoapTemplate=none&SoapWSDL=http://lterweb.forestry.oregonstate.edu/climhy/wambam/soap_server.pl?wsdl=climdb_raw">http://www.soapclient.com/soapclient</a>.</p>
+<p>
+</p>
+<h2><a name="methods">Methods</a></h2>
+<p>
+</p>
+<h3><a name="get_day">get_day</a></h3>
+<p>This method returns all the data for a given research site id on a given day. Date is a soap string following the YYYY-MM-DD format. An example request would be; res_site_id = 47 date = 2000-01-01. An example response would consist of a sequence of variable name, value, and flag. i.e. (TMAX,12,G,TMIN,10,G,TMEA,....)</p>
+<p>
+</p>
+<h3><a name="last_harvest">last_harvest</a></h3>
+<p>Given a site, a station, and a ClimDB long name (DAILY_AIRTEMP_MAX_C) , or short name (TMAX). This method will return the day after the last harvest of that variable. An example request would be site = AND, station = PRIMET, variable = TMAX. An example response would be 2004-02-13 (if the last harvest was on the 12).</p>
+<p>
+</p>
+<h3><a name="get_variable">get_variable</a></h3>
+<p>This method returns the value for a variable between a given date range, i.e. given site = AND, station = PRIMET, variable = TMAX, date = 2000-01-01, date1 = 2000-01-03. The response would consist the variable name, its value, and flag, and the date for the three values on the 1st through the third of January 2000.</p>
+
+</body>
+
+</html>

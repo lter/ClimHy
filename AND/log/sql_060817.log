@@ -1,0 +1,7 @@
+
+Running digestion routines on KNZ
+Command 201 1 lines
+Command 202 1 lines
+ERROR: SQL command 203.
+[Microsoft][ODBC SQL Server Driver][SQL Server]Bulk insert data conversion error (type mismatch) for row 9496, column 5 (sampledate). (SQL-42000)(DBD: Execute immediate failed err=-1)
+Failed digestion on KNZ

@@ -1,0 +1,53 @@
+200 OK
+Server: This is the US Department of Agriculture Forest Service FTP server!
+Content-Length: 330674
+Content-Type: text/plain
+Last-Modified: Thu, 26 Apr 2007 22:07:48 GMT
+Client-Date: Thu, 26 Apr 2007 22:06:11 GMT
+Client-Request-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 04/26/2007
+
+KEW
+Started with KEW,B201,20031001
+Ended with KEW,B201,20060930
+Started with KEW,B203,20031001
+Ended with KEW,B203,20060930
+Started with KEW,B204,20031001
+Ended with KEW,B204,20060930
+Started with KEW,D102,20031001
+Ended with KEW,D102,20060930
+Started with KEW,P301,20031001
+Ended with KEW,P301,20060930
+Started with KEW,P303,20031001
+Ended with KEW,P303,20060930
+Started with KEW,P304,20031001
+Ended with KEW,P304,20060930
+Started with KEW,T003,20031001
+Ended with KEW,T003,20060930
+Started with KEW,UBULLM25,20041001
+WARNING(101): PREC = 152 (min=0 max=150) failed QC test at:
+	 KEW,UBULLM25,20050322	 input file (KEW) line 8950
+
+Ended with KEW,UBULLM25,20060930
+Started with KEW,UPROVM15,20031001
+Ended with KEW,UPROVM15,20060930
+Started with KEW,BULLM20,20041001
+Ended with KEW,BULLM20,20060930
+Started with KEW,PROVM10,20031001
+Finished with KEW,PROVM10,20060930
+
+
+Summary of KEW follows:
+	ON INPUT:
+		12432 lines read. 
+		0 blank lines. 
+		12 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		1 warnings raised. 
+	ON OUTPUT:
+		12420 data points prepared for entry into centralized database.

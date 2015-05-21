@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://lterweb.forestry.oregonstate.edu/climhy/temp/hIZBSPSVfw.xsl"?>
+
+<info xmlns:HTML="http://www.w3.org/Profiles/XHTML-transitional">
+  <sites>
+		<site_item>
+			<code>AND</code>
+			<name>H.J. Andrews Experimental Forest</name>
+			<number>6</number>
+			<number2>10</number2>
+			<first>1957-10-01  </first>
+			<recent>2008-06-02  </recent>
+			<last>2008-07-18  </last>
+		</site_item>
+		<site_item>
+			<code>ARC</code>
+			<name>Arctic Tundra</name>
+			<number>1</number>
+			<number2>3</number2>
+			<first>1988-06-01  </first>
+			<recent>2006-12-31  </recent>
+			<last>2007-05-14  </last>
+		</site_item>
+		<site_item>
+			<code>BES</code>
+			<name>Baltimore Ecosystem Study</name>
+			<number>3</number>
+			<number2>10</number2>
+			<first>1999-01-01  </first>
+			<recent>2008-12-31  </recent>
+			<last>2009-01-13  </last>
+		</site_item>
+		<site_item>
+			<code>BNZ</code>
+			<name>Bonanza Creek Experimental Forest</name>
+			<number>5</number>
+			<number2>3</number2>
+			<first>1988-01-01  </first>
+			<recent>2008-12-19  </recent>
+			<last>2009-01-19  </last>
+		</site_item>
+		<site_item>
+			<code>CAP</code>
+			<name>Central Arizona - Phoenix</name>
+			<number>30</number>
+			<number2>0</number2>
+			<first>1986-01-01  </first>
+			<recent>2007-12-31  </recent>
+			<last>2009-01-12  </last>
+		</site_item>
+		<site_item>
+			<code>CDR</code>
+			<name>Cedar Creek Natural History Area</name>
+			<number>1</number>
+			<number2>0</number2>
+			<first>2000-03-22  </first>
+			<recent>2003-07-07  </recent>
+			<last>2004-06-17  </last>
+		</site_item>
+		<site_item>
+			<code>CWT</code>
+			<name>Coweeta Hydrologic Laboratory</name>
+			<number>1</number>
+			<number2>7</number2>
+			<first>1937-01-01  </first>
+			<recent>2007-12-31  </recent>
+			<last>2008-05-19  </last>
+		</site_item>
+		<site_item>
+			<code>FCE</code>
+			<name>Florida Coastal Everglades</name>
+			<number>5</number>
+			<number2>11</number2>
+			<first>1931-01-01  </first>
+			<recent>2008-07-31  </recent>
+			<last>2008-11-03  </last>
+		</site_item>
+		<site_item>
+			<code>GCE</code>
+			<name>Georgia Coastal Ecosystems</name>
+			<number>3</number>
+			<number2>1</number2>
+			<first>1957-05-01  </first>
+			<recent>2009-01-01  </recent>
+			<last>2009-01-14  </last>
+		</site_item>
+		<site_item>
+			<code>HBR</code>
+			<name>Hubbard Brook</name>
+			<number>17</number>
+			<number2>9</number2>
+			<first>1955-10-20  </first>
+			<recent>2006-12-31  </recent>
+			<last>2007-08-27  </last>
+		</site_item>
+		<site_item>
+			<code>HFR</code>
+			<name>Harvard Forest</name>
+			<number>2</number>
+			<number2>0</number2>
+			<first>1964-01-01  </first>
+			<recent>2008-12-31  </recent>
+			<last>2009-01-05  </last>
+		</site_item>
+		<site_item>
+			<code>JRN</code>
+			<name>Jornada Basin</name>
+			<number>2</number>
+			<number2>0</number2>
+			<first>1914-06-01  </first>
+			<recent>2006-12-31  </recent>
+			<last>2009-01-20  </last>
+		</site_item>
+		<site_item>
+			<code>KBS</code>
+			<name>Kellogg Biological Station</name>
+			<number>1</number>
+			<number2>2</number2>
+			<first>1988-01-01  </first>
+			<recent>2007-08-20  </recent>
+			<last>2008-04-22  </last>
+		</site_item>
+		<site_item>
+			<code>KNZ</code>
+			<name>Konza Prairie</name>
+			<number>1</number>
+			<number2>5</number2>
+			<first>1982-04-22  </first>
+			<recent>2006-12-31  </recent>
+			<last>2007-07-04  </last>
+		</site_item>
+		<site_item>
+			<code>LUQ</code>
+			<name>Luquillo Experimental Forest</name>
+			<number>3</number>
+			<number2>8</number2>
+			<first>1975-01-01  </first>
+			<recent>2008-12-01  </recent>
+			<last>2008-12-12  </last>
+		</site_item>
+		<site_item>
+			<code>MCM</code>
+			<name>McMurdo Dry Valleys</name>
+			<number>12</number>
+			<number2>17</number2>
+			<first>1993-11-20  </first>
+			<recent>2007-01-30  </recent>
+			<last>2007-10-11  </last>
+		</site_item>
+		<site_item>
+			<code>NTL</code>
+			<name>North Temperate Lakes</name>
+			<number>4</number>
+			<number2>7</number2>
+			<first>1869-01-01  </first>
+			<recent>2009-01-15  </recent>
+			<last>2009-01-20  </last>
+		</site_item>
+		<site_item>
+			<code>NWT</code>
+			<name>Niwot Ridge</name>
+			<number>3</number>
+			<number2>2</number2>
+			<first>1952-10-01  </first>
+			<recent>2006-12-31  </recent>
+			<last>2007-02-21  </last>
+		</site_item>
+		<site_item>
+			<code>PAL</code>
+			<name>Palmer Station</name>
+			<number>1</number>
+			<number2>0</number2>
+			<first>1989-04-01  </first>
+			<recent>2005-06-30  </recent>
+			<last>2005-10-28  </last>
+		</site_item>
+		<site_item>
+			<code>PIE</code>
+			<name>Plum Island Ecosystem</name>
+			<number>2</number>
+			<number2>3</number2>
+			<first>1920-01-01  </first>
+			<recent>2006-12-31  </recent>
+			<last>2007-09-28  </last>
+		</site_item>
+		<site_item>
+			<code>SBC</code>
+			<name>Santa Barbara Coastal</name>
+			<number>12</number>
+			<number2>14</number2>
+			<first>1927-12-01  </first>
+			<recent>2003-01-31  </recent>
+			<last>2003-04-11  </last>
+		</site_item>
+		<site_item>
+			<code>SER</code>
+			<name>TERN - Shanping Ecological Research Station</name>
+			<number>1</number>
+			<number2>0</number2>
+			<first>2007-04-11  </first>
+			<recent>2008-04-26  </recent>
+			<last>2008-04-29  </last>
+		</site_item>
+		<site_item>
+			<code>SEV</code>
+			<name>Sevilleta National Wildlife Refuge</name>
+			<number>10</number>
+			<number2>0</number2>
+			<first>1989-01-01  </first>
+			<recent>2009-01-05  </recent>
+			<last>2009-01-23  </last>
+		</site_item>
+		<site_item>
+			<code>SGS</code>
+			<name>Shortgrass Steppe</name>
+			<number>2</number>
+			<number2>0</number2>
+			<first>1969-01-01  </first>
+			<recent>2008-12-12  </recent>
+			<last>2008-12-29  </last>
+		</site_item>
+		<site_item>
+			<code>TAE</code>
+			<name>TERN - Taiwan Agricultural Ecosystem Research</name>
+			<number>3</number>
+			<number2>0</number2>
+			<first>2000-01-01  </first>
+			<recent>2008-12-31  </recent>
+			<last>2009-01-22  </last>
+		</site_item>
+		<site_item>
+			<code>VCR</code>
+			<name>Virginia Coast Reserve</name>
+			<number>3</number>
+			<number2>0</number2>
+			<first>1989-04-03  </first>
+			<recent>2008-12-31  </recent>
+			<last>2009-01-20  </last>
+		</site_item>
+  </sites>
+</info>

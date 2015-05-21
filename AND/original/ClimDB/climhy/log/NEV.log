@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:13:24 GMT
+Accept-Ranges: bytes
+ETag: "4a368944a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 27864
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:06:02 GMT
+Client-Date: Fri, 23 Jan 2009 11:13:28 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+NEV
+Started with NEV,BISCUIT,20071025
+Ended with NEV,BISCUIT,20090122
+Started with NEV,NEVERSINK,20071023
+Finished with NEV,NEVERSINK,20090122
+
+
+Summary of NEV follows:
+	ON INPUT:
+		916 lines read. 
+		0 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		914 data points prepared for entry into centralized database.

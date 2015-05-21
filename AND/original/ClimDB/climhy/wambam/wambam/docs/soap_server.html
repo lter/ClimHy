@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>soap server</title>
+<link rev="made" href="mailto:gp@familiehaase.de" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#usage">Usage</a></li>
+	<li><a href="#api">API</a></li>
+	<ul>
+
+		<li><a href="#sql">SQL</a></li>
+		<li><a href="#perl">Perl</a></li>
+	</ul>
+
+	<li><a href="#directory_structure">Directory structure</a></li>
+	<li><a href="#todo">TODO</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>soap_server</p>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p>Soap_server generates &lt;service&gt;_handler.pl, &lt;service&gt;_handler.pl is the actual web service. If soap_server.pl gets a hit it dispatchs the request to the handle or returns the virtual WSDL for that service.</p>
+<p>I say virtual because it don't exist. I build it on the fly and send it out via CGI. Oh yeah the handler is built on the fly as well. OK heres the part that sucks. Even though the handler is built on the fly this could cause race conditions. So I better leave the handler around, so more then one user can use this. This may or maynot be a problem. I look into it more later.</p>
+<p>You need to describe the service first in an xml file such as the sample in docs/sample.xml. As of yet I have no schema for this file. Its pretty simple though, I think any monkey could figure it out pretty easly. Just look at the example.</p>
+<p></p>
+<p>
+</p>
+<hr />
+<h1><a name="usage">Usage</a></h1>
+<p>in your browser</p>
+<pre>
+        <a href="http:/www.erehwon.com/cgi-bin/soap_server.pl?wsdl=&lt;service&gt">http:/www.erehwon.com/cgi-bin/soap_server.pl?wsdl=&lt;service&gt</a>;
+                returns the WSDL for the service.</pre>
+<p>in a client (PERL)</p>
+<pre>
+        my $soap =  SOAP::Lite
+          -&gt;service(&quot;<a href="http://www.erehwon.com/cgi-bin/soap_server.pl?wsdl=&lt;service&gt;&quot">http://www.erehwon.com/cgi-bin/soap_server.pl?wsdl=&lt;service&gt;&quot</a>;)</pre>
+<p>For the mean time, since the handler code is to be left on the server, you may bypass the WSDL and call the service directly.</p>
+<pre>
+        my $soap =  SOAP::Lite
+                -&gt;uri(urn:&lt;service&gt;)
+                -&gt;proxy(&quot;<a href="http://erewhon/cgi-bin/&lt;service&gt;_handler.pl&quot">http://erewhon/cgi-bin/&lt;service&gt;_handler.pl&quot</a>;)</pre>
+<p>Of course you need to know what your doing if you want to do this.</p>
+<p>Also the following parameters may be passed via cgi parameters to soap_server.pl</p>
+<pre>
+                rebuild=1       (forces a rebuild of the &lt;service&gt;_handler.pl 
+                                        code wheather or not &lt;service&gt;.xml changed. 
+                debug=1         (sends debuging/trace info to log file 'log/debug.log')
+                debug=2         (sends data structure info to log file 'log/debug.log')
+                debug=3         (Screw the browser mode. This sends the appropriate header
+                                         info so as to send the output to the browser whether or
+                                         not its deemed acceptiable XML. Acts as if debug l is set)</pre>
+<p>
+</p>
+<hr />
+<h1><a name="api">API</a></h1>
+<p>SQL commands, perl subroutines and Java programs all can be used to generate the request payload for the wambam services.</p>
+<p>
+</p>
+<h2><a name="sql">SQL</a></h2>
+<p>This program was written to allow any fool to spit out the output of his databases as web services, easily. It does this by automatically writing a perl subroutine that handles the DBI to your database. Of course if I automatically write a perl subroutine why cant you write it instead. Indeed, if you would like, see below.</p>
+<pre>
+        &lt;method name = &quot;site&quot; type = &quot;SQL&quot;&gt;
+                &lt;request_names type=&quot;int&quot;&gt;site_id_low&lt;/request_names&gt;
+                &lt;request_names type=&quot;int&quot;&gt;site_id_high&lt;/request_names&gt;
+                &lt;response_names type=&quot;string&quot;&gt;site_name&lt;/response_names&gt;
+                &lt;DSN&gt;DBI:ODBC:climdb&lt;/DSN&gt;
+                &lt;password&gt;noneofyourbiz&lt;/password&gt;
+                &lt;user&gt;admin/user&gt;
+                &lt;sqlcmd&gt;select site_name from site where site_id &amp;gt;= ? and site_id &amp;lt;= ?&lt;/sqlcmd&gt;
+        &lt;/method&gt;</pre>
+<p>
+</p>
+<h2><a name="perl">Perl</a></h2>
+<p>Instead of using my DBI module you may write your own. Simply tell the properities file where your module is and it will stick it where it belongs. Of course if you don't know PERL (you fool) you may use any language of your choice (well not FORTRAN! Lets not be silly.) see below.</p>
+<pre>
+        &lt;method name = &quot;add_it&quot; type = &quot;PERL&quot;&gt;
+                &lt;request_names type=&quot;int&quot;&gt;first&lt;/request_names&gt;
+                &lt;request_names type=&quot;int&quot;&gt;second&lt;/request_names&gt;
+                &lt;response_names type=&quot;string&quot;&gt;result&lt;/response_names&gt;
+                &lt;module path = &quot;/bin&quot;&gt;add&lt;/module&gt;
+                &lt;documentation&gt;This is an example of using a perl module&lt;/documentation&gt;
+        &lt;/method&gt;
+                
+=head2 Inline</pre>
+<p>This uses the amazing Perl module Inline. This module allows us to use other languges inside of our perl code. For example, if you have a Java class that you would like to offer up as a web service simply tell the properties file where the java code is (see example). The first time the class is called a small performence hit is encurred, the complied class is then saved and future calls are pre-compiled. Other languages can be added easily, for now only Java is included. The API for the other languages would be identical to the example below, i.e. type = ``C'' module = getSite.c.</p>
+<pre>
+        &lt;method name = &quot;getSite&quot; type = &quot;JAVA&quot;&gt;
+                &lt;request_names type=&quot;int&quot;&gt;site_id&lt;/request_names&gt;
+                &lt;response_names type=&quot;string&quot;&gt;site_name&lt;/response_names&gt;
+                &lt;module path = &quot;../bin/&quot;&gt;getSite.java&lt;/module&gt;
+                &lt;class&gt;Sites&lt;/class&gt;
+                &lt;documentation&gt;This is an example of the Inline module&lt;/documentation&gt;
+        &lt;/method&gt;</pre>
+<p>
+</p>
+<hr />
+<h1><a name="directory_structure">Directory structure</a></h1>
+<pre>
+
+directory structure (directory wambam is cgi enabled)
+        wambam
+                soap_server.pl (this file)
+                wambam.pl (not yet - GUI tool for writing &lt;service&gt;.xml)
+                services
+                        &lt;service&gt;.xml (properties)
+                        &lt;service&gt;_handler.pl    (handler)
+                        &lt;service&gt;_client.pl             (client)
+                bin (included files)
+                        _Inline (Inline magic goes here, /_Inline must exist if Inline is 
+                                        be used. The contents may be deleted at any time, a 
+                                        performence hit will be incured the first time and it will
+                                        be rebuilt.)
+                                build
+                                lib
+                docs (documentation/examples)
+                log 
+                        debug.log
+                        log.log</pre>
+<p>
+</p>
+<hr />
+<h1><a name="todo">TODO</a></h1>
+<pre>
+ Offer something other then complex data type for request/reply?
+ Fix client (dont use wsdl, use proxy. This will be ugly it we let the user define there own data types.)
+ Schema for &lt;service&gt;.xml</pre>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store
+Connection: close
+Date: Fri, 09 Mar 2007 08:25:56 GMT
+Accept-Ranges: bytes
+ETag: "3000dc-11fb9d-43abef04"
+Server: EarthServer/1.0
+Content-Length: 1178525
+Content-Type: text/plain
+Last-Modified: Fri, 23 Dec 2005 12:35:16 GMT
+Client-Date: Fri, 09 Mar 2007 08:26:07 GMT
+Client-Peer: 69.44.123.103:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 03/09/2007
+
+CAS
+Started with CAS,NFC,20000801
+Finished with NFC
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 CAS,SFC,20000801	 input file (CAS) line 1824
+
+Started with CAS,SFC,20000801
+Ended with CAS,SFC,20050731
+Started with CAS,NFC408,19851115
+Finished with NFC408
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 CAS,NFC620,19851124	 input file (CAS) line 10807
+
+Started with CAS,NFC620,19851124
+Finished with NFC620
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 CAS,SFC620,19860815	 input file (CAS) line 17975
+
+Started with CAS,SFC620,19860815
+Ended with CAS,SFC620,20050709
+Started with CAS,ARF,19881205
+Ended with CAS,ARF,20050731
+Started with CAS,ARF,19881205
+Finished with CAS,ARF,20050731
+
+
+Summary of CAS follows:
+	ON INPUT:
+		36890 lines read. 
+		0 blank lines. 
+		4 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		3 warnings raised. 
+	ON OUTPUT:
+		60906 data points prepared for entry into centralized database.

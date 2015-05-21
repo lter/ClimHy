@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Master Client</title>
+<link rev="made" href="mailto:gp@familiehaase.de" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#client">CLIENT</a></li>
+	<li><a href="#service">SERVICE</a></li>
+	<ul>
+
+		<li><a href="#conventions">CONVENTIONS</a></li>
+	</ul>
+
+	<li><a href="#author">AUTHOR</a></li>
+	<li><a href="#copyright_and_license">COPYRIGHT AND LICENSE</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="description">DESCRIPTION</a></h1>
+<p>Master_client it the backend for ???.pl. ???.pl is basically a configuration file for master_client.pm. What else do you need to know? OK, I'll talk slowly.</p>
+<p>
+</p>
+<hr />
+<h1><a name="client">CLIENT</a></h1>
+<p>???.pl can be thought of as the webservice client for a webservice designed to be used in the automatic harvest of climdb/hydrodb data. Lets call it and.pl, 'and' is the the 3 letter site code for the H.J. Andrews LTER site. <strong>NOTE</strong> a <a href="#service">SERVICE</a> has to use this convention in order to be used in the web service harvest system (e.g. vcr.pl or ntl.pl). Also it must adhere to the conventions described <a href="#service">SERVICE</a>.</p>
+<p>and.pl my be run from the shell if you like e.g.
+ perl and.pl</p>
+<p>The idea however was to change the data url in the site table in climdb to;
+ bin/webservices/and.pl and put put and.pl in $CLIMDB_HOME/bin/webservices/</p>
+<p>If this is done, when a harvest is initiated, the web service client will be fired and will request all data after the last sample date (in climdb_raw), up to today, from the webservice.</p>
+<p>The client (and.pl) looks like this;</p>
+<pre>
+ #! perl 
+ 
+ use master;
+ use strict;
+ 
+ # This is just a glorified configuration file.
+ # See master_client.pm for documentation.
+ 
+ my $site = $0;
+ $site =~ s/\.pl$//;
+ my $service = 'ms001';
+ my $endpoint = '<a href="http://127.0.0.1/cgi-bin/wambam/services/ms001_handler.pl">http://127.0.0.1/cgi-bin/wambam/services/ms001_handler.pl</a>';
+ 
+ my @methods = (
+        ['TMEAairpri01','PRIMET','TMEA'],
+        ['TMAXairpri01','PRIMET','TMAX'],
+        ['TMINairpri01','PRIMET','TMIN'],
+ );</pre>
+<pre>
+ &amp;client($site,$service,$endpoint,@methods);</pre>
+<p>You need to edit the $service, $endpoint, and @methods variables.</p>
+<dl>
+<dt><strong><a name="item_service__2d">SERVICE -</a></strong><br />
+</dt>
+<dd>
+$service is the name of the webservice.
+</dd>
+<p></p>
+<dt><strong><a name="item_endpoint__2d">ENDPOINT -</a></strong><br />
+</dt>
+<dd>
+$endpoint is the URL of the webservice.
+</dd>
+<p></p>
+<dt><strong><a name="item_methods__2d">METHODS -</a></strong><br />
+</dt>
+<dd>
+@methods is a list of lists consisting of method_name, station, variable. The variable must be a climdb/hydrodb recongnized variable.
+</dd>
+<p></p></dl>
+<p>The program then calls the master_clilent module that does all of the work.</p>
+<p>
+</p>
+<hr />
+<h1><a name="service">SERVICE</a></h1>
+<p>Remember this is all for using webservices to populate the climdb database? Of course this could all be done easier if we left all of the webservices out of it, but what the hell its still pretty cool. In order to do this we must adhere to some conventions so new client code does not have to be written for each new service that comes on line. So I picked some conventions, of course 'there is more then one way to do things'. Any convention would do. But, I have spoken. Your web service must adhere to the following conventions;</p>
+<p>
+</p>
+<h2><a name="conventions">CONVENTIONS</a></h2>
+<dl>
+<dt><strong><a name="item_request__2d_must_take_a_request_consisting_of_two_">REQUEST - Must take a request consisting of two dates.</a></strong><br />
+</dt>
+<dd>
+<pre>
+ &lt;message name=&quot;whatever_response&quot;&gt;
+  &lt;part name=&quot;whatever_response&quot; type=&quot;xsd1:whatever_response&quot; /&gt; 
+ &lt;/message&gt;</pre>
+</dd>
+<dd>
+<pre>
+ &lt;message name=&quot;whatever_request&quot;&gt;
+  &lt;part name=&quot;begin&quot; type=&quot;xsd:date&quot; /&gt; 
+  &lt;part name=&quot;end&quot; type=&quot;xsd:date&quot; /&gt; 
+ &lt;/message&gt;</pre>
+</dd>
+<dd>
+<p>For now begin must be first. This can be fixed.</p>
+</dd>
+<dt><strong><a name="item_response__2d_must_return_a_sequence_of_records_con">RESPONSE - Must return a sequence of records consisting of date,value,flag</a></strong><br />
+</dt>
+<dd>
+<pre>
+ &lt;complexType name=&quot;whatever_response&quot;&gt;
+   &lt;sequence&gt;
+     &lt;element name=&quot;row&quot;&gt;
+       &lt;complexType&gt;
+         &lt;sequence&gt;
+           &lt;element name=&quot;date&quot; type=&quot;xsd:date&quot; /&gt; 
+           &lt;element name=&quot;tmean&quot; type=&quot;xsd:xx&quot; /&gt; 
+           &lt;element name=&quot;flag&quot; type=&quot;xsd:xx&quot; /&gt; 
+         &lt;/sequence&gt;
+       &lt;/complexType&gt;
+    &lt;/element&gt;
+  &lt;/sequence&gt;
+ &lt;/complexType&gt;</pre>
+</dd>
+</dl>
+<p>You may name the service or methods any thing that you like, and I don't care about the fundemental soap data type. In other words tmean may be called x and may be a string or an int. <em>Ain't Perl grand</em> The dates should probably be soap dates, for convienence. They could be strings but they still need to be YYYY-MM-DD.</p>
+<p>I guess I should write a schema, huh?</p>
+<p>What you don't know how to serialize the data into the structure shown above?</p>
+<p>I just happen to have 500 lines of code that are perfectly portable and will solve all of youre problems. Whats it worth to you?
+
+</p>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>Kyle Kotwica &lt;<a href="mailto:Kyle.kotwica@comcast.net">Kyle.kotwica@comcast.net</a>&gt;
+
+</p>
+<p>
+</p>
+<hr />
+<h1><a name="copyright_and_license">COPYRIGHT AND LICENSE</a></h1>
+<p>Copyright 2004 by Kyle Kotwica
+
+</p>
+<p>Mine, all mine! leave it alone or I'll threaten you and stuff like that.
+
+</p>
+
+</body>
+
+</html>

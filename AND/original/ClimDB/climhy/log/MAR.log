@@ -1,0 +1,50 @@
+200 OK
+Server: This is the US Department of Agriculture Forest Service FTP server!
+Content-Length: 109303
+Content-Type: text/plain
+Last-Modified: Thu, 14 Aug 2008 13:34:33 GMT
+Client-Date: Thu, 14 Aug 2008 13:29:32 GMT
+Client-Request-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 08/14/2008
+
+MAR
+Started with MAR,S2-ALL,20060301
+Ended with MAR,S2-ALL,20070228
+Started with MAR,S2-BOG,20060301
+Ended with MAR,S2-BOG,20070228
+Started with MAR,S2-UP,20060301
+Ended with MAR,S2-UP,20070228
+Started with MAR,S4-ALL,20060301
+Ended with MAR,S4-ALL,20070228
+Started with MAR,S4-BOG,20060301
+Ended with MAR,S4-BOG,20070228
+Started with MAR,S4-UP,20060301
+Ended with MAR,S4-UP,20070228
+Started with MAR,S5-ALL,20060301
+Ended with MAR,S5-ALL,20070228
+Started with MAR,S5-BOG,20060301
+Ended with MAR,S5-BOG,20070228
+Started with MAR,S5-UP,20060301
+Ended with MAR,S5-UP,20070228
+Started with MAR,S6-ALL,20060301
+Ended with MAR,S6-ALL,20070228
+Started with MAR,S6-BOG,20060301
+Ended with MAR,S6-BOG,20070228
+Started with MAR,S6-UP,20060301
+Finished with MAR,S6-UP,20070228
+
+
+Summary of MAR follows:
+	ON INPUT:
+		4392 lines read. 
+		0 blank lines. 
+		12 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		4380 data points prepared for entry into centralized database.

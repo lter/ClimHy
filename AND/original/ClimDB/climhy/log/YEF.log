@@ -1,0 +1,36 @@
+200 OK
+Server: This is the US Department of Agriculture Forest Service FTP server!
+Content-Length: 157977
+Content-Type: application/octet-stream
+Last-Modified: Fri, 18 Jun 2004 21:18:47 GMT
+Client-Date: Fri, 18 Jun 2004 21:22:00 GMT
+Client-Request-Num: 1
+
+
+Beginning QA procedures...
+D:\forwww\lter\climhy\harvest.pl executed 06/18/2004
+
+YEF
+Started with YEF,EAST,19580801
+WARNING(101): DSCH = 29169.16536 (min=0 max=20000) failed QC test at:
+	 YEF,EAST,19581028	 input file (YEF) line 90
+
+ERROR(005): Illegal number of data fields at:
+	 YEF,EAST,19631002	 input file (YEF) line 1441
+
+Ended with YEF,EAST,19631002
+Started with YEF,JUNAP,19580801
+Finished with YEF,JUNAP,19631002
+
+
+Summary of YEF follows:
+	ON INPUT:
+		2882 lines read. 
+		0 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		1 process errors raised. (first 1 listed above)
+		1 warnings raised. 
+	ON OUTPUT:
+		10077 data points prepared for entry into centralized database.

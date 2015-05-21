@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:13:42 GMT
+Accept-Ranges: bytes
+ETag: "1ed815c04a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 248995
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:07:16 GMT
+Client-Date: Fri, 23 Jan 2009 11:13:46 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+NTL
+Started with NTL,05427718,19910331
+WARNING(101): DSCH = 25032.10 (min=0 max=20000) failed QC test at:
+	 NTL,05427718,20080608	 input file (NTL) line 6281
+
+WARNING(101): DSCH = 36245.57 (min=0 max=20000) failed QC test at:
+	 NTL,05427718,20080609	 input file (NTL) line 6282
+
+Ended with NTL,05427718,20090122
+Started with NTL,05427965,20071029
+Finished with NTL,05427965,20090121
+
+
+Summary of NTL follows:
+	ON INPUT:
+		6961 lines read. 
+		0 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		2 warnings raised. 
+	ON OUTPUT:
+		13467 data points prepared for entry into centralized database.

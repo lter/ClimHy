@@ -1,0 +1,719 @@
+.mstheme
+{
+	nav-banner-image: url(aeclbanr.gif);
+	separator-image: url(aeclrule.gif);
+	list-image-1: url(aeclbul1.gif);
+	list-image-2: url(aeclbul2.gif);
+	list-image-3: url(aeclbul3.gif);
+	navbutton-horiz-pushed: url(aeclhsel.gif);
+	navbutton-horiz-normal: url(aeclhbtn.gif);
+	navbutton-horiz-hovered: url(aeclhhov.gif);
+	navbutton-vert-pushed: url(aeclvsel.gif);
+	navbutton-vert-normal: url(aeclvbtn.gif);
+	navbutton-vert-hovered: url(aeclvhov.gif);
+	navbutton-home-normal: url(aeclhom.gif);
+	navbutton-home-hovered: url(aeclhomh.gif);
+	navbutton-home-pushed: url(blhomep.gif);
+	navbutton-up-normal: url(aeclup.gif);
+	navbutton-up-hovered: url(aecluph.gif);
+	navbutton-up-pushed: url(blupp.gif);
+	navbutton-prev-normal: url(aeclbck.gif);
+	navbutton-prev-hovered: url(aeclbckh.gif);
+	navbutton-prev-pushed: url(blprevp.gif);
+	navbutton-next-normal: url(aeclnxt.gif);
+	navbutton-next-hovered: url(aeclnxth.gif);
+	navbutton-next-pushed: url(blnextp.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 6;
+	color: rgb(51,102,102);
+}
+.mstheme-horiz-navtxt
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+UL
+{
+	list-style-image:url('aeclbul1.gif');
+}
+UL UL
+{
+	list-style-image:url('aeclbul2.gif');
+}
+UL UL UL
+{
+	list-style-image:url('aeclbul3.gif');
+}a:link
+{
+	color: rgb(51,204,204);
+}
+a:visited
+{
+	color: rgb(153,102,153);
+}
+a:active
+{
+	color: rgb(153,153,255);
+}
+body
+{
+	color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+}
+h1
+{
+	color: rgb(51,102,102);
+}
+h2, marquee
+{
+	color: rgb(51,102,102);
+}
+h3
+{
+	color: rgb(51,102,102);
+}
+h4
+{
+	color: rgb(51,102,102);
+}
+h5
+{
+	color: rgb(51,102,102);
+}
+h6
+{
+	color: rgb(51,102,102);
+}
+BUTTON 
+{
+	background-color: rgb(51,102,102);	
+	border-color: rgb(153,204,204);
+	color: white;
+}
+LABEL, .MSTHEME-LABEL
+{
+	color: rgb(0,0,0);
+}
+TEXTAREA
+{
+	border-color: rgb(51,102,102);
+	color: black;
+}
+FIELDSET
+{
+	border-color: rgb(51,102,102);
+	color: black;
+}
+LEGEND
+{
+	color: rgb(51,102,102);
+}
+SELECT
+{
+	border-color: rgb(51,102,102);
+	color: black;
+}
+TABLE
+{
+	border-color: rgb(51,102,102);
+	color: rgb(0,0,0);
+	table-border-color-light: rgb(153,204,204);
+	table-border-color-dark: rgb(51,102,102);
+}
+CAPTION 
+{
+	color: rgb(51,102,102);
+}
+TH
+{
+	color: rgb(0,0,0);
+}
+HR
+{
+	color: rgb(51,102,102);
+}
+TD
+{
+	border-color: rgb(51,102,102);
+}.mstheme
+{
+	navbutton-background-color: rgb(255,255,255);
+	top-bar-button: url(eclglobl.gif);
+}
+.mstheme-topbar-font
+{
+	font-family: verdana, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+body
+{
+	font-family: garamond, Times New Roman, Times;
+	background-image: url('eclbkgnd.gif');
+}
+h1
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24pt;
+}
+h2
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18pt;
+}
+h3
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+}
+h4
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12pt;
+}
+h5
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+}
+h6
+{
+	font-family: verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 8pt;
+}
+BUTTON 
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal; 
+}
+LABEL, .MSTHEME-LABEL
+{
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style:normal; 
+}
+TEXTAREA
+{
+	border-style: solid;
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal 
+}
+FIELDSET
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal; 	
+}
+LEGEND	
+{
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal; 
+}
+SELECT
+{
+	border-style: solid;
+	font-size: 8pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal 
+}
+TABLE
+{
+	font-family: garamond, Times New Roman, Times;
+	font-style: normal; 
+}
+CAPTION 
+{
+	font-size: 14pt;
+	font-family: verdana, Arial, Helvetica;
+	font-style: normal; 
+}
+TH
+{
+	font-family: garamond, Times New Roman, Times;
+	font-style: normal; 
+}
+MARQUEE
+{
+	font-size: 14pt;
+	font-family: garamond, Times New Roman, Times;
+}
+.ms-main {
+   border-right:  50px solid #99cccc;
+}
+.ms-bannerframe { 
+   background-color: #99cccc;  
+   border-bottom: 2px solid #336666;   
+}
+.ms-banner {
+   color: #000000;
+   font-size:    9pt;
+   font-family:  Verdana, sans-serif;
+}  
+.ms-banner a:link {
+   font-family:  Verdana, sans-serif;
+   font-size:    9pt;
+   color:   #000000;
+   font-weight:  normal;
+   text-decoration: none;
+   }
+.ms-banner a:visited {
+   font-family:  Verdana, sans-serif;
+   font-size:    9pt;
+   color:        #000000;
+   font-weight:  normal;
+   text-decoration: none;
+   }
+.ms-nav td {
+   font-family:  Verdana, sans-serif;
+   font-size:    8pt;
+   font-weight: normal;
+   color:   #000000;
+}
+.ms-nav th  {
+   font-size:    8pt;
+   font-family:  Verdana, sans-serif;
+   font-weight:  normal;
+   text-align:   left;
+   color:        #000000;
+}
+.ms-navframe {
+   color:   #000000;
+   border-left: 2px solid #336666;
+}
+.ms-nav a {
+   text-decoration: none;
+   font-family:  Verdana, sans-serif;
+   font-size:    8pt;
+   font-weight: normal;
+   color: #339999;
+}
+.ms-nav a:link {
+}
+.ms-nav a:hover {
+   text-decoration: underline;
+   color:  #3366cc;
+}
+.ms-nav a:visited {
+   color:  #999999;
+}
+.ms-verticaldots {
+   background-image: url('blank.gif');
+   background-position:  right 50%;
+   background-repeat: repeat-y
+}
+.ms-viewselect a:link{
+   font-size: 8pt;
+   font-family:   Verdana, sans-serif;
+   color: #339999;
+}
+.ms-titlearea { 
+   font-family:   Garamond, serif;
+   font-size:     9pt;
+   color:   #000000;
+}
+.ms-titleareaframe {
+   color: #000000; 
+   border-left: 2px solid #336666; 
+}
+.ms-pagetitle {
+   color: #336666; 
+   font-family: Verdana, sans-serif;
+   font-size:  14pt;
+   font-weight: normal;
+}
+.ms-pagetitle a {
+   text-decoration:underline;
+   color: #336666;  
+}
+.ms-pagetitle a:hover {
+   text-decoration: underline;
+   color: #336666;
+}
+.ms-announcementtitle {
+   font-weight: normal;
+}
+
+.ms-formlabel {
+   text-align: left;
+   font-family:  Garamond, serif;
+   font-size:  10pt;
+   font-weight: normal;
+   color: #000000;
+}
+.ms-formdescription a {
+   color: #3399cc;
+   text-decoration: underline;
+}
+.ms-formbody {
+   text-align: left;
+   font-family: Garamond, serif;
+   font-size: 10pt;
+   color: #000000;
+}
+.ms-formdescription {
+   font-family: Garamond, serif;
+   font-size: 10pt;
+   color: #000000;
+}
+.ms-radiotext {
+   cursor:default;
+   text-align: left;
+   font-family: Arial, sans-serif;
+   font-size: 10pt;
+   height: 19px;
+}
+.ms-searchbox {
+   width: 100%;
+}
+.ms-input {
+   font-size:    9pt;
+   font-family:  Arial, sans-serif;
+   vertical-align: baseline;
+}
+.ms-long {
+   font-size:    9pt;
+   font-family:  Arial, sans-serif;
+   width:        300px;
+}
+.ms-wvsel {
+   color: #3366cc;
+}
+.ms-selected {
+   background-color: #99cccc;
+   color: #000000;
+}
+.ms-selected SPAN {
+   color: #000000;
+}
+.ms-filedialog TD {
+   height: 16px;
+}
+.ms-descriptiontext {
+   color: #000000;
+   font-family: Garamond, serif;
+   font-size: 10pt;
+}
+.ms-descriptiontext a {
+   color: #339999;
+   font-family: Garamond, serif;  
+   font-size: 10pt;
+}
+.ms-toolbar {
+   font-family:   Verdana, sans-serif;
+   font-size:  8pt;
+   text-decoration: none;
+   color:      #666666; 
+}
+.ms-separator {
+   color: #99cccc;
+   font-size: 10pt;
+}
+.ms-authoringcontrols{
+   background-color: #f2f2f2;
+   font-family: Verdana, sans-serif;
+   font-size: 8pt;
+   color: #000000;
+}
+.ms-sectionheader{
+   color: #000000;
+   font-family: Garamond, serif;
+   font-size: 12pt;
+}
+.ms-sectionline {
+   background-color: #000000;
+   height:  1px;
+}
+.ms-propertysheet {
+   font-family: Garamond, serif;
+   font-size: 10pt;   
+}
+.ms-propertysheet th {
+   font-family: Garamond, serif;
+   font-size: 10pt;
+   color: #000000;
+   font-weight: normal;
+}
+   
+.ms-propertysheet a {
+   text-decoration: none;
+   color: #339999;
+}
+.ms-propertysheet a:hover {
+   text-decoration: underline;
+   color: #3366cc;
+}
+.ms-propertysheet a:visited {
+   text-decoration: none;
+   color: #999999;
+}
+.ms-propertysheet a:visited:hover {
+   text-decoration: underline;
+}
+.ms-itemheader a {
+   font-size: 11pt;
+   font-family: Garamond, serif;
+   font-weight: normal;
+   color: #339999;
+   text-decoration: none;
+}
+.ms-itemheader a:hover {
+   text-decoration: underline;
+   color: #3366cc;
+}
+.ms-itemheader a:visited {
+   text-decoration: none;
+   color: #999999;
+}
+.ms-itemheader a:visited:hover {
+   text-decoration: underline;
+}
+.ms-discussiontitle {
+   font-size:   10pt;
+   font-family: verdana, sans-serif;
+   color: #336666;
+   font-weight: normal;
+}
+.ms-vh {
+   font-family: Garamond, serif;
+   font-size: 10pt;
+   color: #000000;
+   text-align: left;
+   text-decoration: none;
+   font-weight: normal;
+}
+.ms-vh a {
+   color: #339999;
+   text-decoration: none;
+}
+.ms-vh a:hover {
+   text-decoration: underline;
+}
+.ms-vb{
+   font-family: Garamond, serif;
+   font-size: 10pt;
+   height: 18px;
+   vertical-align: top;
+}
+.ms-vb a {
+   color: #339999;
+   text-decoration: none;
+}
+.ms-vb a:hover {
+   color: #3366cc;
+   text-decoration: underline;
+}
+.ms-vb a:visited {
+   color: #999999;
+   text-decoration: none;
+}
+.ms-vb a:visited:hover {
+   text-decoration: underline;
+}
+.ms-homepagetitle {
+   font-family: Verdana, sans-serif;
+   font-size: 10pt;
+   color: #000000;
+   font-weight: bold;
+   text-decoration: none;
+}
+:hover.ms-homepagetitle {
+   text-decoration: underline;
+   color: #000000;
+}
+.ms-addnew {
+   font-weight: normal;
+   font-family: Verdana, sans-serif;
+   font-size: .6em;
+   color: #666666;
+   text-decoration: none;
+}
+.ms-cal {
+   border-collapse:collapse;
+   table-layout:fixed;
+   font-family: Arial, sans-serif;
+   cursor:default;
+}
+.ms-caltop {
+   border-top:1px solid black;
+   border-left:1px solid black;
+   border-right:1px solid black;
+   vertical-align:top;
+   font-size: 10pt;
+   width: 14%;
+   height:30px;
+}
+.ms-calhead {
+   border:none;
+   text-align:center;
+   background-color: #336666;
+   color: #ffffff;
+   font-size: 16pt;
+   font-family: Arial, sans-serif;
+   padding: 2px;
+}
+.ms-caldow {
+   border-top:1px solid black;
+   border-left:1px solid black;
+   border-right:1px solid black;
+   vertical-align:top;
+   text-align:center;
+   font-weight: bold;
+   font-size: 10pt;
+   height:20px;
+}
+.ms-calmid {
+   border-left:1px solid black;
+   border-right:1px solid black;
+   height:20px;
+}
+.ms-calspacer {
+   border-left:1px solid black;
+   border-right:1px solid black;
+   height:4px;
+}
+.ms-calbot {
+   border-top:none;
+   border-left:1px solid black;
+   border-right:1px solid black;
+   border-bottom:1px solid black;
+   height:2px;
+}
+.ms-appt a {
+   color: #2D425F;
+}
+.ms-appt a:hover {
+   color: red;
+}
+.ms-appt {
+   border:2px solid #336666;
+   text-align:center;
+   vertical-align: middle;
+   font-size:8pt;
+   height:18px;
+   overflow:hidden;
+   background-color: #cccccc;
+   color: black;
+}
+.ms-caldowdown {
+   font-family: Garamond, serif;
+   font-weight: bold;
+   text-align: center;
+   color: #000000;
+   vertical-align: middle;
+}
+.ms-caldown {
+   font-size: 8pt;
+   color: #000000;
+   text-align: left;
+   vertical-align: top;
+}
+.ms-datepickeriframe {
+   position:absolute;
+   display:none;
+   background:white;
+}
+.ms-datepicker {
+   font-family: Arial, sans-serif;
+   border: 2px outset activeborder;
+   cursor:default
+}
+.ms-dpdow {
+   border:none;
+   vertical-align:top;
+   text-align:center;
+   font-weight: bold;
+   font-size: 8pt;
+   border-bottom:1px solid black;
+}
+.ms-dpday {
+   border:none;
+   font-size: 8pt;
+   text-align: center;
+}
+.ms-dpselectedday {
+   border:none;
+   background-color:#e6e6e6;
+   font-size: 8pt;
+   text-align: center;
+}
+.ms-dpnonmonth {
+   color:gray;
+   border:none;
+   font-size: 8pt;
+   text-align: center;
+}
+.ms-dphead {
+   border:none;
+   text-align:center;
+   font-weight: bold;
+   font-size: 8pt;
+   background-color: #99cccc;
+   color: black;
+}
+.ms-dpfoot {
+   text-align:center;
+   font-size: 8pt;
+   text-align: center;
+   font-style: italic;
+   border-top:1px solid;
+   border-left:none;
+   border-bottom:none;
+   border-right:none;
+   height:24px;
+}
+IMG.ms-button {
+   cursor:hand;
+}

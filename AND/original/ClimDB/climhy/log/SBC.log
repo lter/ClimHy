@@ -1,0 +1,47 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:14:39 GMT
+Accept-Ranges: bytes
+ETag: "f44e61e14a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 93109
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:08:11 GMT
+Client-Date: Fri, 23 Jan 2009 11:14:43 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+SBC
+Started with SBC,11118500,20071031
+Ended with SBC,11118500,20090121
+Started with SBC,11119500,20071105
+Ended with SBC,11119500,20090121
+Started with SBC,11119745,20071031
+Ended with SBC,11119745,20090121
+Started with SBC,11119750,20071004
+Ended with SBC,11119750,20090121
+Started with SBC,11119940,20071105
+Ended with SBC,11119940,20090121
+Started with SBC,11120000,20071101
+Ended with SBC,11120000,20090121
+Started with SBC,11120500,20071101
+Ended with SBC,11120500,20090121
+Started with SBC,11120520,20081030
+Finished with SBC,11120520,20090121
+
+
+Summary of SBC follows:
+	ON INPUT:
+		3250 lines read. 
+		0 blank lines. 
+		8 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		3242 data points prepared for entry into centralized database.

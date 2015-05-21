@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 19 Jan 2009 15:23:57 GMT
+Accept-Ranges: bytes
+ETag: "3a0207-1e571e-5792d0c0"
+Server: Apache
+Content-Length: 1988382
+Content-Type: text/plain
+Last-Modified: Wed, 17 Dec 2008 16:12:27 GMT
+Client-Date: Tue, 20 Jan 2009 12:24:04 GMT
+Client-Peer: 128.123.177.2:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/20/2009
+
+JRN
+Started with JRN,LTERWS,19830301
+Ended with JRN,LTERWS,20051231
+Started with JRN,JERHQWS,19140601
+Finished with JRN,JERHQWS,20061231
+
+
+Summary of JRN follows:
+	ON INPUT:
+		42156 lines read. 
+		0 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		176484 data points prepared for entry into centralized database.

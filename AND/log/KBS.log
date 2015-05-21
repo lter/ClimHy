@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 03 Mar 2009 21:06:15 GMT
+Server: Apache/2.0.55 (Win32) mod_jk/1.2.14 DAV/2
+Content-Type: text/html;charset=ISO-8859-1
+Client-Date: Tue, 03 Mar 2009 22:39:53 GMT
+Client-Peer: 192.231.113.46:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Set-Cookie: JSESSIONID=BF02EF4894EAE8E81B95A47078B4DB50; Path=/Data
+
+
+Beginning QA procedures...
+C:\Inetpub\climhy\harvest.pl executed 03/03/2009
+
+KBS
+Finished with start
+
+
+Summary of KBS follows:
+	ON INPUT:
+		1 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		0 data points prepared for entry into centralized database.

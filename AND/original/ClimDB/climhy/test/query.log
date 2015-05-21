@@ -1,0 +1,14 @@
+
+SELECT e.entity_file_name, 
+	se.sub_entity_title,
+se.sub_entity_desc,
+	e.entity_number,
+	e.entity_id
+FROM entity e, sub_entity se
+WHERE se.entity_id = e.entity_id
+  AND se.sub_entity_id = 122
+
+SELECT (min(date_time)), (max(date_time)) 
+FROM fsdbdata..MS00117        
+WHERE probe='dewpri05                                                                                                                                                                                                                                             '
+

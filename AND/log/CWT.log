@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:09:28 GMT
+Accept-Ranges: bytes
+ETag: "da225a3e4a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 313389
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:03:38 GMT
+Client-Date: Fri, 23 Jan 2009 11:09:32 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+CWT
+Started with CWT,BRYSON,19961226
+Ended with CWT,BRYSON,20090122
+Started with CWT,CATALOOCHE,20081006
+Ended with CWT,CATALOOCHE,20090122
+Started with CWT,LOGAN,20081014
+Ended with CWT,LOGAN,20090122
+Started with CWT,NEEDMORE,19980801
+Ended with CWT,NEEDMORE,20090122
+Started with CWT,PRENTISS,20081020
+Finished with CWT,PRENTISS,20090122
+
+
+Summary of CWT follows:
+	ON INPUT:
+		8549 lines read. 
+		0 blank lines. 
+		5 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		16783 data points prepared for entry into centralized database.

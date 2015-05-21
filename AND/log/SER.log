@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 29 Apr 2008 09:31:31 GMT
+Accept-Ranges: bytes
+ETag: "3fbb3-6444-b185b654"
+Server: Apache/2.0.55 (Win32) PHP/4.3.4 mod_fastcgi/2.4.2
+Content-Length: 25668
+Content-Type: text/plain
+Last-Modified: Tue, 29 Apr 2008 09:31:13 GMT
+Client-Date: Tue, 29 Apr 2008 09:29:33 GMT
+Client-Peer: 60.249.168.20:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 04/29/2008
+
+SER
+Started with SER,LIN6891648,20070411
+WARNING(101): RH = 101.44 (min=0 max=100) failed QC test at:
+	 SER,LIN6891648,20071127	 input file (SER) line 235
+
+WARNING(101): RH = 102.62 (min=0 max=100) failed QC test at:
+	 SER,LIN6891648,20071128	 input file (SER) line 236
+
+Finished with SER,LIN6891648,20080426
+
+
+Summary of SER follows:
+	ON INPUT:
+		386 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		2 warnings raised. 
+	ON OUTPUT:
+		2292 data points prepared for entry into centralized database.

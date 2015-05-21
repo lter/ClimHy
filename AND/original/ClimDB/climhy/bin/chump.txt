@@ -1,0 +1,30 @@
+ClimDB HydroDB Utility Managment Program
+CHUMP
+Version 1.2
+
+Kyle Kotwica 10/2002
+
+This is a utility for managing the CLIMHY database, the FUNDME module, and the plotting routine. 
+
+File system:
+	chump.pl - the Perl/TK program that deals with the interface.
+	display.pm - the Perl module that manages the CLIMHY database.
+	conf.pm - the Perl module that manages the climdb.conf file.
+	climdb.conf - the configuration file needed for FUNDME et al.
+		This should be with FUNDME (in the cgi directory)
+	danteBW.gif - a picture of a dog.
+	clim-lib.pm - a libarary of functions used by the all of the above.
+	CHUMP.txt - this file.
+climdb.conf and clim_lib.pm need to be shared with all of the other files involved with the FUNDME project. 
+There is a BEGIN block in chump.pl that should be edited with the path way where these two files are located. 
+All other files should be in ths same directory as chump.pl. See climdb.txt for more details.
+
+----------------------------------------------------------------------------
+
+Notes:
+
+	There is very little data checking. If someone wants to put in a latitude of a$3e.ood or some such thing, 
+	who am I to complain. This could be added but the user would normally be entering into the database directly. 
+	It is assumed if they got this far they wont muck things up too much more with this utility.
+
+

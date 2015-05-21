@@ -1,0 +1,172 @@
+.mstheme     { nav-banner-image: url(loobanna.gif); separator-image: url(loohorsa.gif); 
+               list-image-1: url(loobul1a.gif); list-image-2: 
+               url(loobul2a.gif); list-image-3: url(loobul3a.gif); 
+               navbutton-horiz-normal: url(loohbuda.gif); 
+               navbutton-horiz-hovered: url(loohbuha.gif); 
+               navbutton-horiz-pushed: url(loohbusa.gif); 
+               navbutton-vert-normal: url(loovbuda.gif); 
+               navbutton-vert-pushed: url(loovbusa.gif); 
+               navbutton-vert-hovered: url(loovbuha.gif); 
+               navbutton-home-normal: url(loohomda.gif); 
+               navbutton-home-hovered: url(loohomha.gif); 
+               navbutton-home-pushed: url(loohomsa.gif); 
+               navbutton-next-normal: url(loonexda.gif); 
+               navbutton-next-hovered: url(loonexha.gif); 
+               navbutton-next-pushed: url(loonexsa.gif); 
+               navbutton-prev-normal: url(loopreda.gif); 
+               navbutton-prev-hovered: url(loopreha.gif); 
+               navbutton-prev-pushed: url(loopresa.gif); navbutton-up-normal: 
+               url(looupda.gif); navbutton-up-hovered: url(looupha.gif); 
+               navbutton-up-pushed: url(looupsa.gif) }
+.mstheme-bannertxt { font-family: Comic Sans MS; color: rgb(255,255,102); text-align: center; 
+               vertical-align: middle }
+.mstheme-horiz-navtxt { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+.mstheme-vert-navtxt { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+.mstheme-navtxthome { font-family: arial, Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+.mstheme-navtxtnext { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+.mstheme-navtxtprev { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+.mstheme-navtxtup { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle }
+ul           { list-style-image: url('loobul1a.gif') }
+ul ul        { list-style-image: url('loobul2a.gif') }
+ul ul ul     { list-style-image: url('loobul3a.gif') }
+a:link       { color: rgb(204,102,51) }
+a:visited    { color: rgb(102,51,153) }
+a:active     { color: rgb(153,153,0) }
+body         { color: rgb(0,0,0); background-color: rgb(255,255,204) }
+h1           { color: rgb(102,102,51) }
+h2, marquee  { color: rgb(51,0,153) }
+h3           { color: rgb(102,102,51) }
+h4           { color: rgb(51,0,153) }
+h5           { color: rgb(102,102,51) }
+h6           { color: rgb(51,0,153) }
+hr           { color: rgb(102,102,51) }
+button       { background-color: rgb(102,102,51); color: white; border-color: 
+               rgb(204,204,102) }
+label, .MSTHEME-LABEL { color: rgb(0,0,0) }
+textarea     { color: black; border-color: rgb(153,153,0) }
+fieldset     { color: black; border-color: rgb(153,153,0) }
+legend       { color: rgb(102,102,51) }
+select       { color: black; border-color: rgb(153,153,0) }
+table        { table-border-color-light: rgb(204,204,102); table-border-color-dark: 
+               rgb(153,153,0); color: rgb(0,0,0); border-color: rgb(153,153,0) }
+caption      { color: rgb(102,102,51) }
+th           { color: rgb(0,0,0); border-color: rgb(153,153,0) }
+td           { border-color: rgb(153,153,0) }
+.mstheme-bannertxt a:active { color: rgb(255,255,204) }
+.mstheme-bannertxt a:link { color: rgb(255,255,204) }
+.mstheme-bannertxt a:visited { color: rgb(255,255,204) }
+.mstheme-bannertxt-g { font-family: 'Comic Sans MS', Arial, Helvetica; color: rgb(255,255,204); 
+               text-align: center; vertical-align: middle; background-image: 
+               url('loobannd.gif') }
+.mstheme-bannertxt-g a:active { color: rgb(255,255,204) }
+.mstheme-bannertxt-g a:link { color: rgb(255,255,204) }
+.mstheme-bannertxt-g a:visited { color: rgb(255,255,204) }
+.mstheme-bannertxt-s { font-family: 'Comic Sans MS', Arial, Helvetica; color: rgb(255,255,204); 
+               text-align: center; vertical-align: middle }
+.mstheme-bannertxt-s a:active { color: rgb(255,255,204) }
+.mstheme-bannertxt-s a:link { color: rgb(255,255,204) }
+.mstheme-bannertxt-s a:visited { color: rgb(255,255,204) }
+.mstheme-horiz-navtxt a:active { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt a:link { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt a:visited { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-g { font-family: Arial, Helvetica; color: rgb(0,,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loohbudd.gif') }
+.mstheme-horiz-navtxt-g a:active { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-g a:link { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-g a:visited { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-gs { font-family: Arial, Helvetica; color: rgb(0,,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loohbusd.gif') }
+.mstheme-horiz-navtxt-gs a:active { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-gs a:link { color: rgb(0,,0,0) }
+.mstheme-horiz-navtxt-gs a:visited { color: rgb(0,,0,0) }
+.mstheme-navtxthome a:active { color: rgb(0,0,0) }
+.mstheme-navtxthome a:link { color: rgb(0,0,0) }
+.mstheme-navtxthome a:visited { color: rgb(0,0,0) }
+.mstheme-navtxthome-g { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loohombd.gif') }
+.mstheme-navtxthome-g a:active { color: rgb(0,0,0) }
+.mstheme-navtxthome-g a:link { color: rgb(0,0,0) }
+.mstheme-navtxthome-g a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtnext a:active { color: rgb(0,0,0) }
+.mstheme-navtxtnext a:link { color: rgb(0,0,0) }
+.mstheme-navtxtnext a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtnext-g { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loonexbd.gif') }
+.mstheme-navtxtnext-g a:active { color: rgb(0,0,0) }
+.mstheme-navtxtnext-g a:link { color: rgb(0,0,0) }
+.mstheme-navtxtnext-g a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtprev a:active { color: rgb(0,0,0) }
+.mstheme-navtxtprev a:link { color: rgb(0,0,0) }
+.mstheme-navtxtprev a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtprev-g { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('looprebd.gif') }
+.mstheme-navtxtprev-g a:active { color: rgb(0,0,0) }
+.mstheme-navtxtprev-g a:link { color: rgb(0,0,0) }
+.mstheme-navtxtprev-g a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtup a:active { color: rgb(0,0,0) }
+.mstheme-navtxtup a:link { color: rgb(0,0,0) }
+.mstheme-navtxtup a:visited { color: rgb(0,0,0) }
+.mstheme-navtxtup-g { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('looupbd.gif') }
+.mstheme-navtxtup-g a:active { color: rgb(0,0,0) }
+.mstheme-navtxtup-g a:link { color: rgb(0,0,0) }
+.mstheme-navtxtup-g a:visited { color: rgb(0,0,0) }
+.mstheme-topbar-font a:active { color: rgb(0,0,0) }
+.mstheme-topbar-font a:link { color: rgb(0,0,0) }
+.mstheme-topbar-font a:visited { color: rgb(0,0,0) }
+.mstheme-topbar-font-g { font-family: Arial, Helvetica; font-size: 1; color: rgb(0,0,0); 
+               background-image: url('looglob.gif') }
+.mstheme-topbar-font-g a:active { color: rgb(0,0,0) }
+.mstheme-topbar-font-g a:link { color: rgb(0,0,0) }
+.mstheme-topbar-font-g a:visited { color: rgb(0,0,0) }
+.mstheme-vert-navtxt a:active { color: rgb(0,0,0) }
+.mstheme-vert-navtxt a:link { color: rgb(0,0,0) }
+.mstheme-vert-navtxt a:visited { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-g { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loovbudd.gif') }
+.mstheme-vert-navtxt-g a:active { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-g a:link { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-g a:visited { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-gs { font-family: Arial, Helvetica; color: rgb(0,0,0); text-align: center; 
+               vertical-align: middle; background-image: url('loovbusd.gif') }
+.mstheme-vert-navtxt-gs a:active { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-gs a:link { color: rgb(0,0,0) }
+.mstheme-vert-navtxt-gs a:visited { color: rgb(0,0,0) }
+.mstheme     { navbutton-background-color: rgb(255,255,204); top-bar-button: url(looglob.gif) }
+.mstheme-topbar-font { font-family: Arial, Helvetica; font-size: 1; color: rgb(0,0,0) }
+body         { font-family: 'Comic Sans MS', Arial, Helvetica; background-image: 
+               url('lootextb.jpg') }
+h1           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 24pt }
+h2           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 18pt }
+h3           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 14pt }
+h4           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 12pt }
+h5           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 10pt }
+h6           { font-family: 'Comic Sans MS', Arial, Helvetica; font-weight: normal; 
+               font-style: normal; font-size: 8pt }
+button       { font-size: 8pt; font-family: Arial; font-style: Normal; border-style: solid; 
+               border-width: 1pt }
+label, .MSTHEME-LABEL { font-size: 8pt; font-family: Arial; font-style: Normal }
+textarea     { font-size: 8pt; font-family: Arial; font-style: normal; border-style: solid; 
+               border-width: 1pt }
+fieldset     { font-size: 8pt; font-family: Arial; font-style: normal; border-style: solid; 
+               border-width: 1pt }
+legend       { font-size: 8pt; font-family: 'Comic Sans MS', Arial, Helvetica; font-style: 
+               Normal }
+select       { font-size: 8pt; font-family: Arial; font-style: normal; border-style: solid; 
+               border-width: 1pt }
+table        { font-family: 'Comic Sans MS', Arial, Helvetica; font-style: normal }
+caption      { font-size: 14pt; font-family: 'Comic Sans MS', Arial, Helvetica; font-style: 
+               Normal }
+th           { font-family: 'Comic Sans MS', Arial, Helvetica; font-style: normal }
+marquee      { font-size: 14pt; font-family: 'Comic Sans MS', Arial, Helvetica }

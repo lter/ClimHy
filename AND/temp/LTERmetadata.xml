@@ -1,0 +1,1424 @@
+<HTML>
+  <HEAD>
+    <TITLE>H.J. Andrews Experimental Forest Metadata Report</TITLE>
+  </HEAD>
+  <COVER>
+    <SITE_NAME>H.J. Andrews Experimental Forest</SITE_NAME> 
+    <SITE_CODE>AND</SITE_CODE>
+    <LOC1>Blue River</LOC1>
+    <LOC2>Oregon</LOC2>
+    <CREATE>C:\Inetpub\climhy\sitePDF.pl </CREATE>  
+    <TIME>Thu Mar  5 16:18:50 2009</TIME>
+  </COVER>
+  <BODY>
+  
+  <SECTION TYPE='Research Area Information' ID='0'>
+    <TYPES>
+      <RES_SITE_NAME CODE='AND'>H.J. Andrews Experimental Forest</RES_SITE_NAME>
+    </TYPES>
+    <STATION NAME='H.J. Andrews Experimental Forest' ID='1'>
+      <DESCRIPTOR_DESC DESC='Research Area Information' ID='2'>
+        <INFO SIZE='m'  TITLE='Harvest URL - Option 1'>
+		   http://lterweb.forestry.oregonstate.edu/fsdbdata/reaper/and_clim.txt
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Harvest URL -Option 2'>
+		   http://www.fsl.orst.edu/lter/webmast/and_hydro.txt
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Site URL'>
+		   http://www.fsl.orst.edu/lter/
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degree' TITLE='Site north bounding coordinate'>
+		   44.282118
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degree' TITLE='Site west bounding coordinate'>
+		   -122.260544
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degree' TITLE='Site south bounding coordinate'>
+		   44.197854
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degree' TITLE='Site east bounding coordinate'>
+		   -122.099675
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Site Climate URL'>
+		   http://www.fsl.orst.edu/lter/data/framepage.cfm?frameURL=studies/ms01/ms01fmt.htm&amp;topnav=97
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Site Watershed URL'>
+		   http://www.fsl.orst.edu/lter/data/framepage.cfm?frameURL=studies/hf04/hf04fmt.htm&amp;topnav=97
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Site Map URL'>
+		   http://www.fsl.orst.edu/images/hja/data/studies/ms01/curntmet.gif
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Experimental Design'>
+		   http://www.fsl.orst.edu/lter/data/framepage.cfm?frameURL=studies/hf04/hf04fmt.htm&amp;topnav=97
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Publications'>
+		   http://www.fsl.orst.edu/lter/pubs/biblio.cfm?topnav=41 http://www.fsl.orst.edu/lter/research/component/hydro/summary.cfm?sum=pubs2002&amp;topnav=62
+		 </INFO>
+        <INFO SIZE='m'  TITLE='USGS Harvest URL'>
+		   http://gce-lter.marsci.uga.edu/harvest/usgs/and_lter.txt
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+  </SECTION>
+  <SECTION TYPE='Meteorlogical Stations' ID='3'>
+    <TYPES>
+      <RES_SITE_NAME CODE='CENMET'>Central Meteorological Station</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='CS2MET'>Climatic Station at WS#2</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='H15MET'>Hi-15 Meteorological Station</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='PRIMET'>Primary Meteorological Station</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='UPLMET'>Upper Lookout Meteorological Station</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='VANMET'>Vanilla Leaf Meteorological Station</RES_SITE_NAME>
+    </TYPES>
+    <STATION NAME='Central Meteorological Station' ID='4'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='5'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.24330600
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.14161100
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   1018
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees' TITLE='Exposure'>
+		   260
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   CANOPY: None overhead, open site, though insolation affected slightly from trees on adjacent hillsides. CONTINUOUS, OPEN CANOPY TYPE. SURFACE: Short grass, dirt.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   Clearcut Nov 1986, natural regeneration
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Climatic Station at WS#2' ID='6'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='7'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21487500
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.24905300
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   485
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees' TITLE='Exposure'>
+		   355
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   October 1, 1957
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   Old growth opening, tight canopy. CANOPY: Closest site to having 45 degree cone overhead. Canopy slightly more open to the east than other directions. CONTINUOUS, OPEN CANOPY TYPE. SURFACE: Tends to be bushy with thick short shrubbery and grass.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   The longest running site in the HJ Andrews. Surrounded on all sides by thick forest with tall trees, located directly in middle of clearing (15-20m from trees). Located in a clearing up and across the main road from Lookout Creek, with cold-air drainage possibly affecting temperature regime. Surrounding forest plays a major role in insolation regime, though site is completely open directly above. Along with PRIMET, appears have cooler and somewhat unusual long-term temperature trends compared to the rest of the HJ Andrews. (JWS 2001)
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Photo URL'>
+		   http://www.fsl.orst.edu/lter/data/studies/ms01/meta/cs2metpx.htm
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Air Temperature' ID='8'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   October
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   150
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   19571001 - 19580203  No instrument located at the site. Records are estimated from Belknap Springs. 19580203 - 19970207 Cole Parmer hygrothermograph chart.  19970207 - 19981005 TheBelfort hygrothermograph chart. 19980414 - Present  Campbell Model HMP35C probe containing a Vaisala capacitive relative humidity sensor.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   The Hi-Q hygrothermograph is a  precision self-contained recording instrument that measures and  records ambient temperature and relative humidity simultaneously on a  double scale chart. A specially treated bundle of human hair is used  to measure relative humidity over the full range of 0 to 100%. The  hair expands and contracts with increasing or decreasing amounts of  water vapor in the air. The Belfort Maximum Minimum Thermometer Cat  No. 5-484 indicates the temperature extremes reached over a 24 hour  period and is the standard for adjusting chart temperature readings.  The chart is installed on a self-contained brass clock which is  spring-wound.  Chart record is no longer being maintained.  Hygrothermograph chart records were maintained at the Climatic Station  from February 1958 until October 1998.  Chart temperature (daily max and min) is hand-digitized and adjusted to standard  max-min temperatures. Standard maximum and minimum thermometers on a  Townsend support are noted weekly to make adjustments to the chart record.  While it would be possible to digitize the temperature and humidity to  create a high temporal resolution record, this effort has not been attempted.    CR500 data logger installed 04 Apr 1998. Data logger is currently the Campbell Scientific CR21X.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Sensor Height:  Until 19980414: 130 cm - hygrothermograph sensor From 19980414: 150 cm - Campbell thermistor
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Precipitation' ID='9'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   October 1, 1957
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   5 minute
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   250 cm
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   Belfort Universal Recording Rain Gage, Cat No. 5-780 Series  8"diameter, 12" capacity. Accuracy of 1/3 of 1%. Non-Recording  Precipitation Gage Cat No. 5-400, accuracy of .01" of ppt. Both meet  National Weather Service specfications   
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   Notes: Data is collected weekly from a standard gage (total precip)  and the adjacent Universal recording gage (chart). Historically,  the charts were hand digitized on a daily basis, and adjusted to  the standard gage total. Subsequently, all charts have been  electronically digitized, and data can be interpolated at a  5 minute resolution. This high resolution data has also been  adjusted to the standard gage total.  The FORKS gage has been used to extend the CS2MET record  back to December, 1951.   
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Status: This is the longest precipitation record in the Andrews  Forest.   
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Relative Humidity' ID='10'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   03 Feb 1958
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 seconds
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   hourly
+		 </INFO>
+        <INFO SIZE='s' UNITS='percent' TITLE='Data Accuracy'>
+		   +/-2%
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   19580203 - 19970207 Cole Parmer hygrothermograph chart. 19970207 - 19980414  TheBelfort hygrothermograph  19980414 - Present Temperature and relative humidity is sampled by a Campbell Model  HMP35C probe containing a Vaisala capacitive relative humidity sensor  and a Fenwal Electronics UUT51J1 thermistor. The probe is housed in a  locally designed PVC radiation shield. Data logger is a Campbell  Scientific.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   The Hi-Q hygrothermograph is a  precision self-contained recording instrument that measures and  records ambient temperature and relative humidity simultaneously on a  double scale chart. A specially treated bundle of human hair is used  to measure relative humidity over the full range of 0 to 100%. The  hair expands and contracts with increasing or decreasing amounts of  water vapor in the air. The Belfort Maximum Minimum Thermometer Cat  No. 5-484 indicates the temperature extremes reached over a 24 hour  period and is the standard for adjusting chart temperature readings.  The chart is installed on a self-contained brass clock which is  spring-wound. Accuracy is +/- 1%.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Sensor Height: 130 cm - hygrothermograph sensor (probe 01)  150 cm - Campbell thermistor (probe 02)   Notes:  CR500 data logger installed 04 Apr 1998. Data logger samples every 15 seconds.  Chart record is no longer being maintained.   Hygrothermograph chart records were maintained at the Climatic Station  from February 1958 until October 1998. Standard maximum and minimum thermometers on a Townsend  support and a sling psychrometer were used to make weekly checks of the hygrothermograph chart.  While it would be possible to digitize the temperature and humidity to  create a high temporal resolution record, this effort has not been attempted.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Soil Temperature' ID='11'>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Water Temperature' ID='12'>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Hi-15 Meteorological Station' ID='13'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='14'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.26421700
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.17379400
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   922
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees' TITLE='Exposure'>
+		   240
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Topography'>
+		   At the confluence of 2 roads in moderate forest
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   CANOPY: None directly overhead, but site surrounded by moderate forest. CONTINUOUS, OPEN CANOPY TYPE. SURFACE: Gravel and dirt.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   At the confluence of 2 roads in moderate forest. Site is thus unusual by having large open areas radiating out from it through the surrounding forest. Attenuation is completely by surrounding trees, about 20 m from sensor in each direction. More open to direct radiation from the southwest for most months (direct sun in the mornings). During June and July site receives direct radiation through much of the day but during other months sun is blocked by forest wall to the south. (JWS 2001)
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Primary Meteorological Station' ID='15'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='16'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21184400
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.25588900
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   430
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   1972
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   The Primary Met Station is located at the Headquarters Site of the Andrews Forest and sits on an alluvial terrace subject to cold air drainage. The site location reduces the meso-scale representativeness of meteorological measurements, especially minimum air temperatures, wind direction, and soil moisture. There is also concern that increased building and human presence in the Andrews Headquarters facilities near the Primary Met Station could ultimately effect meteorological measurements. The proximity to the Headquarters offers real advantages in terms of access, however.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   Level, open MET site at HJA headquarters, one of the long-term benchmark sites in the HJ Andrews. Long-term temperature measurements are from an enclosed sensor in a cotton shelter. Site is close to Lookout Creek, at the bottom of the valley; cold-air drainage possibly influences this site. Little difference between topographic and canopy insolation blocking, except during winter months. Trees to north are much closer than trees to the south. Along with CS2MET, appears to have cooler and somewhat unusual long-term temperature trends compared to the rest of the HJ Andrews. (JWS 2001)
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Photo URL'>
+		   http://www.fsl.orst.edu/lter/data/studies/ms01/meta/primetpx.htm
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Air Temperature' ID='17'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   9 May 1972
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 second
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   15 minute
+		 </INFO>
+        <INFO SIZE='s' UNITS='degree celsius' TITLE='Data Accuracy'>
+		   +/- 0.5 degrees C
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   150 cm
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   19720509 - 19790306  Air temperature is measured by a thermistor in a standard Cotton  Region Shelter and continuously recorded on a separate 30-day Rustrak strip chart scaled from -10 degrees C to 40 degrees C. Data logger is  the Interface Instrument M-2 or M-3.  19790306 - 19940913  Air temperature sensor: Yellow Springs Instrument Company YSI44018 linear thermistor in a standard Cotton Region Shelter. Data logger is  the Interface Instrument M-4.  19940913 - 19980604 Campbell Scientific model 107 temperature probe (CS107B, CS107B-L)  includes the Fenwal Electronics UUT51J1 thermistor. 19980604 - Present Temperature and relative humidity is sampled by a Campbell Model  HMP35C probe containing a Vaisala capacitive relative humidity sensor  and a Fenwal Electronics UUT51J1 thermistor. The probe is housed in a  locally designed PVC radiation shield. Data logger is a Campbell  Scientific.    
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   Data logger is a Campbell Scientific, typically CR10, CR21X, CR500, or CR23X.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Global Radiation' ID='18'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   May 10, 1972
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 minute starting on 19940913; 1 hour previous to this
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   daily
+		 </INFO>
+        <INFO SIZE='s' UNITS=' MJM2' TITLE='Data Accuracy'>
+		   +/- .05 Langley
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   currently 100 cm
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   From 19790306 to present: Kipp and Zonnen model CM-5 pyranometer with thermopile type sensor.  Located on 1 meter high platform at Primary Met. Data logger is the  Campbell Scientific CR21X or earlier Instrument Interface M4 data  logger.  Previous to 19790306: Solar radiation measured with a Lintronic dome solarimeter. The signal is recorded continuously on a 30-day Rustrak strip chart scaled  from 0 to 2.0 cal/cm2/min with a resolution of 0.1 cal/cm2/min. This  sensor was often unreliable. Data logger is the Interface Instrument  M-2 or M-3. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Sensor height: 10 May 1972 to 01 Jan 1980 500 cm  01 Jan 1980 to Present 100 cm  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Precipitation' ID='19'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   January 1, 1979
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   5 minute
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   15 minute
+		 </INFO>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Data Accuracy'>
+		   +/- .254 mm
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   100 cm
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   Texas Electronics tipping bucket raingage located on 1 m. high  platform. 8" orifice. Campbell Scientific data logger 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   Notes: Gage actually established 06 Mar 1979. Early 1979 values  and missing values are filled in with WS#2 Climatic Station  and NADP Universal rain gages. Much of the first year is  missing, and the good record begins 01 Jan 1980.  The tipping bucket record is somewhat artificial at 5 minute  resolution, especially in light rain situations where the gage  does not tip in every 5 minute segment.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   A stand-alone style raingage was installed in January 2002 along with the tipping bucket. Go to the Andrews Data Catalog for this data. 
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Relative Humidity' ID='20'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   July 7, 1988
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 minutes
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   hourly
+		 </INFO>
+        <INFO SIZE='s' UNITS='percent' TITLE='Data Accuracy'>
+		   +/-2%
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   150 cm
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   A Campbell Model HMP35C probe containing a Vaisala capacitive relative humidity sensor housed in a Cotton Region Shelter until 19980603. From 19980604 to 20000605 a Campbell Model HMP35C probe containing a Vaisala capacitive relative humidity sensor and a Fenwal Electronics UUT51J1 thermistor. The probe is housed in a locally designed PVC radiation shield. From 20000606to present a Campbell Model HMP45C probe containing a Vaisala capacitive relative humidity sensor and a platinum resistance thermometer.     
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   Campbell Scientific CR21X
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Until 19980603 a Campbell Model HMP35C probe containing a Vaisala capacitive relative humidity sensor housed in a Cotton Region Shelter. Data logger is the Campbell Scientific CR21X.  From 19980604 to 20000605 a Campbell Model HMP35C probe containing a Vaisala capacitive relative humidity sensor and a Fenwal Electronics UUT51J1 thermistor. The probe is housed in a locally designed PVC radiation shield. Data logger is a Campbell Scientific.  From 20000606to present a Campbell Model HMP45C probe containing a Vaisala capacitive relative humidity sensor and a platinum resistance thermometer. Data logger is a Campbell Scientific model.   
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Wind Direction and Resultant Wind Direction' ID='21'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   July 7, 1988
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   hourly
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   daily
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   10 meters above ground
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   Wind speed and direction is sampled by a RM Young Model 05103 Wind  Monitor mounted to the tower. Potentiometer measures direction,  anemometer measures wind speed. Data logger is a Campbell Scientific  model. Data collected by the Wind Monitor is processed by the  Campbell Wind Vector instruction #69 option #2.    
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Sensor height: Previous to 01 Jan 1989 1200 cm. From 01 Jan 1989 to Present 1000 cm. 
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Wind Speed and Resultant Wind Speed' ID='22'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   May 22, 1973
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   on-going
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   hourly
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   daily
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters per second' TITLE='Data Accuracy'>
+		   +/- .25 m/sec
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Instrument Height'>
+		   10 meters above ground
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   19730522 - 19751125: Windspeed: measured with a cup-type anemometer which provides contact closure for every .322 km of air movement. This signal is recorded by  an event marker along the border of the same Rustrak strip chart used  to record dewpoint. Data logger is Interface Instrument M-2. 19751125 - 19791228 No instrument located at the site. Records are estimated from other  sites or is missing.  19791228 - 19880706 Wind speed sensors are R.M. Young #6101 tachometer generators mounted  on a tower. Data logger is Interface Instrument M-4.  19880706 - Present Wind speed and direction is sampled by a RM Young Model 05103 Wind  Monitor mounted to the tower. Potentiometer measures direction,  anemometer measures wind speed. Data logger is a Campbell Scientific  model. Data collected by the Wind Monitor is processed by the  Campbell Wind Vector instruction #69 option #2.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   Sensor height: 22 May 1973 to 25 Nov 1975 500 cm  28 Dec 1979 to 01 Jan 1989 1200 cm  01 Jan 1989 to Present 1000 cm  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Upper Lookout Meteorological Station' ID='23'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='24'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.20721100
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.11939200
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   1294
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees' TITLE='Exposure'>
+		   72
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   CANOPY: None overhead, open site, though insolation affected slightly from trees on adjacent hillsides. CONTINUOUS, OPEN CANOPY TYPE. SURFACE: Mixed short grass, brush, dirt.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   The highest of the benchmark MET sites. On gentle east-facing slope, with horizon visible in all directions, though slight topographic shading to the southwest in winter. Very open, in a large clear-cut. Presence of young trees growing in clearcut provides some insolation blockeage; nearest forest starts due east 70-80 m. Due to openness and reliability of insolation and temperature data, this site was used to determine percentages of diffuse and direct radiation for each month in the study. (JWS 2001)
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Vanilla Leaf Meteorological Station' ID='25'>
+      <DESCRIPTOR_DESC DESC='Meteorological Station' ID='26'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.27162500
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.14949200
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   1273
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees' TITLE='Exposure'>
+		   180
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Area Description'>
+		   CANOPY: The most open site in the HJ Andrews. Horizon visible east-south-west. Trees not a factor for insolation. SURFACE: Mixed short grass, brush, dirt
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   One of the benchmark MET sites. On a south-facing slope with horizon fully visible in that direction. Sparse forest begins 20-30 m to the north. In a large clear-cut with an expansive view. (JWS 2001)
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+  </SECTION>
+  <SECTION TYPE='Watershed' ID='27'>
+    <TYPES>
+      <RES_SITE_NAME CODE='LOOKOUT'>Lookout Creek Watershed</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='MACK'>Mack Creek Watershed</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS01'>Watershed 1</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS02'>Watershed 2</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS03'>Watershed 3</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS06'>Watershed 6</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS07'>Watershed 7</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS08'>Watershed 8</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS09'>Watershed 9</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='WS10'>Watershed 10</RES_SITE_NAME>
+    </TYPES>
+    <STATION NAME='Lookout Creek Watershed' ID='28'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='29'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.282260
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.258793
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.201274
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.099527
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   6242
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   267
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   428
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1627
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='30'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2200 - 2600
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   10.5 - 13.5
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   40.5
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   141032
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map was based on an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. NOTE: This survey was not completed for much of the entire Lookout watershed and likely has prevented development of the full extended channel network. The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.47 - 2.26
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum varies from 375-1000 mm water equiv. at highest elevation. Transient snow zone with 25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='31'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   When it was established in 1948, the Andrews was covered with virgin forest. Before timber cutting began in 1950, about 65% of the Andrews Forest was in old-growth forest (400-500 years old) and the remainder was largely in stands developed after wildfires in the mid-1800s to early 1900s. Clearcutting and shelterwood cuttings over about 30% of the Andrews Forest have created young plantation forests varying in composition , stocking level, and age. Old-growth forest stands with dominant trees over 400 years old still cover about 40 percent of the total area. Mature stands (100 to 140 years old) originating from wildfire cover about 20 percent.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Pre-treatment description'>
+		   A limited determination of stand basal area was made in old_growth (&gt;400 yrs. old) using a cruising prism.  Observed range of basal area measured was 70-140 m2/ha in Pseudotsuga stands and 70-84 m2/ha in Tsuga-Pseudotsuga.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils developed in these parent materials are mainly Inceptisols with local areas of Alfisols and Spodosols.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   Lower elevations of the Forest are underlain mainly by Oligocene-lower Miocene volcanic rocks composed of mudflow, ash flow, and stream deposits. In higher areas bedrock is composed of andesite lava flows of Miocene age and of younger High Cascade rocks. Stream erosion, a variety of types of landslides, and glaciation have created a deeply dissected, locally steep landscape.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   The watershed is approximately 25% patch-cut from 1948 to present.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Succession description'>
+		   Lower elevation forest are dominated by Douglas-fir, western hemlock, and western redcedar. Upper elevation forests contain noble fir, Pacific silver fir, Douglas-fir, and western hemlock. Low- and mid-elevation forests in this area are among the tallest and most productive in the world. Average heights are in excess of 75 m and a typical stand stores in excess of 600 megagrams of carbon per ha. These forests are also noteworthy for the large amounts of fine and coarse woody debris they contain. As elevation increases, Douglas- fir and western red cedar decline in importance and western hemlock is gradually replaced by Pacific silver fir. Non-forest habitats include wet and dry meadows, rock cliffs, and talus slopes.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   The Lookout Creek watershed comprises the entire Andrews Forest.  All other Andrews watersheds are nested within the gaged portion of Lookout Creek with the exception of Watersheds 1 (which is in the drainage below the Lookout gage) and  9 and 10 which are directly adjacent to the Lookout drainage.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Mack Creek Watershed' ID='32'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='33'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.220543
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.172822
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.201480
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.126996
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   581
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   306
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   758
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1625
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='34'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2500
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.0 - 13.5
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   48
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   11120
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map was based on an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. NOTE: Lack of roads in Mack Creek likely prevented development of the full extended channel network.  The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.53 - 1.91
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum varies from 375-1000 mm water equiv. at highest elevation.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='35'>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   This watershed is in a control area meaning no significant land-use is planned.  The watershed has a few small clearcuts and a road near the upper ridgeline.  Fire burned part of the watershed 120 years ago.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 1' ID='36'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='37'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.208517
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.256831
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.199017
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.235813
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   95.9
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   286
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   457
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1027
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='38'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2300
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.5 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   59
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   2808
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map (basis for listed channel length) was created using an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper).  Then, the map includes both perennial and intermittent channels.  A GIS system was used to determine channel length from the channel map.  The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.46 - 2.93
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 375 mm water equiv. at highest elevation. Transient snow zone with 25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='39'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   Prior to cutting in 1962-1966, Douglas-fir was the dominant species and ranged in age from about 100 to 500 years. Hemlock was intermixed in varying amounts and was generally younger. Other coniferous species present include western redcedar, locally abundant in drainages, and individual sugar pines scattered on ridgetops. Pacific yew is common in the understory. Hardwood species are common, but generally occur only in small amounts. In decreasing order they are: bigleaf maple, Pacific dogwood, golden chinkapin, and red alder. Six understory plant communities are present: 1) hazel-salal (10% of watershed area); 2) rhododendron-salal (10%); 3) vine maple-salal (10%); 4) vine maple-Oregon grape (25%); 5) gold-thread (25%); and 6) sword-fern (20%).  Source: Rothacher, J., C. T. Dyrness, and R. Fredricksen. 1967. Hydrologic and Related Characteristics of Three Small Watersheds in the Oregon Cascades. USDA Forest Service Pacific Northwest Forest and Range Experiment Station. 54 pp.   
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Glacial, fluvial, and mass wasting processes have affected soil development and spatial distribution, particularly in geologic contact zones and steeper areas of the HJA. Infiltration rates are high and non-localized overland flow has not been observed in any of the watersheds. In Watershed 1, soils range from shallow and stony with little profile development to moderately deep with well-developed profile features. Shallow soils predominate, though they are often located on deep (&gt; 3 m) deposits of unconsolidated soil and rock material. Most soil series present have moderately high field capacities (approximately 20 cm H2O for the surface 1.3 m of soil) and rapid rates of saturated moisture movement. Percolation rates are typically greater than 12 cm/hr due to the large amount and size distribution of pore spaces (Rothacher et al. 1967). Stone content is the dominant factor causing variation in soil moisture storage capacity (Dyrness 1969). In ridgetop and steep-slope positions, soils are generally loam and clay loam derived from colluvium from reddish breccias and tuffs. Stone content ranges from 35 to 50%, generally increasing on south-facing slopes, and depth to weathered parent material is usually over 1 m. Soils derived from greenish breccias and tuffs are widely distributed. The surface and subsurface horizons are loam to clay loam with up to 50% gravel content by volume. Depth to parent material is 0.6 m to 1.2 m.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 1, 2, and 3 span the Little Butte-Sardine contact. Geology of these watersheds is roughly stratified by elevation. Bedrock of lower elevation areas of all three watersheds is dominated by reddish and buff-colored tuffs and breccias. At the mouth of Watershed 3, these rock types are buried under many feet of mixed colluvium exhibiting evidence of several periods of deposition. Sardine greenish tuffs and breccias dominate middle elevation bedrock in all three watersheds and extend to the ridge of Watershed 1. Associated with these rocks are numerous outcroppings of mainly basaltic flow rocks. In Watersheds 2 and 3, large portions of this bedrock are covered with a mantle ( 20 m) of andesitic colluvium. Upper elevations in Watersheds 2 and 3 are underlain by deposits of Sardine andestic flow rock. In Watershed 1, this formation is limited to the extreme northeast corner. Most bedrock of this type is relatively unweathered with many rugged escarpments and outcroppings. Source: Swanson, F. and M. James. 1975. Geology and Geomorphology of the H. J. Andrews Experimental Forest, Western Cascades, Oregon. USDA Forest Service Research Paper. PNW-188. 14pp. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   100% clearcut over a four-year period from fall 1962 to summer 1966. Skyline yarding was used and no roads were constructed in the gaged portion of the watershed. Slash was burned in October, 1966. Skyline yarding equipment removed timber from the entire 237 acres of the watershed.  With this method, the back end of the logs are dragged to a fixed overhead cable, then lifted free of the ground for transport downhill to the landing.  No roads were constructed in this watershed.  Debris burning in October, 1966 consumed most of the fine logging debris on the slopes and that accumulated in the stream channel.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   The control watershed is the adjacent WS#2.  Gaging stations are about 1.15 km apart.The control is about 63% the area of WS#1.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 2' ID='40'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='41'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.213385
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.243976
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.206178
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.229741
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   60.3
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   318
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   548
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1078
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='42'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2300
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.5 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   53
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   1861
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map (basis for listed channel length) was created using an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.32 - 3.09
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 375 mm water equiv. at highest elevation. Transient snow zone with 25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='43'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   Watershed 2 is completely forested. Watershed 2 vegetation is typical of the western hemlock (Tsuga heterophylla) zone with an overstory of Douglas-fir and western hemlock. In a 1970 survey of Watershed 2 (Hawk and Dyrness 1975), approximately 67 percent of overstory trees were in the 450-year age class, with the remainder younger than 125 years. Understory species include rhododendron (Rhododendron macrophyllum), vine maple (Acer circinatum), sword-fern (Polystichum munitum), and Oregon grape (Berberis nervosa). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Loam and clay loam soils derived from colluvium from reddish breccias and tuffs occur in ridgetop and steep slope positions in Watersheds 1, 2, and 3. Stone content ranges from 35 to 50%, generally increasing on south-facing slopes. Depth to weathered parent material is usually over 1 m. Soils derived from greenish breccias and tuffs are widely distributed. The surface and subsurface horizons are loam to clay loam with up to 50% gravel content by volume. Depth to parent material is 0.6 m to 1.2 m. Soils derived from deep deposits of andesite colluvium occupy most of the upper portions of Watersheds 2 and 3. The surface horizon is loam to sandy loam with substantial amounts of shotty concretions and andesite stones. Subsurface horizons are massive stony loams, silt loams, or clay loams containing 25 to 80% gravel. Most soil types in Watersheds 1, 2, and 3 have moderately high field capacities (approximately 20 cm H2O for the surface 1.2 m of soil) and rapid rates of saturated moisture movement. Percolation rates are typically greater than 12 cm/hr due to the large amount and size distribution of pore spaces and stone content (Rothacher et al 1967). Stone content is the dominant factor causing variation in soil moisture storage capacity. Source: Dyrness, C. T. 1969. Hydrologic properties of soils in three small watersheds in the western Cascades of Oregon. U. S. Department of Agriculture Forest Service Research Note PNW-111. Portland, Oregon: Pacific Northwest Forest and Range Experiment Station. pp 17.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 1, 2, and 3 span the Little Butte-Sardine contact. Geology of these watersheds is roughly stratified by elevation. Bedrock of lower elevation areas of all three watersheds is dominated by reddish and buff-colored tuffs and breccias. At the mouth of Watershed 3, these rock types are buried under many feet of mixed colluvium exhibiting evidence of several periods of deposition. Sardine greenish tuffs and breccias dominate middle elevation bedrock in all three watersheds and extend to the ridge of Watershed 1. Associated with these rocks are numerous outcroppings of mainly basaltic flow rocks. In Watersheds 2 and 3, large portions of this bedrock are covered with a mantle ( 20 m) of andesitic colluvium. Upper elevations in Watersheds 2 and 3 are underlain by deposits of Sardine andestic flow rock. In Watershed 1, this formation is limited to the extreme northeast corner. Most bedrock of this type is relatively unweathered with many rugged escarpments and outcroppings. Source: Swanson, F. and M. James. 1975. Geology and Geomorphology of the H. J. Andrews Experimental Forest, Western Cascades, Oregon. USDA Forest Service Research Paper. PNW-188. 14pp. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   Undisturbed control.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   Watershed 2 serves as the control for both WS#1 and WS#3.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 3' ID='44'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='45'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.219943
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.241949
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.208031
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.224022
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   101.1
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   313
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   418
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1080
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='46'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2300
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.5 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   52
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   2771
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map (basis for listed channel length) was created using an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   .39 - 2.74
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 375 mm water equiv. at highest elevation. Transient snow zone with 25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='47'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   The overstory is dominated by old-growth Douglas-fir (Pseudotsuga menziesii)and western hemlock(Tsuga heterophylla) trees ranging in age from 100 to 500 years. Understory species include rhododendron (Rhododendron macrophyllum), vine maple (Acer circinatum), sword-fern (Polystichum munitum), and Oregon grape (Berberis nervosa). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Loam and clay loam soils derived from colluvium from reddish breccias and tuffs occur in ridgetop and steep slope positions in Watersheds 1, 2, and 3. Stone content ranges from 35 to 50%, generally increasing on south-facing slopes. Depth to weathered parent material is usually over 1 m. Soils derived from greenish breccias and tuffs are widely distributed. The surface and subsurface horizons are loam to clay loam with up to 50% gravel content by volume. Depth to parent material is 0.6 m to 1.2 m. Soils derived from deep deposits of andesite colluvium occupy most of the upper portions of Watersheds 2 and 3. The surface horizon is loam to sandy loam with substantial amounts of shotty concretions and andesite stones. Subsurface horizons are massive stony loams, silt loams, or clay loams containing 25 to 80% gravel. Most soil types in Watersheds 1, 2, and 3 have moderately high field capacities (approximately 20 cm H2O for the surface 1.2 m of soil) and rapid rates of saturated moisture movement. Percolation rates are typically greater than 12 cm/hr due to the large amount and size distribution of pore spaces and stone content (Rothacher et al 1967). Stone content is the dominant factor causing variation in soil moisture storage capacity (Dyrness 1969).  Dyrness, C. T. 1969. Hydrologic properties of soils in three small watersheds in the western Cascades of Oregon. U. S. Department of Agriculture Forest Service Research Note PNW-111. Portland, Oregon: Pacific Northwest Forest and Range Experiment Station. pp 17. Rothacher, J., C. T. Dyrness, and R. Fredricksen. 1967. Hydrologic and Related Characteristics of Three Small Watersheds in the Oregon Cascades. USDA Forest Service Pacific Northwest Forest and Range Experiment Station. 54 pp.   
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 1, 2, and 3 span the Little Butte-Sardine contact. Geology of these watersheds is roughly stratified by elevation. Bedrock of lower elevation areas of all three watersheds is dominated by reddish and buff-colored tuffs and breccias. At the mouth of Watershed 3, these rock types are buried under many feet of mixed colluvium exhibiting evidence of several periods of deposition. Sardine greenish tuffs and breccias dominate middle elevation bedrock in all three watersheds and extend to the ridge of Watershed 1. Associated with these rocks are numerous outcroppings of mainly basaltic flow rocks. In Watersheds 2 and 3, large portions of this bedrock are covered with a mantle ( 20 m) of andesitic colluvium. Upper elevations in Watersheds 2 and 3 are underlain by deposits of Sardine andestic flow rock. In Watershed 1, this formation is limited to the extreme northeast corner. Most bedrock of this type is relatively unweathered with many rugged escarpments and outcroppings.  Swanson, F. and M. James. 1975. Geology and Geomorphology of the H. J. Andrews Experimental Forest, Western Cascades, Oregon. USDA Forest Service Research Paper. PNW-188. 14pp. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   Roads (2.7 km) comprising 6% of the watershed area were built in 1959. In the winter 1962-63, 25% of the watershed area was cut in 3 patches (5.3, 8.1, and 11.3 ha). A high-lead cable yarding system was used. The slash was burned September, 1963. Undisturbed until 1959.   Significant debris flows occurred during flood events in Dec 1964 and Feb 1996.  Both of these events resulted in the destruction of the gaging station and extended periods (1-1.5 years) of either missing or estimated streamflow data.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   The control watershed is the adjacent WS#2.  Gaging stations are about .95 km apart.The control is about 60% the area of WS#3.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 6' ID='48'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='49'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.266808
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.183510
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.261544
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.177550
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   165
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   897
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1029
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='50'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2200
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.0 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   25
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   112
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map was based on an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map.  Note: the channel length listed seems unusually low and likely represents a failure in the road survey to capture all streams.  The high value of the drainage density range is from an earlier calculation (method unknown)
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.86 - 1.50
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 400-650 mm water equiv. at highest elevation.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='51'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   Prior to cutting, the overstory was dominated by Douglas-fir (Pseudotsuga menziesii)and western hemlock(Tsuga heterophylla) trees ranging in age from 100 to 250 years. Understory species communities included vine maple-Oregon grape (Acer circinatum-Berberis nervosa), vine maple-whipplea (Acer circinatum- Whipplea modesta), and rhododendron-Oregon grape (Rhododendron macrophyllum-Berberis nervosa). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Pre-treatment description'>
+		   stocking density = 383 stems per ha; basal area=70 m2/ha (std dev 10.5 over 3 1-acre plots)
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils derived from deep andesitic landslide deposits occupy about 75% of the total area in Watersheds 6, 7, and 8. Texture is generally gravelly loam to sandy gravelly loam with gravel content ranging from 5 to 20% by volume (Dyrness and Hawk, unpublished). In most locations, effective rooting depth is virtually unlimited because of very deep, unconsolidated parent material. Silt loam soils derived from andesite and associated tuffs and breccias occupy approximately 10% of the watershed area, mostly at higher elevations in Watersheds 6 and 8 (Dyrness and Hawk, unpublished). Because the texture and structure of soils in Watersheds 6, 7, and 8 are nearly identical to those of the lower-elevation watersheds, Harr et al. (1982) suggest that the soil hydraulic properties should be nearly identical as well.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 6, 7, and 8 range in elevation from 860 m to 1200 m and are underlain by two units of the Sardine Formation (Swanson and James 1975). Basalt and andesite lava flows underlie ridges of all three watersheds and near the outlets of Watersheds 7 and 8. Welded and non-welded ash flow tuffs underlie middle elevations of all three watersheds and the lower elevations of Watershed 6. This rock is of similar lithology as in the middle elevations of the lower watersheds, but is noticeably less weathered. No flow rock is exposed in Watersheds 6, 7, or 8.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   Watershed 6 was 100% clearcut in 1974. Logging began in May 1974 and was completed in August 1974.  All timber was removed in a clearcut.  Logs in 90% of the watershed were yarded uphill by a high-lead cable system; logs in the remaining 10% were yarded by tractor. Logging residue was broadcast burned in the spring of 1975, and the watershed was planted with Douglas-fir seedlings in the spring of 1976. A road (still present and maintained) was contructed through the watershed.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Succession description'>
+		   WS#6 was replanted with Douglas-fir seedlings in 1976 and has reached canopy closure.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   WS#6 is adjacent to WS#7 which is adjacent to WS#8 (the control). No significant difference was found among WS 6, 7, 8 basal area pre-treatment.  The Hi-15 Meteorological Station (H15MET) is centrally located just below the WS#7 gaging station.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 7' ID='52'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='53'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.269748
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.179209
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.264579
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.173875
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   15.4
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   158
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   938
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1102
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='54'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2200
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.0 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   34
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   125
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map was based on an extended spring runoff network (essentailly a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. Note: the channel length listed seems unusually low and likely represents a failure in the road survey to capture all streams. The high value of the drainage density range is from an earlier calculation (method unknown)
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.81 - 1.09
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 400-650 mm water equiv. at highest elevation.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='55'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   Prior to cutting, the overstory was dominated by Douglas-fir (Pseudotsuga menziesii)and western hemlock(Tsuga heterophylla) trees ranging in age from 100 to 250 years. Understory species communities included vine maple-Oregon grape (Acer circinatum-Berberis nervosa), vine maple-whipplea (Acer circinatum- Whipplea modesta), and rhododendron-Oregon grape (Rhododendron macrophyllum-Berberis nervosa). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Pre-treatment description'>
+		   stocking density = 333 stems per ha; basal area=75 m2/ha (std dev 4.8 over 3 1-acre plots)
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils derived from deep andesitic landslide deposits occupy about 75% of the total area in Watersheds 6, 7, and 8. Texture is generally gravelly loam to sandy gravelly loam with gravel content ranging from 5 to 20% by volume (Dyrness and Hawk, unpublished). In most locations, effective rooting depth is virtually unlimited because of very deep, unconsolidated parent material. Silt loam soils derived from andesite and associated tuffs and breccias occupy approximately 10% of the watershed area, mostly at higher elevations in Watersheds 6 and 8 (Dyrness and Hawk, unpublished). Because the texture and structure of soils in Watersheds 6, 7, and 8 are nearly identical to those of the lower-elevation watersheds, Harr et al. (1982) suggest that the soil hydraulic properties should be nearly identical as well.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 6, 7, and 8 range in elevation from 860 m to 1200 m and are underlain by two units of the Sardine Formation (Swanson and James 1975). Basalt and andesite lava flows underlie ridges of all three watersheds and near the outlets of Watersheds 7 and 8. Welded and non-welded ash flow tuffs underlie middle elevations of all three watersheds and the lower elevations of Watershed 6. This rock is of similar lithology as in the middle elevations of the lower watersheds, but is noticeably less weathered. No flow rock is exposed in Watersheds 6, 7, or 8.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   1974: WS7 was shelterwood cut (approximately 60% of basal area was removed, 30 to 40 trees per acre were left as overstory), WS8 was left alone as the control. WS7 was tractor logged above the road and cable logged below the road. Tractor skidding was straight downhill in WS7. 1975: WS7 was broadcast burned just below the road. 1976: District planted all of WS7 in June of 1976.  1984: The rest of the canopy in WS7 was removed. 2001: WS7 was thinned to 14 foot spacing, which leaves about 220 trees per acre. <p/> In the summer of 1974, 60% of the total basin area was removed in a shelter- wood cut.  Temporary spur roads were constructed into the middle of and down the southwest ridge of the watershed.  Logs in the upper 60% of the watershed were yarded by tractor.  Skid trails were not preplanned, but tractor operators were instructed for safety reasons to yard downhill.  Consequently, soil compaction by tractors was limited to short segments of main skid trails immediately upslope from the upper spur road.  Logs in the lower 40% were yarded partially suspended by a skyline cable system.  Logging residue was broadcast burned only on the lower half of the watershed in the spring of 1975. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Succession description'>
+		   Young Douglas-fir stand was accidently targeted and thinned to 220 trees per acre in 2001.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   WS#7 is adjacent to WS#8 (the control). No significant difference was found among WS 6, 7, 8 basal area pre-treatment.  The Hi-15 Meteorological Station (H15MET) is centrally located just below the WS#7 gaging station.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 8' ID='56'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='57'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.273397
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.173302
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.265881
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.167183
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   21.4
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   165
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   993
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   1182
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='58'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2200
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.0 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   26
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   318
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   The stream channel map (basis for listed channel length) was created using an extended spring runoff network (essentially a maximum) based on geomorphology and determined using a road survey (personal correspondence, G. Lienkaemper). Then, the map includes both perennial and intermittent channels. A GIS system was used to determine channel length from the channel map. The drainage density range shown also incorporates an earlier calculation (the lesser value) based on summer flow regime (exact method unknown).
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   0.82 - 1.49
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Mean annual maximum is about 400-650 mm water equiv. at highest elevation.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='59'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   Watershed 8 occupies the transition between western hemlock and silver fir (Abies amabilis) zones (Dyrness and Hawk 1972). In 1970, 33 percent of overstory trees were in the 450-year age class and 67 percent were younger than 125 years (Dyrness and Hawk 1972). Understory species communities included vine maple-Oregon grape (Acer circinatum-Berberis nervosa), vine maple-whipplea (Acer circinatum- Whipplea modesta), and rhododendron-Oregon grape (Rhododendron macrophyllum-Berberis nervosa). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Pre-treatment description'>
+		   stocking density = 512 stems per ha; basal area=84 m2/ha (std dev= 8.3 over 3 1-acre plots).  Source: R. L. Williamson
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils derived from deep andesitic landslide deposits occupy about 75% of the total area in Watersheds 6, 7, and 8. Texture is generally gravelly loam to sandy gravelly loam with gravel content ranging from 5 to 20% by volume (Dyrness and Hawk, unpublished). In most locations, effective rooting depth is virtually unlimited because of very deep, unconsolidated parent material. Silt loam soils derived from andesite and associated tuffs and breccias occupy approximately 10% of the watershed area, mostly at higher elevations in Watersheds 6 and 8 (Dyrness and Hawk, unpublished). Because the texture and structure of soils in Watersheds 6, 7, and 8 are nearly identical to those of the lower-elevation watersheds, Harr et al. (1982) suggest that the soil hydraulic properties should be nearly identical as well.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   The H. J. Andrews Experimental Forest is underlain exclusively by bedrock of volcanic origin. Three geologic formations have been mapped for the HJA and correspond roughly with elevation (Swanson and James 1975). Little Butte Formation bedrock (&lt; approximately 760 m elevation), dated as Oligocene to lower Miocene, consists of massive tuffs and breccias derived from mudflows and pyroclastic flows. Sardine Formation bedrock (760 m to 1200 m), dated as middle to late Micocene, consists of two units: a lower unit containing welded and non-welded ash flows (notably less altered than underlying Little Butte rocks of similar lithology), and an upper unit containing basalt and andesite lava flows. Andesitic and basaltic lava flows (&gt;1200 m), termed "Pliocascade" Formation, were deposited during the Pliocene and overlie Sardine Formation material. Watersheds 6, 7, and 8 range in elevation from 860 m to 1200 m and are underlain by two units of the Sardine Formation (Swanson and James 1975). Basalt and andesite lava flows underlie ridges of all three watersheds and near the outlets of Watersheds 7 and 8. Welded and non-welded ash flow tuffs underlie middle elevations of all three watersheds and the lower elevations of Watershed 6. This rock is of similar lithology as in the middle elevations of the lower watersheds, but is noticeably less weathered. No flow rock is exposed in Watersheds 6, 7, or 8.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   Undisturbed control.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   WS#8 is the control for WS#6 and WS#7. No significant difference was found among WS 6, 7, 8 basal area pre-treatment. The Hi-15 Meteorological Station (H15MET) is centrally located just below the WS#7 gaging station.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 9' ID='60'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='61'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.203933
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.257815
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.201110
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.251515
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   8.5
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   247
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   432
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   731
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='62'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2260
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.5 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   58
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   No channel map developed.
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Transient snow zone with &lt;25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='63'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   No comprehensive vegetation survey has been conducted for Watershed 9. Vegetation in Reference Stand 8 (located in Watershed 9) has a partially open canopy dominated by old-growth (&gt; 250 years) Douglas-fir with an understory of emergent Douglas-fir, western hemlock, Pacific yew (Taxus brevifolia), and bigleaf maple (Acer macrophyllum) (Hawk et al. 1978). 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils are largely weathered to reddish brown latosols, in tuff and breccia parent materials.  Although the parent rock may be weathered to great depths, soil horizonation is only weakly developed. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   Little geologic analysis has been conducted in Watershed 9. Because Watershed 9 and Watershed 1 of Lookout Creek Watershed are adjacent, it is reasonable to assume Watershed 9 bedrock is similar to that occupying similar elevations (425 m and 700 m) in Watershed 1. Lower elevation areas (i.e., &lt; 600 m) in Watershed 1 are dominated by reddish and buff-colored Little Butte tuffs and breccias. Sardine greenish tuffs and breccias dominate middle elevation (from approximately 600 m to 900 m) bedrock in Watershed 1. Rock outcrops are numerous in Watershed 9.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   Undisturbed control.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   WS#9 serves as the control for WS#10.  WS#9 is located just south of the mouth of Lookout Creek along the Blue River Reservoir. 
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Watershed 10' ID='64'>
+      <DESCRIPTOR_DESC DESC='Watershed Spatial Characteristics' ID='65'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='North bounding coordinate'>
+		   44.220152
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='West bounding coordinate'>
+		   -122.259966
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='South bounding coordinate'>
+		   44.216786
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='East bounding coordinate'>
+		   -122.254439
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Area'>
+		   10.2
+		 </INFO>
+        <INFO SIZE='s' UNITS='degrees azmuth' TITLE='Aspect'>
+		   250
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Minimum watershed elevation'>
+		   473
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l' TITLE='Maximum watershed elevation'>
+		   679
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Ecological Characteristics' ID='66'>
+        <INFO SIZE='s' UNITS='millimeters' TITLE='Mean annual precipitation'>
+		   2260
+		 </INFO>
+        <INFO SIZE='s' UNITS='Megajoules per square meter per day' TITLE='Mean annual radiation'>
+		   11.5 - 13.0
+		 </INFO>
+        <INFO SIZE='s' UNITS='Percent' TITLE='Slope'>
+		   58
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Slope description'>
+		   Slope determined from sampling of 10 m DEM
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters' TITLE='Channel length'>
+		   456
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Channel length description'>
+		   Simple channel map seems to only include perennial stream channel.
+		 </INFO>
+        <INFO SIZE='s' UNITS='km/km2' TITLE='Drainage density'>
+		   4.47
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Mean snowpack description'>
+		   Typically, snow begins falling in November with peak snow water equivalent storage estimated to occur in Feb-April. Transient snow zone with &lt;25% precip falling as snow at lowest elevations.
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Watershed Descriptions' ID='67'>
+        <INFO SIZE='l'  TITLE='Pre-treatment vegetation'>
+		   The entire watershed is dominated by &gt;450-year-old Douglas-fir stands.  Four major plant community types were identified: Pseudotsuga-Castanopsis (xeric), Pseudotsuga-Rhododendron-Gaultheria (warm-mesic), Pseudotsuga-Rhododendron-Berberis (mesic), and Pseudotsuga-Acer-Polystichum (cool-moist). Patches of the old-growth forest, destroyed by fire and wind, have been replaced by younger age classes of Douglas-fir.  Climax vegetation for the forest communities is, for the most part, Douglas-fir.  Some hemlock is found near the streams. Understory vegetation includes golden chinkapin, Pacific rhododendron, salal, vine-maple, Oregon grape and sword fern.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Soil description'>
+		   Soils are largely weathered to reddish brown latosols, in tuff and breccia parent materials.  Although the parent rock may be weathered to great depths, soil horizonation is only weakly developed.(S1)  Soils are approximately 130 cm  deep and the parent material is commonly weathered to a depth of 3.7 meters over much of the watershed. Soils are classified as Typic Dystrochrepts (Inceptisols U.S. Dept. of Ag. 1960,1972) and range from gravelly silty clay loam to very gravelly clay loam. The &lt;2-mm fractoin of these soils ranges from 20% to 50% clay and contains gravel amounting to 30%-50% of the soil volume.  The forest floor ranges from 3-5 cm thick and is classified as a  duff-mull.  
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Geology description'>
+		   Soils are underlain by highly weathered volcanic tuffs and breccias.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Treatment History'>
+		   100% clearcut in 1975.  Clearcutting occured during the spring and summer of 1975, and a running skyline system yarded all logs and unmerchantable material &gt;20 cm in diameter or &gt;2.4 meters in length uphill to a single landing.  A significant debris flow in Feb 1986 destroyed the gaging station. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Comparison description'>
+		   WS#9 is the control watershed for WS#10
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+  </SECTION>
+  <SECTION TYPE='Gauging Stations' ID='68'>
+    <TYPES>
+      <RES_SITE_NAME CODE='GSLOOK'>Lookout Creek Gauging Station (USGS 14161500)</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSMACK'>Mack Creek Gauging Station</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS01'>GSWS01</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS02'>GSWS02</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS03'>GSWS03</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS06'>GSWS06</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS07'>GSWS07</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS08'>GSWS08</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS09'>GSWS09</RES_SITE_NAME>
+      <RES_SITE_NAME CODE='GSWS10'>GSWS10</RES_SITE_NAME>
+    </TYPES>
+    <STATION NAME='Lookout Creek Gauging Station (USGS 14161500)' ID='69'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='70'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21030869
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2559783
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='71'>
+        <INFO SIZE='s' UNITS='liters per second' TITLE='Minimum QC Threshold'>
+		   125
+		 </INFO>
+        <INFO SIZE='s' UNITS='liters per second' TITLE='Maximum QC Threshold'>
+		   50000
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='Mack Creek Gauging Station' ID='72'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='73'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21947948
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.1661758
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='74'>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 seconds
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   5 minute
+		 </INFO>
+        <INFO SIZE='s' UNITS='liters per second' TITLE='Data Accuracy'>
+		   +/- .005 ft.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a tape measurement (main flume) or staff gage measurement (fish ladder)is taken and compared to the recorder readings. Significant variations from the tape reading (or staff gage) would indicate changes in recorder operation. The fixed pointer position for reading the tape is compared with rule measurements inside the main flume every summer to assure tape accuracy.  The fish ladder is also checked annually for consistent elevation difference between the v-notch flume and the stilling well intake - the same elevation as the  zero point of the staff gage - to assure the staff gage adjustment factor has not changed. Tri-weekly measurements of the water level in the main flume and fish ladder also serve as a rough check of tape accuracy, but flume level measurements are only possible and accurate during low flow periods.<p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS01' ID='75'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='76'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.20733954
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2569646
+		 </INFO>
+        <INFO SIZE='s' UNITS='meters; a.m.s.l.' TITLE='Elevation'>
+		   457
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   10-01-1952
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   Present
+		 </INFO>
+        <INFO SIZE='s' UNITS='hectares' TITLE='Watershed Area'>
+		   95.9
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Associated Watershed'>
+		   WS01
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Associated meteorological station'>
+		   Climatic Station (CS2MET) or Primary Met Station (PRIMET)
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Photo URL'>
+		   http://www.fsl.orst.edu/images/hja/cd_aaq/aaq_089.jpg
+		 </INFO>
+        <INFO SIZE='l'  TITLE='History'>
+		   The original shelter was replaced with the construction of a new shelter at WS#1 during the summer of 1999.  The shelter houses the stilling well, chart recorder, PAT recorder, and data logger.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Weir Description'>
+		   Trapezoidal flume established October 1952.  The original flume was rebuilt in summer 1956 and operational on 1 Sep 1956.  A v-notch plate is attached during summers for the measurement of low streamflow beginning July 1999.  The v-notch plate is typically installed in June and removed in October.  <p/>Flume measurements looking upstream, the flume floor is 9 1/4 inches wide, the right hand side is sloped up at 25 degrees, the left hand side is sloped up at 24 degrees.
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Weir Calibration and Modification History'>
+		   The rating curves were developed throughout the 1950"s and early 1960"s. A separate curve was developed after the flume replacement of 1956. This curve is still in use, but a program to collect new rating points (since 1996) is establishing a resource for checking and potentially making corrections to the original equations.  The v-notch rating curve was developed with points collected 1999-2001.  The equations and general dates of operation are shown online at http://www.fsl.orst.edu/lter/data/framepage.cfm?frameURL=studies/hf04/hf04fmt.htm&amp;topnav=135 (file ratecurv.txt)
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='77'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   10-01-1952
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   Present
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Data Logger Sampling Interval'>
+		   15 seconds
+		 </INFO>
+        <INFO SIZE='s'  TITLE='Summary Interval '>
+		   5 minute
+		 </INFO>
+        <INFO SIZE='s' UNITS='liters per second' TITLE='Data Accuracy'>
+		   +/-.005 ft. gage height
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Instrumentation Description'>
+		   A Model 2 Stevens Instruments Position Analog Transmitter (PAT) recorder is controlled by a data logger (Campbell Scientific CR10X).  This is a float pulley potentiometer device, modified to read the potentiometer and not the current. A Stevens Type A Model 71 Water-level Recorder (chart) was the primary collection mechanism from the beginning of record through WY 1998.  The chart is still maintained as a backup.  WS#1 also relays information to the base station at Andrews Hdqtrs on an hourly basis through a Campbell Scientific radio telemetry unit.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Methods Description'>
+		   Historically, the site has been visited on a 3-week basis and "check sheets" guide the data collection and maintenance activities for the visit. Beginning WY 1993, sites are visited on a weekly basis for a quick check, with the full check every 3 weeks. The discharge measurement is initialized every visit to a reference measurement of stream height taken by a hook gage located in a stilling well.  <p/> The A-35 charts were digitized through WY 1998 with a SummaGraphics 1812 digitizer to create the final record. All CR10 and chart records are processed such that gage height is corrected to the hook gage measurements.  Time is corrected on chart data to the nearest half-hour when the Model 71 recorder clock experienced problems.  Missing periods have generally been estimated using regression equations with a paired watershed. All data is graphically displayed and corrected for general noise, logs caught in flume, etc. Range and date checks are performed on final data.  Data is stored as a series of time and stage values reduced to a series of points representing straight line segments.  Data can be aggregated at any time interval using rating equation databases. 
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Sensor History'>
+		   In October of 1996 a Model 2 Stevens Instruments Position Analog Transmitter (PAT) and a Campbell Scientific CR-10X datalogger were installed at WS#1 in addition to the Stevens Type A recorder already present. The A-35 charts now serve as the backup to the PAT recorder. <p/>The PAT was replaced on September 24, 1999 with another PAT that had been altered by the removal of the output conditioning circuit (altered PAT). The PAT output now is directly from the precision potentiometer.<p/>On June 6, 1998 vandals destroyed the hook gage at WS #1. Tape measurements in the flume were used as the reference until a new hook gage was installed on July 1, 1998. The new hook gage was installed using the same elevation relationship to the flume intake as the old hook gage.
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy.<p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS02' ID='78'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='79'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21216403
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2437421
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Photo URL'>
+		   http://www.fsl.orst.edu/images/hja/cd_aaq/aaq_090.jpg
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='80'>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS03' ID='81'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='82'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21951977
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2417193
+		 </INFO>
+        <INFO SIZE='m'  TITLE='Photo URL'>
+		   http://www.fsl.orst.edu/images/hja/cd_aaq/aaq_100.jpg
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='83'>
+        <INFO SIZE='s'  TITLE='Begin Date'>
+		   1952-10-01
+		 </INFO>
+        <INFO SIZE='s'  TITLE='End Date'>
+		   present
+		 </INFO>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS06' ID='84'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='85'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.26160362
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.1796076
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='86'>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS07' ID='87'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='88'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.26477809
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.174105
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='89'>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS08' ID='90'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='91'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.26618583
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.169586
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='92'>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS09' ID='93'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='94'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.2013659
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2576599
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='95'>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+    <STATION NAME='GSWS10' ID='96'>
+      <DESCRIPTOR_DESC DESC='Hydrologic Gauging Station' ID='97'>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Latitude'>
+		   44.21718584
+		 </INFO>
+        <INFO SIZE='s' UNITS='decimal degrees' TITLE='Longitude'>
+		   -122.2599328
+		 </INFO>
+      </DESCRIPTOR_DESC>
+      <DESCRIPTOR_DESC DESC='Stream Discharge' ID='98'>
+        <INFO SIZE='l'  TITLE='Calibration History'>
+		   We do not have a system of calibration for the recorders, but do have a regular and frequent system of checks that would indicate any problems. Every week a hookgage measurement is taken and compared to the recorder readings. Significant variations from the hookgage would indicate changes in recorder operation, but factors such as chart spooling, or stilling well response time during rapidly changing stage levels must also be considered. The hookgage position/elevation in relation to the flume is surveyed every year. Tri-weekly measurements of the water level in the flume also serve as a rough check of hookgage accuracy. <p/> Accuracy of the chart recorder is controlled by the gearing of the pulley standard; there is really nothing to calibrate. The same holds true for the PAT, but the potentiometer can malfunction resulting in electronic spikes or dead zones in the range of resistance, and we inspect annually to assure full range of resistance. The potentiometer has no adjustments, so it must be replaced if problems occur.  
+		 </INFO>
+      </DESCRIPTOR_DESC>
+    </STATION>
+  </SECTION>
+</BODY></HTML>

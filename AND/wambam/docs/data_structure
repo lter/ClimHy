@@ -1,0 +1,32 @@
+This is a cheat sheet describing the data structure of sample.xml
+I have this so I dont get lost and have to rethink what I've done.
+
+
+SERVICE NAME = $properties->{name}
+SERVICE DOCUMENTATION = $properties->{documentation}[0]
+METHODS
+	my @all_method_refs = keys (%{$properties->{method}});
+		# %{properties->{method} is a hash of references to the methods
+		# @all_method_refs is a list of references to the methods
+	foreach my $method (@all_method_refs) {
+		METHOD = $method
+
+		my $ref = $properties->{method}->{$method}; 
+				# $ref is reference to method objects
+			PASSWORD = $ref->{password}[0]
+			USER = $ref->{user}[0]
+			DSN = $ref->{DSN}[0]
+			QUERY = $ref->{sqlcmd}[0]
+			DOCUMENTATION = $ref->{documentation}[0]	# method documentation
+
+			RESPONSES
+				my @responses = (@{$ref->{response_names}});
+				foreach my $response (@responses) {
+					CONTENT = %{$response}->{content}
+					TYPE = %{$response}->{type}
+
+			REQUESTS
+				my @requests = (@{$ref->{request_names}});
+				foreach my $request (@requests) {
+					CONTENT = %{$request}->{content}
+					TYPE = %{$request}->{type}

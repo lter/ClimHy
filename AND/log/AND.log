@@ -1,0 +1,40 @@
+HTTP/1.1 200 OK
+Date: Fri, 06 Mar 2009 20:18:56 GMT
+Accept-Ranges: bytes
+ETag: "f8b261a15e9c81:3121"
+Server: Microsoft-IIS/6.0
+Content-Length: 48374
+Content-Type: text/plain
+Last-Modified: Fri, 18 Jul 2008 20:30:22 GMT
+Client-Date: Fri, 06 Mar 2009 20:18:47 GMT
+Client-Peer: 128.193.113.44:80
+Client-Response-Num: 1
+MicrosoftOfficeWebServer: 5.0_Pub
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+C:\Inetpub\climhy\harvest.pl executed 03/06/2009
+
+AND
+Started with AND,H15MET,20070108
+Ended with AND,H15MET,20080102
+Started with AND,H15MET,20070108
+Ended with AND,H15MET,20080102
+Started with AND,H15MET,20070109
+Ended with AND,H15MET,20080103
+Started with AND,H15MET,20070108
+Finished with AND,H15MET,20080102
+
+
+Summary of AND follows:
+	ON INPUT:
+		1444 lines read. 
+		0 blank lines. 
+		4 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		2880 data points prepared for entry into centralized database.

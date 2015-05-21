@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 12 Jan 2009 19:54:57 GMT
+Accept-Ranges: bytes
+ETag: "190189-7480-217b8240"
+Server: Apache/2.0.52 (Unix) PHP/5.2.5 mod_jk/1.2.19 mod_perl/2.0.3 Perl/v5.8.8
+Content-Length: 29824
+Content-Type: text/plain; charset=ISO-8859-1
+Last-Modified: Mon, 10 Mar 2008 16:59:45 GMT
+Client-Date: Mon, 12 Jan 2009 19:54:57 GMT
+Client-Peer: 129.219.78.150:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/12/2009
+
+CAP
+Started with CAP,5,20070101
+Finished with CAP,5,20071231
+
+
+Summary of CAP follows:
+	ON INPUT:
+		366 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		4015 data points prepared for entry into centralized database.

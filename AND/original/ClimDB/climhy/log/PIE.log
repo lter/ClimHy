@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:14:04 GMT
+Accept-Ranges: bytes
+ETag: "f0b63bcb4a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 35099
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:07:34 GMT
+Client-Date: Fri, 23 Jan 2009 11:14:07 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+PIE
+Started with PIE,IP1101500,20080121
+Ended with PIE,IP1101500,20090122
+Started with PIE,IP1102000,20071013
+Ended with PIE,IP1102000,20090122
+Started with PIE,PR1101000,20080511
+Finished with PIE,PR1101000,20090122
+
+
+Summary of PIE follows:
+	ON INPUT:
+		1096 lines read. 
+		0 blank lines. 
+		3 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		1093 data points prepared for entry into centralized database.

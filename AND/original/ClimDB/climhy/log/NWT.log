@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Wed, 21 Feb 2007 21:50:37 GMT
+Accept-Ranges: bytes
+ETag: "110-1869a8-8c2efa00"
+Server: Apache/2.2.4 (Unix) mod_ssl/2.2.4 OpenSSL/0.9.7l PHP/5.2.0
+Content-Length: 1599912
+Content-Type: text/plain
+Last-Modified: Wed, 21 Feb 2007 21:50:32 GMT
+Client-Date: Wed, 21 Feb 2007 21:50:38 GMT
+Client-Peer: 128.138.77.16:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 02/21/2007
+
+NWT
+Started with NWT,C1,19521001
+Ended with NWT,C1,20061231
+Started with NWT,D1,19521001
+WARNING(101): PREC = 158 (min=0 max=150) failed QC test at:
+	 NWT,D1,19791130	 input file (NWT) line 29739
+
+Ended with NWT,D1,20061231
+Started with NWT,SADDLE,19810709
+WARNING(101): PREC = 165 (min=0 max=150) failed QC test at:
+	 NWT,SADDLE,19950531	 input file (NWT) line 44708
+
+WARNING(101): PREC = 161 (min=0 max=150) failed QC test at:
+	 NWT,SADDLE,19950605	 input file (NWT) line 44713
+
+Finished with NWT,SADDLE,20061231
+
+
+Summary of NWT follows:
+	ON INPUT:
+		48940 lines read. 
+		0 blank lines. 
+		3 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		3 warnings raised. 
+	ON OUTPUT:
+		195748 data points prepared for entry into centralized database.

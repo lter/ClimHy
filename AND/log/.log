@@ -1,0 +1,30 @@
+<H1>Harvest summary for H.J. Andrews Experimental Forest</H1><H4>From http://lterweb.forestry.oregonstate.edu/fsdbdata/reaper/and_clim.txt</H4><H4>To <a href=' http://climhy.lternet.edu'>http://climhy.lternet.edu</a></H4>Harvest initiated on Fri, 06 Mar 2009 20:18:56 GMT
+<BR>The data file was last modified on : Fri, 18 Jul 2008 20:30:22 GMT
+<BR><P><H3>Started with AND,H15MET,20070108
+</H3><H3>Ended with AND,H15MET,20080102
+</H3><H3>Started with AND,H15MET,20070108
+</H3><H3>Ended with AND,H15MET,20080102
+</H3><H3>Started with AND,H15MET,20070109
+</H3><H3>Ended with AND,H15MET,20080103
+</H3><H3>Started with AND,H15MET,20070108
+</H3><H3>Finished with AND,H15MET,20080102
+</H3><H3>Summary of AND follows:
+</H3><H3>	ON INPUT:
+</H3>		1444 lines read. 
+<BR>		0 blank lines. 
+<BR>		4 header lines. 
+<BR><H3>	DURING PROCESS:
+</H3>		0 duplicate errors raised.
+<BR>		0 process errors raised. (first 0 listed above)
+<BR>		0 warnings raised. 
+<BR><H3>	ON OUTPUT:
+</H3>		2880 data points prepared for entry into centralized database.
+<BR><P>
+
+Would you like to see the <A HREF=http://climhy.lternet.edu/data/AND.in>harvested data</A> from H.J. Andrews Experimental Forest?<BR>
+
+
+Would you like to see the <A HREF=http://climhy.lternet.edu/data/AND.out>prepared data</A> from H.J. Andrews Experimental Forest?<BR>
+
+
+Would you like to return to the <A HREF='http://climhy.lternet.edu/harvest/harvest.htm'>CLIMDB/HYDRODB participant web page</A>?<BR>

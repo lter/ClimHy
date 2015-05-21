@@ -1,0 +1,1425 @@
+1
+SELECT distinct s.site_code, rsd.descriptor_value 
+FROM site s,
+research_site_descriptor rsd,
+research_site r
+WHERE s.site_id = r.site_id 
+AND r.res_site_id = rsd.res_site_id 
+AND rsd.descriptor_type_id = 230
+2
+SELECT distinct s.site_code, s.site_name 
+FROM site s,
+research_site_module m,
+research_site r
+WHERE s.site_id = r.site_id 
+AND r.res_site_id = m.res_site_id 
+3
+SELECT p.email1, p.first_name, p.last_name 
+FROM personnel p,
+site_personnel_role r,
+site s
+WHERE p.email1 != 'null' AND s.site_id = r.site_id
+AND r.personnel_id = p.personnel_id AND s.site_code = 'NWT' 
+AND r.personnel_role_id = '3' AND r.res_module_id = '1'
+11
+SELECT variable_name, variable 
+	FROM climdb_variables
+12
+SELECT site_id, site_name,	site_code
+	FROM site
+	WHERE site_code = 'NWT'
+13
+SELECT r.res_site_id, st.res_sitetype_id, r.res_site_code, r.site_id
+	FROM research_site r, research_site_sitetype st
+	WHERE r.res_site_code = 'C1' AND
+		r.res_site_id=st.res_site_id AND
+		st.res_sitetype_id>2 AND
+		r.site_id = '26'
+14
+SELECT variable, QC_MIN, QC_MAX, descriptor_category_id 
+FROM climdb_variables
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '524'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '524'
+13
+SELECT r.res_site_id, st.res_sitetype_id, r.res_site_code, r.site_id
+	FROM research_site r, research_site_sitetype st
+	WHERE r.res_site_code = 'D1' AND
+		r.res_site_id=st.res_site_id AND
+		st.res_sitetype_id>2 AND
+		r.site_id = '26'
+14
+SELECT variable, QC_MIN, QC_MAX, descriptor_category_id 
+FROM climdb_variables
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '523'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '523'
+13
+SELECT r.res_site_id, st.res_sitetype_id, r.res_site_code, r.site_id
+	FROM research_site r, research_site_sitetype st
+	WHERE r.res_site_code = 'SADDLE' AND
+		r.res_site_id=st.res_site_id AND
+		st.res_sitetype_id>2 AND
+		r.site_id = '26'
+14
+SELECT variable, QC_MIN, QC_MAX, descriptor_category_id 
+FROM climdb_variables
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '6' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '7' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '21' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '8' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '9' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '10' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '11' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '13' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '12' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '5' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '14' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '19' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '20' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_min' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '64'
+15
+SELECT r.descriptor_value, t.descriptor_type_code
+FROM research_site_descriptor r,
+descriptor_type t,
+descriptor_category_type c
+WHERE r.descriptor_type_id = t.descriptor_type_id AND 
+t.descriptor_type_id = c.descriptor_type_id AND
+t.descriptor_type_code like '%qc_max' AND 
+c.descriptor_category_id = '15' AND 
+r.res_site_id = '64'
+201
+TRUNCATE TABLE harvest_raw
+202
+ALTER TABLE harvest_raw
+	DROP CONSTRAINT PK_harvest_raw
+203
+BULK INSERT harvest_raw FROM '\\GINKGO\forwww\lter\climhy\\data\NWT.out'
+WITH (
+DATAFILETYPE = 'char',
+FIELDTERMINATOR = ',',
+ROWTERMINATOR = '\n'
+)
+204
+select distinct site_code,station,sampledate from harvest_raw
+  	  group by site_code,station,sampledate,variable
+  	  having count(*)>1
+205
+ALTER TABLE harvest_raw
+	ADD CONSTRAINT PK_harvest_raw
+	PRIMARY KEY (res_site_id,sampledate,variable)
+206
+UPDATE climdb_raw
+SET	climdb_raw.value=harvest_raw.value,
+	climdb_raw.flag=harvest_raw.flag,
+	climdb_raw.last_update=getdate()
+FROM climdb_raw INNER JOIN harvest_raw
+	ON climdb_raw.site_code = harvest_raw.site_code
+		AND climdb_raw.site_id = harvest_raw.site_id
+		AND climdb_raw.res_site_id = harvest_raw.res_site_id
+		AND climdb_raw.station = harvest_raw.station
+		AND climdb_raw.variable = harvest_raw.variable
+		AND climdb_raw.sampledate = harvest_raw.sampledate
+207
+DELETE climdb_site_variable_dates WHERE res_site_id in 
+(SELECT distinct res_site_id FROM harvest_raw)
+208
+INSERT into climdb_raw 
+	(res_site_id,site_id,site_code,station,variable,sampledate,value,flag,last_update)
+SELECT harvest_raw.res_site_id,harvest_raw.site_id,harvest_raw.site_code,harvest_raw.station,harvest_raw.variable,harvest_raw.sampledate,harvest_raw.value,harvest_raw.flag,getdate()
+FROM climdb_raw right outer join harvest_raw
+	ON climdb_raw.res_site_id = harvest_raw.res_site_id
+	AND climdb_raw.site_id = harvest_raw.site_id
+	AND climdb_raw.site_code = harvest_raw.site_code
+	AND climdb_raw.station = harvest_raw.station
+	A

@@ -1,0 +1,7 @@
+x ARC - Arctic Tundra
+Tk::Error: Not an ARRAY reference at .\bin/display.pm line 773.
+ Tk callback for .frame1.button
+ Tk::__ANON__ at C:/Perl/site/lib/Tk.pm line 247
+ Tk::Button::butUp at C:/Perl/site/lib/Tk/Button.pm line 111
+ <ButtonRelease-1>
+ (command bound to event)

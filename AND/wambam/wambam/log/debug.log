@@ -1,0 +1,23 @@
+Fri Apr 16 10:34:27 2004
+D:\forwww\lter\climdb\wambam\soap_server.pl
+
+DEBUGGING INFO
+
+---------------------------------------------------------
+[INFO] The following paths have been set as global values:
+
+PATH        ->	D:/forwww/lter/climdb/wambam/
+SERVICE     ->	climdb_agg
+SERVICE_DIR ->	D:/forwww/lter/climdb/wambam/services/
+URL         ->	http://wwwdata.forestry.oregonstate.edu/climdb/wambam/soap_server.pl
+WSDL        ->	http://wwwdata.forestry.oregonstate.edu/climdb/wambam/soap_server.pl?wsdl=climdb_agg
+PROPERTIES  ->	D:/forwww/lter/climdb/wambam/services/climdb_agg.xml
+PORT		->	http://wwwdata.forestry.oregonstate.edu/climdb/wambam/services/climdb_agg_handler.pl
+---------------------------------------------------------
+
+
+[INFO] File called 'D:/forwww/lter/climdb/wambam/services/climdb_agg.xml' has been located
+[INFO] 'D:/forwww/lter/climdb/wambam/services/climdb_agg_handler.pl' is up to date:
+	 skipping
+[INFO] 'D:/forwww/lter/climdb/wambam/services/climdb_agg_client.pl' is up to date:
+	 skipping

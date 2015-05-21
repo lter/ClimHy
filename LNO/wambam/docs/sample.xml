@@ -1,0 +1,58 @@
+
+<service name="sample">
+ <documentation>This is a sample web service built by wambam. It is for demonstration.</documentation>
+ <method name="research_site_list" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>select res_site_name, res_site_code from research_site where site_id = ?</sqlcmd>
+  <documentation>This demonstrates a array of responses to a SQL query. Give me an site id and I'll return a list of all res_site_codes and res_sites_names corresponding to that id.</documentation>
+  <request_names type="int">id</request_names>
+  <response_names type="string">name</response_names>
+  <response_names type="string">code</response_names>
+ </method>
+ <method name="getSite" type="JAVA">
+  <class>Sites</class>
+  <documentation>This demonstrtates the JAVA API to wambam. Point me to the java code and I'll do the rest. This method uses JAVA/JDBC and returns a site name given a site id.</documentation>
+  <request_names type="int">id</request_names>
+  <response_names type="string">name</response_names>
+  <module path="../bin/">getSite.java</module>
+ </method>
+ <method name="add_it" type="PERL">
+  <documentation>This demonstrates the Perl API. This web service simply adds two numbers and returns the result. The heavy lifting is done by a perl module called add.pm. the subroutine add_it takes two argumetns adds them and returns the result. If I know where it is I'll do the rest.</documentation>
+  <request_names type="string">a</request_names>
+  <request_names type="string">b</request_names>
+  <response_names type="string">c</response_names>
+  <module path="C:/cgi-bin/wambam/bin/">add.pm</module>
+ </method>
+ <method name="sites" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>select site_name, loc1, loc2 from site where site_id &gt;= ? and site_id &lt;= ?</sqlcmd>
+  <documentation>Give me to site ids (high, low) and I'll return the site_name,loc1 and ,loc2 for each site in the range between high and low.</documentation>
+  <request_names type="int">low</request_names>
+  <request_names type="int">high</request_names>
+  <response_names type="string">name</response_names>
+  <response_names type="string">loc1</response_names>
+  <response_names type="string">loc2</response_names>
+ </method>
+ <method name="empty" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>select last_name from personnel where personnel_id = 44</sqlcmd>
+  <documentation>This simply returns the name of the person with the personnel id of 44</documentation>
+  <response_names type="string">name</response_names>
+ </method>
+ <method name="personnel_email" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>select email1 from personnel where personnel_id = ?</sqlcmd>
+  <documentation>This demonstrates a simple SQL query. supply an id number and I'll return the corresponding email address.</documentation>
+  <request_names type="int">id</request_names>
+  <response_names type="string">email</response_names>
+ </method>
+</service>
+

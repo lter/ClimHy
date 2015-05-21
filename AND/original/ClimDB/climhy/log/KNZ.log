@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:11:43 GMT
+Accept-Ranges: bytes
+ETag: "f0f218674a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 15583
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:04:46 GMT
+Client-Date: Fri, 23 Jan 2009 11:11:46 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+KNZ
+Started with KNZ,06879650,20071107
+Finished with KNZ,06879650,20090122
+
+
+Summary of KNZ follows:
+	ON INPUT:
+		444 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		886 data points prepared for entry into centralized database.

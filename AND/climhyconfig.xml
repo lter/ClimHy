@@ -1,0 +1,194 @@
+﻿<?xml version ="1.0"?>
+<configuration xmlns="urn:microsoft-catalog:XML_Metabase_V64_0">
+<MBProperty>
+<IIS_Global	Location ="."
+		SessionKey="496353625000000034000000100000000b0200000168000001680000cc3253140c5fbee55814a24c53ba19275a95ecff052a91f3d83acadea46a5c6fe1bf6ea1f66b9e05efff4905a89f2715692210ad99213be9a87fe6e9"
+	>
+</IIS_Global>
+<IIsWebServer	Location ="/LM/W3SVC/1674759256"
+		AuthFlags="0"
+		ServerAutoStart="TRUE"
+		ServerBindings=":80:climhy.lternet.edu"
+		ServerComment="Climatic / Hydrologic Database"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1674759256/filters"
+		AdminACL="49634462f0000000a400000040000000062765b82607e89b222d183fc59a395276674ffea3c9ca6bf57d1653803d20e3997ce4f3b0e8df0847d27fcc0536219544e5c4c8e0a7ee18f70d506dc6ba1f4f42d10c39c8bb0982bd3167c2aec060c5e2fbe5989c1d23436fef287d0e9ed893ebcfd7da54bcce09db8aac57a76deca5ef9a712fa99fe3d5ccf5c6702e0694cc946197b531796c502c7a11eae48b64a2003b54a003b19cb2a5595d1bb2d6f0ee2000ab651a333bca2f36ffba0d6a86565628d31e939058b9255cbfe9e18afde2a2f5faed75293e89f9c02dac5eb8ac88c2379cc9ef501f02bbf4750328268c5ea76f0f32ded5918a"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1674759256/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/1674759256/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		MimeMap=".csv,text/csv
+			.pl,application/vnd.ms-excel"
+		Path="C:\Inetpub\climhy"
+		ScriptMaps=".asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.pl,C:\Perl\bin\perlis.dll,5
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST"
+		UNCPassword="49634462500000000600000040000000062765b827070000a04f7977a04f7977496bacaf6e79c4d72a0ecf2b6ff9b3ca0000000069006f002a0ecf2b6ff9b3ca065a23e5dab9d605301d1100301d1100181d1100fb98f143"
+	>
+</IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1674759256/root/data"
+		MimeMap=".in,text
+			.out,text"
+	>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="49634462500000000600000040000000062765b827070000a04f7977a04f7977496bacaf6e79c4d72a0ecf2b6ff9b3ca0000000069006f002a0ecf2b6ff9b3ca065a23e5dab9d605301d1100301d1100181d1100fb98f143"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+</IIsWebDirectory>
+<IIsWebDirectory	Location ="/LM/W3SVC/1674759256/root/temp"
+		MimeMap=".csv,text/comma-separated-values"
+	>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="49634462500000000600000040000000062765b827070000a04f7977a04f7977496bacaf6e79c4d72a0ecf2b6ff9b3ca0000000069006f002a0ecf2b6ff9b3ca065a23e5dab9d605301d1100301d1100181d1100fb98f143"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+</IIsWebDirectory>
+<IIsInheritedProperties	Location ="inherited:/LM/W3SVC/1674759256"
+		AdminACL="49634462f0000000a400000040000000062765b82607e89b222d183fc59a395276674ffea3c9ca6bf57d1653803d20e3997ce4f3b2e8df0847d27fcc0536219544e5c4c8e0a7ee18f50d506dc6ba1f4f42d10c39c8bb0982bd3167c2acc060c5e2fbe5989c1d23436fef287d0e9ed893ebcfd7da54bcce09db8aac57a76deca5ef9a712fa99fe3d5ccf5c6702e0694cc946197b531796c502c7a11eae48b64a2003b54a003b19cb2a5595d1bb2d6f0ee2000ab651a333bca2f36ffba0d6a86565628d31e939058b9255cbfe9e18afde2a2f5faed75293e89f9c02dac5eb8ac88c2379cc9ef501f02bbf4750328268c5ea76f0f32ded5918a"
+		AllowKeepAlive="TRUE"
+		AnonymousUserName="IUSR_ALPINE"
+		AnonymousUserPass="49634462700000002200000040000000062765b87b07d61bf72d463f6a9a1152416716fe83c9fe6bae7d4953f03d71e3997c000001000100becd430ba2b0394abb6ca6ff56deaf3b02000000000000000000000000000000000000000000000001000000000000004c4d454d680000004080160000000000"
+		AppAllowClientDebug="FALSE"
+		AppAllowDebugging="FALSE"
+		AppPoolId="DefaultAppPool"
+		AspAllowOutOfProcComponents="TRUE"
+		AspAllowSessionState="TRUE"
+		AspAppServiceFlags="0"
+		AspBufferingLimit="4194304"
+		AspBufferingOn="TRUE"
+		AspCalcLineNumber="TRUE"
+		AspCodepage="0"
+		AspDiskTemplateCacheDirectory="%windir%\system32\inetsrv\ASP Compiled Templates"
+		AspEnableApplicationRestart="TRUE"
+		AspEnableAspHtmlFallback="FALSE"
+		AspEnableChunkedEncoding="TRUE"
+		AspEnableParentPaths="FALSE"
+		AspEnableTypelibCache="TRUE"
+		AspErrorsToNTLog="FALSE"
+		AspExceptionCatchEnable="TRUE"
+		AspExecuteInMTA="0"
+		AspKeepSessionIDSecure="0"
+		AspLCID="2048"
+		AspLogErrorRequests="TRUE"
+		AspMaxDiskTemplateCacheFiles="2000"
+		AspMaxRequestEntityAllowed="204800"
+		AspProcessorThreadMax="25"
+		AspQueueConnectionTestTime="3"
+		AspQueueTimeout="4294967295"
+		AspRequestQueueMax="3000"
+		AspRunOnEndAnonymously="TRUE"
+		AspScriptEngineCacheMax="250"
+		AspScriptErrorMessage="An error occurred on the server when processing the URL.  Please contact the system administrator."
+		AspScriptErrorSentToBrowser="TRUE"
+		AspScriptFileCacheSize="500"
+		AspScriptLanguage="VBScript"
+		AspScriptTimeout="90"
+		AspSessionMax="4294967295"
+		AspSessionTimeout="20"
+		AspTrackThreadingModel="FALSE"
+		AuthChangeURL="/iisadmpwd/achg.asp"
+		AuthExpiredURL="/iisadmpwd/aexp.asp"
+		AuthExpiredUnsecureURL="/iisadmpwd/aexp3.asp"
+		AuthNotifyPwdExpURL="/iisadmpwd/anot.asp"
+		AuthNotifyPwdExpUnsecureURL="/iisadmpwd/anot3.asp"
+		CGITimeout="300"
+		CacheISAPI="TRUE"
+		ConnectionTimeout="120"
+		ContentIndexed="TRUE"
+		DefaultDoc="Default.htm,Default.asp,index.htm"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		DownlevelAdminInstance="1"
+		HttpErrors="400,*,FILE,C:\WINDOWS\help\iisHelp\common\400.htm
+			401,1,FILE,C:\WINDOWS\help\iisHelp\common\401-1.htm
+			401,2,FILE,C:\WINDOWS\help\iisHelp\common\401-2.htm
+			401,3,FILE,C:\WINDOWS\help\iisHelp\common\401-3.htm
+			401,4,FILE,C:\WINDOWS\help\iisHelp\common\401-4.htm
+			401,5,FILE,C:\WINDOWS\help\iisHelp\common\401-5.htm
+			401,7,FILE,C:\WINDOWS\help\iisHelp\common\401-1.htm
+			403,1,FILE,C:\WINDOWS\help\iisHelp\common\403-1.htm
+			403,2,FILE,C:\WINDOWS\help\iisHelp\common\403-2.htm
+			403,3,FILE,C:\WINDOWS\help\iisHelp\common\403-3.htm
+			403,4,FILE,C:\WINDOWS\help\iisHelp\common\403-4.htm
+			403,5,FILE,C:\WINDOWS\help\iisHelp\common\403-5.htm
+			403,6,FILE,C:\WINDOWS\help\iisHelp\common\403-6.htm
+			403,7,FILE,C:\WINDOWS\help\iisHelp\common\403-7.htm
+			403,8,FILE,C:\WINDOWS\help\iisHelp\common\403-8.htm
+			403,9,FILE,C:\WINDOWS\help\iisHelp\common\403-9.htm
+			403,10,FILE,C:\WINDOWS\help\iisHelp\common\403-10.htm
+			403,11,FILE,C:\WINDOWS\help\iisHelp\common\403-11.htm
+			403,12,FILE,C:\WINDOWS\help\iisHelp\common\403-12.htm
+			403,13,FILE,C:\WINDOWS\help\iisHelp\common\403-13.htm
+			403,15,FILE,C:\WINDOWS\help\iisHelp\common\403-15.htm
+			403,16,FILE,C:\WINDOWS\help\iisHelp\common\403-16.htm
+			403,17,FILE,C:\WINDOWS\help\iisHelp\common\403-17.htm
+			403,18,FILE,C:\WINDOWS\help\iisHelp\common\403.htm
+			403,19,FILE,C:\WINDOWS\help\iisHelp\common\403.htm
+			403,20,FILE,C:\WINDOWS\help\iisHelp\common\403-20.htm
+			404,*,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			404,2,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			404,3,FILE,C:\WINDOWS\help\iisHelp\common\404b.htm
+			405,*,FILE,C:\WINDOWS\help\iisHelp\common\405.htm
+			406,*,FILE,C:\WINDOWS\help\iisHelp\common\406.htm
+			407,*,FILE,C:\WINDOWS\help\iisHelp\common\407.htm
+			412,*,FILE,C:\WINDOWS\help\iisHelp\common\412.htm
+			414,*,FILE,C:\WINDOWS\help\iisHelp\common\414.htm
+			415,*,FILE,C:\WINDOWS\help\iisHelp\common\415.htm
+			500,12,FILE,C:\WINDOWS\help\iisHelp\common\500-12.htm
+			500,13,FILE,C:\WINDOWS\help\iisHelp\common\500-13.htm
+			500,15,FILE,C:\WINDOWS\help\iisHelp\common\500-15.htm
+			500,16,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,17,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,18,FILE,C:\WINDOWS\help\iisHelp\common\500.htm
+			500,19,FILE,C:\WINDOWS\help\iisHelp\common\500.htm"
+		InProcessIsapiApps="C:\WINDOWS\system32\inetsrv\httpext.dll
+			C:\WINDOWS\system32\inetsrv\httpodbc.dll
+			C:\WINDOWS\system32\inetsrv\ssinc.dll
+			C:\WINDOWS\system32\msw3prt.dll"
+		LogExtFileFlags="LogExtFileDate | LogExtFileTime | LogExtFileClientIp | LogExtFileUserName | LogExtFileSiteName | LogExtFileServerIp | LogExtFileMethod | LogExtFileUriStem | LogExtFileUriQuery | LogExtFileHttpStatus | LogExtFileWin32Status | LogExtFileServerPort | LogExtFileUserAgent | LogExtFileHttpSubStatus"
+		LogFileDirectory="C:\WINDOWS\system32\LogFiles"
+		LogFilePeriod="1"
+		LogFileTruncateSize="20971520"
+		LogOdbcDataSource="HTTPLOG"
+		LogOdbcPassword="49634462600000001200000040000000062765b854079e1bce2d743f3a9a5e5276676f006c0075006d00650032005c00570049004e0044004f00570053005c00730079007300740065006d00330032005c006d006d0063002e0065007800650000006c00beeb0053"
+		LogOdbcTableName="InternetLog"
+		LogOdbcUserName="InternetAdmin"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="1"
+		MaxBandwidth="4294967295"
+		MaxConnections="4294967295"
+		MinFileBytesPerSec="240"
+		PasswordChangeFlags="AuthChangeDisable | AuthAdvNotifyDisable"
+		ScriptMaps=".asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST"
+		WAMUserName="IWAM_ALPINE"
+		WAMUserPass="49634462700000002200000040000000062765b80407d11b972d5f3f229a1e521d677efee3c9f36bc07d0753b03d55e3997c000001000100becd430ba2b0394abb6ca6ff56deaf3b02000000000000000000000000000000000000000000000001000000000000004c4d454d680000004080160000000000"
+	>
+</IIsInheritedProperties>
+</MBProperty>
+</configuration>

@@ -1,0 +1,40 @@
+
+<service name="ms001">
+	<documentation>Test web service for auto harvesting H.J. Andrews data for ClimDB; ala soap.</documentation>
+ <method name="TMINairpri01" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>#dbLterM&amp;ta</password>
+  <user>ltermeta </user>
+  <sqlcmd>SELECT date, mintemp, ft3 FROM fsdbdata..ms00101 WHERE date&gt;= ? and date&lt;= ? and probe = 'AIRPRI01'</sqlcmd>
+  <documentation>given a date range, I will return the mintemp, its flag and the date for each point in the date range. This method uses probe AIRPRI01.</documentation>
+  <request_names type="date">begin</request_names>
+  <request_names type="string">end</request_names>
+  <response_names type="string">date</response_names>
+  <response_names type="string">tmin</response_names>
+  <response_names type="string">flag</response_names>
+ </method>
+ <method name="TMAXairpri01" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>#dbLterM&amp;ta</password>
+  <user>ltermeta </user>
+  <sqlcmd>SELECT date, maxtemp, ft2 FROM fsdbdata..ms00101 WHERE date&gt;= ? and date&lt;=? and probe = 'AIRPRI01'</sqlcmd>
+  <documentation>given a date range, I will return the maxtemp, its flag and the date for each point in the date range. This method uses probe AIRPRI01.</documentation>
+  <request_names type="string">begin</request_names>
+  <request_names type="string">end</request_names>
+  <response_names type="string">date</response_names>
+  <response_names type="string">tmean</response_names>
+  <response_names type="string">flag</response_names>
+ </method>
+ <method name="TMEAairpri01" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>#dbLterM&amp;ta</password>
+  <user>ltermeta </user>
+  <sqlcmd>SELECT date, meantemp, ft1 FROM fsdbdata..ms00101 WHERE date&gt;= ? and date&lt;= ? and probe = 'AIRPRI01'</sqlcmd>
+  <documentation>given a date range, I will return the meantemp, its flag and the date for each point in the date range. This method uses probe AIRPRI01.</documentation>
+  <request_names type="string">begin</request_names>
+  <request_names type="string">end</request_names>
+  <response_names type="string">date</response_names>
+  <response_names type="string">tmean</response_names>
+  <response_names type="string">flag</response_names>
+ </method>
+</service>

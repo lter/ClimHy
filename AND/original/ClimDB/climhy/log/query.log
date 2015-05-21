@@ -1,0 +1,238 @@
+ xxx 501a
+
+drop table #metstn
+
+ xxx 501a
+
+drop table #gsstn
+
+ xxx 501a
+
+drop table #all_sites
+
+ xxx 501f
+
+select vd.site_code, s.site_name,
+  count(distinct(res_site_id)) as ms_stns,
+  convert(character(12),min(vd.first_seen),110) as first_seen,
+  convert(character(12),max(vd.most_recent),110) as most_recent, 
+  convert(character(12),max(vd.last_update),110) as last_update
+  into #metstn  
+  from climdb_site_variable_dates vd, site s
+  where res_site_id in (select vd.res_site_id 
+from climdb_site_variable_dates vd,research_site_sitetype st
+  where vd.res_site_id=st.res_site_id and st.res_sitetype_id=4)
+  and vd.site_code in (select rs.res_site_code from research_site rs, research_site_module rsm 
+    where rs.res_site_id=rsm.res_site_id and rsm.res_module_id=1 and rs.res_site_parent_id is null)
+  and vd.site_code=s.site_code
+    group by vd.site_code,s.site_name order by vd.site_code
+
+ xxx 501g
+
+select vd.site_code, s.site_name,count(distinct(res_site_id)) as gs_stns,convert(character(12),min(vd.first_seen),110) as first_seen,
+  convert(character(12),max(vd.most_recent),110) as most_recent, convert(character(12),max(vd.last_update),110) as last_update
+  into #gsstn  
+  from climdb_site_variable_dates vd, site s
+  where res_site_id in (select vd.res_site_id from climdb_site_variable_dates vd,research_site_sitetype st
+  where vd.res_site_id=st.res_site_id and st.res_sitetype_id=3)
+  and vd.site_code in (select rs.res_site_code from research_site rs, research_site_module rsm 
+    where rs.res_site_id=rsm.res_site_id and rsm.res_module_id=1 and rs.res_site_parent_id is null)
+  and vd.site_code=s.site_code
+    group by vd.site_code,s.site_name order by vd.site_code
+
+ xxx 501h
+
+select ms.site_code, ms.site_name,isnull(ms.ms_stns,0) as ms_stns,isnull(gs.gs_stns,0) as gs_stns,
+ms.first_seen,
+ms.most_recent,
+ms.last_update
+  from #metstn ms left join #gsstn gs on gs.site_code=ms.site_code
+
+ xxx 304
+
+SELECT DISTINCT s.site_code, s.site_name 
+FROM site s, 
+	research_site r,
+	climdb_site_variable_dates d
+WHERE s.site_id = r.site_id AND 
+	r.res_site_id = d.res_site_id AND 
+	d.site_id = s.site_id
+ORDER by s.site_name
+ xxx 306
+
+INSERT INTO session
+(session_id,datetime,ip_address,requestor,organization,purpose)
+VALUES
+('117404',getdate(),'75.71.95.252','Erin Mannix','University of  Colorado at Boulder','climate diagram assignment')
+306 retruns = 1
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'BES'
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'BES'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'BES'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'BES'
+ xxx 305
+
+SELECT site_name, site_name
+	FROM site
+	WHERE site_code = 'BES'
+ xxx 306
+
+INSERT INTO session
+(session_id,datetime,ip_address,requestor,organization,purpose)
+VALUES
+('117405',getdate(),'75.71.95.252','Erin Mannix','University of  Colorado at Boulder','climate diagram assignment')
+306 retruns = 1
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'CAP'
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'CAP'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'CAP'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'CAP'
+ xxx 305
+
+SELECT site_name, site_name
+	FROM site
+	WHERE site_code = 'CAP'
+ xxx 304
+
+SELECT DISTINCT s.site_code, s.site_name 
+FROM site s, 
+	research_site r,
+	climdb_site_variable_dates d
+WHERE s.site_id = r.site_id AND 
+	r.res_site_id = d.res_site_id AND 
+	d.site_id = s.site_id
+ORDER by s.site_name
+ xxx 306
+
+INSERT INTO session
+(session_id,datetime,ip_address,requestor,organization,purpose)
+VALUES
+('117406',getdate(),'75.71.95.252','Erin Mannix','University of  Colorado at Boulder','climate diagram assignment')
+306 retruns = 1
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'YEF'
+ xxx 302
+ 
+SELECT DISTINCT d.station, r.res_site_name
+FROM climdb_site_variable_dates d, 
+	research_site r,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'YEF'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 3 AND
+	d.site_code = 'YEF'
+ xxx 303
+
+SELECT DISTINCT d.variable, v.variable_name
+FROM climdb_site_variable_dates d,
+	research_site r,
+	climdb_variables v,
+	research_site_sitetype t
+WHERE d.res_site_id = r.res_site_id AND
+	t.res_site_id = r.res_site_id AND
+	v.variable = d.variable AND 
+	t.res_sitetype_id = 4 AND
+	d.site_code = 'YEF'
+ xxx 305
+
+SELECT site_name, site_name
+	FROM site
+	WHERE site_code = 'YEF'

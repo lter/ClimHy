@@ -1,0 +1,40 @@
+
+<service name="climdb_raw">
+	<documentation>This service allows the user to access the the climdb_raw table in the ClimHy database. See http://climhy.lternet.edu/climhy_ws_api.html for more documentation.</documentation>
+ <method name="get_day" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>select variable, value, flag from climdb_raw where res_site_id = ? and sampledate = ?</sqlcmd>
+  <documentation>This method returns all the data for a given research site id on a given day. Date is YYYY-MM-DD. An example request would be; res_site_id = 47 date = 2000-01-01. An example response would be TMAX,12,G,TMIN,10,G,TMEA,....</documentation>
+  <request_names type="int">res_site_id</request_names>
+  <request_names type="date">date</request_names>
+  <response_names type="string">variable</response_names>
+  <response_names type="string">value</response_names>
+  <response_names type="string">flag</response_names>
+ </method>
+ <method name="last_harvest" type="PERL">
+  <documentation>Given a site(AND) , a station (PRIMET), and a ClimDB long name (DAILY_AIRTEMP_MAX_C) , or short name (TMAX) , I will return the date of the last harvest of that varialbe.</documentation>
+  <request_names type="string">site</request_names>
+  <request_names type="string">station</request_names>
+  <request_names type="string">variable</request_names>
+  <response_names type="string">date</response_names>
+  <module path="/var/www/climhy/wambam/bin/">last_harvest.pm</module>
+ </method>
+ <method name="get_variable" type="SQL">
+  <DSN>DBI:ODBC:ALPINE</DSN>
+  <password>adm4cdb*</password>
+  <user>climdb</user>
+  <sqlcmd>SELECT variable,value,flag,sampledate from climdb_raw where site_code = ? and station = ? and variable = ? and sampledate&gt;= ? and sampledate &lt;=  ?</sqlcmd>
+  <documentation>This method returns the value for a variable between a given date range. Date is YYYY-MM-DD. i.e. given AND,PRIMET,TMAX,2000-01-01,2000-01-03. The response would consist the variable name(TMAX), its value and flag, and the date for the three values on the 1st through the third of January 2000.</documentation>
+  <request_names type="string">site_code</request_names>
+  <request_names type="string">station</request_names>
+  <request_names type="string">variable</request_names>
+  <request_names type="date">date</request_names>
+  <request_names type="date">date1</request_names>
+  <response_names type="string">variable</response_names>
+  <response_names type="string">value</response_names>
+  <response_names type="string">flag</response_names>
+  <response_names type="date">date</response_names>
+ </method>
+</service>

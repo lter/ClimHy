@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 27 Aug 2007 18:19:59 GMT
+Accept-Ranges: bytes
+ETag: "3fc010-12ba1-93264140"
+Server: Apache/2.0.55 (Unix) mod_perl/1.99_09 Perl/v5.8.0 mod_ssl/2.0.55 OpenSSL/0.9.7a DAV/2 PHP/4.4.1
+Content-Length: 76705
+Content-Type: text/plain; charset=ISO-8859-1
+Last-Modified: Mon, 27 Aug 2007 16:09:01 GMT
+Client-Date: Mon, 27 Aug 2007 18:19:59 GMT
+Client-Peer: 129.24.124.210:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 08/27/2007
+
+HBR
+Started with HBR,WS1P,20060101
+Ended with HBR,WS1P,20061231
+Started with HBR,WS2P,20060101
+Ended with HBR,WS2P,20061231
+Started with HBR,WS3P,20060101
+Ended with HBR,WS3P,20061231
+Started with HBR,WS4P,20060101
+Ended with HBR,WS4P,20061231
+Started with HBR,WS5P,20060101
+Ended with HBR,WS5P,20061231
+Started with HBR,WS6P,20060101
+Ended with HBR,WS6P,20061231
+Started with HBR,WS7P,20060101
+Ended with HBR,WS7P,20061231
+Started with HBR,WS8P,20060101
+Ended with HBR,WS8P,20061231
+Started with HBR,WS9P,20060101
+Finished with HBR,WS9P,20061231
+
+
+Summary of HBR follows:
+	ON INPUT:
+		3294 lines read. 
+		0 blank lines. 
+		9 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		3285 data points prepared for entry into centralized database.

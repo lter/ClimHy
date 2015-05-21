@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 14 May 2007 13:57:35 GMT
+Accept-Ranges: bytes
+ETag: "ceaddc42f96c71:8a0"
+Server: Microsoft-IIS/5.0
+Content-Length: 352310
+Content-Type: application/octet-stream
+Last-Modified: Mon, 14 May 2007 13:57:11 GMT
+Client-Date: Mon, 14 May 2007 14:00:08 GMT
+Client-Peer: 128.128.173.70:80
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 05/14/2007
+
+ARC
+Started with ARC,TLKMAIN,19880601
+WARNING(101): TMIN = -53.2 (min=-50 max=50) failed QC test at:
+	 ARC,TLKMAIN,19890125	 input file (ARC) line 240
+
+WARNING(101): TMEA = -55.6 (min=-50 max=50) failed QC test at:
+	 ARC,TLKMAIN,19890126	 input file (ARC) line 241
+
+WARNING(101): TMAX = -53.6 (min=-50 max=50) failed QC test at:
+	 ARC,TLKMAIN,19890126	 input file (ARC) line 241
+
+WARNING(101): TMIN = -57.6 (min=-50 max=50) failed QC test at:
+	 ARC,TLKMAIN,19890126	 input file (ARC) line 241
+
+WARNING(101): TMIN = -56.3 (min=-50 max=50) failed QC test at:
+	 ARC,TLKMAIN,19890127	 input file (ARC) line 242
+
+Finished with ARC,TLKMAIN,20061231
+
+
+Summary of ARC follows:
+	ON INPUT:
+		6789 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		5 warnings raised. 
+	ON OUTPUT:
+		40728 data points prepared for entry into centralized database.

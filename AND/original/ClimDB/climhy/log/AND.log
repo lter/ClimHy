@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:08:19 GMT
+Accept-Ranges: bytes
+ETag: "723db7e3497dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 128385
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:01:06 GMT
+Client-Date: Fri, 23 Jan 2009 11:08:23 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+AND
+Started with AND,GSLOOK,19981210
+WARNING(101): DSCH = 68809.95 (min=125 max=50000) failed QC test at:
+	 AND,GSLOOK,19981228	 input file (AND) line 20
+
+WARNING(101): DSCH = 52952.51 (min=125 max=50000) failed QC test at:
+	 AND,GSLOOK,19991126	 input file (AND) line 353
+
+WARNING(101): DSCH = 61730.73 (min=125 max=50000) failed QC test at:
+	 AND,GSLOOK,20051230	 input file (AND) line 2579
+
+WARNING(101): DSCH = 50687.16 (min=125 max=50000) failed QC test at:
+	 AND,GSLOOK,20060110	 input file (AND) line 2590
+
+Finished with AND,GSLOOK,20090121
+
+
+Summary of AND follows:
+	ON INPUT:
+		3697 lines read. 
+		0 blank lines. 
+		1 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		4 warnings raised. 
+	ON OUTPUT:
+		11088 data points prepared for entry into centralized database.

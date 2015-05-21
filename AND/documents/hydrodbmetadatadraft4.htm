@@ -1,0 +1,785 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name="Microsoft Theme 2.00" content="neon 011">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./hydrodbmetadatadraft4_files/filelist.xml">
+<title>HydroDBmetadatadraft4</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Suzanne Remillard</o:Author>
+  <o:LastAuthor>Suzanne Remillard</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>21</o:TotalTime>
+  <o:Created>2001-09-15T00:58:00Z</o:Created>
+  <o:LastSaved>2001-10-05T17:59:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>2037</o:Words>
+  <o:Characters>11616</o:Characters>
+  <o:Company>Oregon State University</o:Company>
+  <o:Lines>96</o:Lines>
+  <o:Paragraphs>23</o:Paragraphs>
+  <o:CharactersWithSpaces>14265</o:CharactersWithSpaces>
+  <o:Version>9.4402</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	mso-bidi-font-size:24.0pt;
+	font-family:Verdana;
+	color:#FFFF99;
+	mso-font-kerning:0pt;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:Verdana;
+	mso-bidi-font-family:Arial;
+	color:#FFFF99;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;
+	mso-bidi-font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:14.0pt;
+	font-family:Verdana;
+	mso-bidi-font-family:Arial;
+	color:#FFFF99;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:Verdana;
+	color:#FFFF99;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:Verdana;
+	color:#FFFF99;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;
+	mso-bidi-font-style:italic;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:8.0pt;
+	font-family:Verdana;
+	color:#FFFF99;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:white;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:white;}
+a:link, span.MsoHyperlink
+	{color:#CCFF66;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:aqua;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-even-header:url("./hydrodbmetadatadraft4_files/header.htm") eh1;
+	mso-header:url("./hydrodbmetadatadraft4_files/header.htm") h1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:393818221;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l0:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1250388628;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-622062164 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l2
+	{mso-list-id:1317733146;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1061612998 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l2:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1540320232;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1087056394 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l4
+	{mso-list-id:1805543877;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white background="./hydrodbmetadatadraft4_files/image001.jpg"
+lang=EN-US link="#ccff66" vlink=aqua style='tab-interval:.5in'>
+<!--[if gte mso 9]><xml>
+ <v:background id="_x0000_s1025" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="./hydrodbmetadatadraft4_files/image002.jpg" o:title="neobkgnd"
+   type="frame"/>
+ </v:background></xml><![endif]-->
+
+<div class=Section1>
+
+<p class=MsoTitle>DRAFT METADATA STANDARDS FOR SMALL, EXPERIMENTAL WATERSHEDS</p>
+
+<p class=MsoTitle>IN THE HYDRODB (STREAMFLOW DATA BASE) WEB SERVER PROJECT</p>
+
+<p class=MsoBodyText><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoBodyText><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Drafted
+by Fred Swanson, Doug Ryan, Don Henshaw, Julia Jones <o:p></o:p></span></p>
+
+<p class=MsoBodyText><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText>7/23/01</p>
+
+<p class=MsoBodyText><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal align=center style='margin-right:.5in;text-align:center'><span
+style='font-size:11.0pt;mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold'>(To
+download a Word version of this document, right click, then choose </span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:11.0pt;mso-bidi-font-size:
+10.0pt'>&quot;save target/link as</span></b><span style='font-size:11.0pt;
+mso-bidi-font-size:10.0pt;mso-bidi-font-weight:bold'>&quot; and specify a
+location: <a href="hydrodbmetadatadraft4.doc">Draft</a>)<o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<h1>What is HydroDB and Why Does it Require Metadata? </h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>HydroDB is a centralized server to provide open access to
+long-term stream flow and accompanying meteorological records from a large
+collection of research watersheds via the world-wide web.<span
+style="mso-spacerun: yes">  </span>We expect that easy access via the web will
+permit these long-term data to be extensively used for a wide variety of
+research, field application, educational, and other purposes.<span
+style="mso-spacerun: yes">  </span>However to make these long-term records most
+useful, they need to be accompanied by carefully prepared metadata that consist
+of explicit background descriptions of how these environmental measurements
+were made and what conditions existed in the watershed that may have influenced
+what was observed.<span style="mso-spacerun: yes">   </span>We propose the
+following standard metadata formats and content to provide the basic information
+that will be needed to make valid interpretations of long-term records in
+HydroDB by anticipated and emerging users in the future.<span
+style="mso-spacerun: yes">  </span>These standards represent a compromise
+between the resolution that is desirable for detailed analyses and comparisons
+within and among the many watersheds in HydroDB and the wish to keep the burden
+of gathering and recording metadata at a reasonable level.<span
+style="mso-spacerun: yes">  </span>Our plan is to start quite modestly in terms
+of types and temporal resolution of data (daily flow), but to build a base for
+future sharing of data of other types and resolution (e.g., precipitation and
+stream water chemistry).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>What precedents exist for the HydroDB Metadata Standards? </h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>National metadata standards for ecological data are
+emerging.<span style="mso-spacerun: yes">  </span>See the FGDC Biological
+Profile <a href="http://www.nbii.gov/datainfo/metadata/standards/index.html">http://www.nbii.gov/datainfo/metadata/standards/index.html</a>
+and the similar Ecological Metadata Language <a
+href="http://knb.ecoinformatics.org/software/eml/eml-1.4.html">http://knb.ecoinformatics.org/software/eml/eml-1.4.html</a>.<span
+style="mso-spacerun: yes">  </span>Sites are encouraged to develop data
+conforming to one of these standards for all study data.<span
+style="mso-spacerun: yes">  </span>The proposed more specific metadata elements
+for HydroDB are based on formats developed by Julia Jones and David Post for
+use in the Long-Term Ecological Research (LTER) Intersite Hydrology Project
+(see: <a href="http://www.fsl.orst.edu/lter">http://www.fsl.orst.edu/~post/hydro/index.html</a>)
+and from standards developed in the ClimDB project for climate data <a
+href="http://www.lternet.edu/community/committees/climate/climstan/climfmt.html">http://www.lternet.edu/community/committees/climate/climstan/climfmt.html</a>.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>How will metadata be provided to HydroDB?</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The listed metadata elements will be prepared by each of the
+individual sites. <span style="mso-spacerun: yes"> </span>Elements are divided
+into those representing 1) the overall research study area, such as, principal
+investigator, data set contact person, etc., 2) watershed metadata elements
+describing watershed hydrologic characteristics, 3) gauging station location, weir
+description, methods, etc., and 4) meteorological station (precipitation gauge
+and temperature) location, description, methods, etc. Sites will be responsible
+to enter/cut-and-paste their metadata into Web forms that will be established
+at the central database site.<span style="mso-spacerun: yes">  </span>Web
+addresses linking more specific study information online at the individual
+sites may be included as metadata elements. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Research Site
+Metadata:<o:p></o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>Research
+     site name:</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>Principal
+     Investigator/Database contact person/Other researchers:</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>Address
+     (for each investigator or contact person):</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>Phone
+     (for each investigator or contact person):</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>Email:
+     (for each investigator or contact person):</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>URL
+     for site webpage:</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>URL
+     for the research site’s webpage location covering relevant watershed studies:
+     (webpage should include study abstract, watersheds in study, study dates
+     (begin/end), funding sources that supported data collection, experimental
+     design, quality assurance/quality control procedures (cite publications
+     where possible), data accuracy, data collection/instrumentation/analysis
+     methods, calibration/rating curve description and history, web links to
+     other related hydrologic studies at the site, web links to relevant
+     supporting materials, publications).</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo3;tab-stops:list .5in'>URL of
+     research site’s webpage location showing a topographic map of the research
+     site and the associated gauged watersheds (1:24,000 scale) with the
+     location clearly marked of each measuring weir, precipitation gage, and
+     approximate watershed boundaries.<span style="mso-spacerun: yes"> 
+     </span>Alternatively, such a map can be pasted into the metadata.<span
+     style="mso-spacerun: yes">  </span>[USGS topographic maps can be down
+     loaded from the web for all states (except Alaska &amp; Puerto Rico) at: <a
+     href="http://navigator2.maptech.com/homepage/index.cfm">http://navigator2.maptech.com/homepage/index.cf<span
+     style='mso-bookmark:_Hlt519907316'>m</span><span style='mso-bookmark:_Hlt519907316'></span></a><![if !supportNestedAnchors]><a
+     name="_Hlt519907316"></a><![endif]>]</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>Watershed Metadata </h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>(for each gauged watershed or weir)<b style='mso-bidi-font-weight:
+normal'><span style="mso-spacerun: yes">  </span></b>[Note:<span
+style="mso-spacerun: yes">  </span>In cases of spatially hierarchic (i.e.,
+nested) watershed structures, if the information for a subset watershed is the
+same as information listed for the parent watershed, then those metadata
+elements do not need to be repeated and can be left blank.]<b style='mso-bidi-font-weight:
+normal'><o:p></o:p></b></p>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Watershed name (show on map, item 8 in Research Site Metadata)
+[common name – add note of explanation if watershed is part of a nested set of
+watersheds or other complication]:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Watershed code name (abbreviated code for watershed typically
+used in data sets):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Parent watershed code name (show parent watershed code name if
+watershed falls within the boundary of a larger, gauged watershed that is part
+of the study area):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Hydrologic regime (e.g., perennial/ephemeral;
+rain/rain-on-snow/snowmelt):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Watershed bounding coordinates (latitude/longitude in decimal
+degrees (5 decimal places) of rectangle bounding the watershed):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Watershed area (ha):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Aspect (<sup>o</sup>) (general exposure of watershed;
+direction of stream channel):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Watershed minimum and maximum elevation (m):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Weir/Gauging Station name (if different from watershed) (show
+on map, item 8 of Research Site Metadata):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Weir/Station location (latitude/longitude in decimal degrees –
+5 decimal places):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>11.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Weir elevation (m):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>12.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Begin date:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>13.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>End date:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>14.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Log interval (data logger sampling interval (e.g., 15 second,
+1 minute)):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>15.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Summary interval - finest time step output for streamflow data
+(i.e., 15 minute, hourly, daily):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>16.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Weir type and instrumentation description:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>17.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Weir calibration and modification history (dates of major
+modifications or recalibrations – if documented in site records, give
+directions to that information):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>18.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Methods (field collection, data aggregation, and quality
+assurance methods):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>19.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Data accuracy (specify units):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>20.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Identify precipitation gauging and ambient air temperature
+measurement location/name that best represents conditions in the watershed
+monitored by this weir:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>21.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>URL of weir photograph:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>22.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Channel length (m) [note: This is channel length of the entire
+stream network in the study watershed.<span style="mso-spacerun: yes"> 
+</span>Specify perennial and/or intermittent and define criteria for
+differentiating.<span style="mso-spacerun: yes">  </span>Specify how the
+channel head, hence length, is defined using one or more methods, e.g., a)
+field observations of threshold channel cross-sectional area; b) critical
+drainage area of channel head modeled with cumulative drainage area function in
+GIS analysis of DEM; c) contour crenulation criteria (specify criteria and map
+scale); d) blue lines on map (specify map scale).]:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>23.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Drainage density (km/km<sup>2</sup>):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>24.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>[note:<span style="mso-spacerun: yes">   </span>Divide channel
+length (#7, above) by drainage area.]</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>25.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Mean watershed slope (%) [note: this is basin-wide, average
+hillslope gradient.<span style="mso-spacerun: yes">  </span>Specify methods,
+e.g., sampling of DEM or topographic map.]:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>26.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Average annual precipitation (mm):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>27.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Pre-treatment vegetation (species) and cover types:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>28.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Pre-treatment stocking density (stems/ha), basal area (m<sup>2</sup>/ha),
+or LAI of dominant species (give geographic pattern, if relevant (e.g.,
+riparian vs. upland)):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>29.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Soil type (to family level of USDA soil classification
+system), depth (m), and porosity:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>30.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Geology (including surficial geology):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>31.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Mean annual radiation received (joules cm<sup>-2</sup> day<sup>-1</sup>):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>32.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Mean snowpack depth (m or mm water equivalent) or percent of
+precipitation falling as snow:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>33.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>History of treatments and natural disturbances in
+control/treated watersheds, both pre- and post-experimental manipulations
+(including fire history):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>34.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Hydrologically-relevant information on vegetation change
+(e.g., succession):</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>35.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Relationship with control watershed (e.g., similarities,
+dissimilarities, physical distance between control and experimental weirs and
+met stations, any disturbance that occurred in “control” watershed:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .25in'><![if !supportLists]>36.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Publications/References:</p>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>Meteorological Station Metadata (for each precipitation gauge &amp;
+temperature instrument)</h1>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Precipitation
+     gauge name (show on map, item 8 of Research Site Metadata):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Precipitation
+     gauge location<span style="mso-spacerun: yes">  </span>(latitude/longitude
+     in decimal degrees – 5 decimal places):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Precipitation
+     gauge elevation (m):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Begin
+     date:</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>End
+     date:</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Log
+     interval (data logger sampling interval (e.g., 15 second, 1 minute)):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Summary
+     interval - finest time step output for data (i.e., 15 minute, hourly,
+     daily):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Precipitation
+     gauge type and instrumentation description:</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Precipitation
+     gauge calibration and modification history (dates of modifications or recalibrations):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Ambient
+     air temperature instrument type, name, location, history, and elevation
+     (m) (if different from precipitation):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Snow
+     measurement type, method, name, location, history and elevation (m) (if
+     different from precipitation):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Methods:
+     Field collection, data aggregation, and quality assurance methods:</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>Data
+     accuracy (e.g., +-0.1<sup>o</sup>C temperature, +-10 mm precipitation):</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo8;tab-stops:list .5in'>URL of
+     precipitation gauge photograph:</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>How will hydrology and climate data be provided to HydroDB?</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Data will be prepared in a standard exchange format that
+will be a comma-delimited text file with header lines showing included data
+elements, and made available at a web address.<span style="mso-spacerun: yes"> 
+</span>Each site will provide the HydroDb administrator with this URL address
+for their data.<span style="mso-spacerun: yes">  </span>A list of the proposed
+data elements is shown below.<span style="mso-spacerun: yes">  </span>Data can
+be prepared as either a static text file, or dynamically produced using a web
+script.<span style="mso-spacerun: yes">  </span>A central web server will
+harvest each site periodically.<span style="mso-spacerun: yes">  </span>The
+HydroDB administrator will contact each site when problems occur.<span
+style="mso-spacerun: yes">  </span>The HydroDB project will use the identical
+harvest engine developed by LTER Information Managers in the ClimDB project
+(Henshaw et al.1998), and further enhancements are underway.<span
+style="mso-spacerun: yes">  </span>The ClimDB web page is here: </p>
+
+<p class=MsoNormal><a href="http://www.fsl.orst.edu/climdb/">http://www.fsl.orst.edu/climdb/<o:p></o:p></a></p>
+
+<p class=MsoNormal>HydroDB will be developing its own front-end web page.<span
+style="mso-spacerun: yes">  </span>Instructions for preparing ClimDB data are
+listed in the following document and are similar to HydroDB:</p>
+
+<p class=MsoNormal><a
+href="http://www.fsl.orst.edu/hydrodb/documents/climhydro_userguide.html">http://www.fsl.orst.edu/hydrodb/documents/climhydro_userguide.html</a></p>
+
+<p class=MsoNormal>Specific HydroDB preparation instructions will be developed.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>In this early prototype phase of HydroDB, sites are asked to
+prepare the following data in the standard exchange format:</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo10;
+tab-stops:list .75in'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Daily average discharge (L/sec) </p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo10;
+tab-stops:list .75in'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Daily precipitation (mm)</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo10;
+tab-stops:list .75in'><![if !supportLists]>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Ambient air temperature – daily maximum/minimum (<sup>o</sup>C).</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo10;
+tab-stops:list .75in'><![if !supportLists]>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span><![endif]>Snow water storage (daily presence/absence or mm of water).</p>
+
+<p class=MsoNormal style='margin-left:.25in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>In later phases of HydroDB, the following data will likely
+be added (the means of data access will be determined at a future date):</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo13;tab-stops:list .5in'>Discharge
+     (L/sec) at finer temporal resolutions, i.e., 15 min</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo13;tab-stops:list .5in'>Precipitation
+     (mm) at finer temporal resolutions, i.e., 15 min </li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>What Data Analysis Tools are planned for HydroDB?</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>A variety of software tools is available for hydrology
+data.<span style="mso-spacerun: yes">  </span>Initially, a monthly aggregation
+tool operating on the mean daily values will be implemented, as well as a
+graphical interface for displaying daily or monthly data.<span
+style="mso-spacerun: yes">  </span>Convenient unit-conversion tools (such as
+conversion of L/sec to cfs etc.)<span style="mso-spacerun: yes">  </span>will
+be added to facilitate use by a variety of users.<span style="mso-spacerun:
+yes">  </span>Potentially, other tools can be implemented on the HydroDB web
+site in the future, for example, a tool for converting files of continuous or
+other high temporal resolution streamflow records to coarser time steps (e.g.,
+daily).<span style="mso-spacerun: yes">  </span>The NSF-funded LTER Intersite
+Hydrology project, led by Julia Jones (Oregon State University) and David Post
+(OSU and CSIRO, Australia) has developed tools to compare treated/control
+watershed differences for use in published analytical approaches (e.g., Jones
+and Grant 1996, Jones 2000), and other analysis tools separating quickflow from
+baseflow, and making seasonal and annual comparisons of control basins (Post
+and Jones, in press; Jones and Post, in prep).<span style="mso-spacerun: yes"> 
+</span>Other tools to facilitate utilitarian and educational uses of these data
+(e.g. culvert design for fish passage) may also be added as they become
+available.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>Literature Cited</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Henshaw, Donald L.; Stubbs, Maryan; Benson, Barbara J. [and
+others]. 1998. Climate</p>
+
+<p class=MsoNormal>database project: a strategy for improving information
+access across research sites. In: Michener,</p>
+
+<p class=MsoNormal>William K.; Porter, John H.; Stafford, Susan G., eds. Data
+and information management in the</p>
+
+<p class=MsoNormal>ecological sciences: a resource guide; 1997 August 8-9;
+Albuquerque, NM. Albuquerque, NM:</p>
+
+<p class=MsoNormal>LTER Network Office, University of Mexico: 123-127. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Jones, J. A.
+2000. Hydrologic processes and peak discharge response to forest removal,</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>regrowth, and
+roads in 10 small experimental basins, western Cascades, Oregon. Water
+Resources</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Research. 36(9):
+2621-2642. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Jones, J. A.;
+Grant, G. E. 1996. Peak flow responses to clear-cutting and roads in small</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>and large basins,
+western Cascades, Oregon. Water Resources Research. 32(4): 959-974.</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Jones, J. A.;
+Post, D. A. [In prep.]. Long-term streamflow responses to forest canopy</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>removal in
+Oregon, New Hampshire, and North Carolina. Water Resources Research. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Post, D. A.;
+Jones, J. A. [In press]. Hydrologic regimes at four long-term ecological</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>research sites in
+New Hampshire, North Carolina, Oregon, and Puerto Rico. Advances in Water</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'>Resources.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

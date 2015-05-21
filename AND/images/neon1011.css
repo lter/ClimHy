@@ -1,0 +1,162 @@
+#FFFFCC.mstheme     { nav-banner-image: url(neoabnr.gif); separator-image: url(neoarule.gif); 
+               list-image-1: url(neoabul1.gif); list-image-2: 
+               url(neoabul2.gif); list-image-3: url(neoabul3.gif); 
+               navbutton-horiz-pushed: url(neoahns.gif); 
+               navbutton-horiz-normal: url(neoahnd.gif); 
+               navbutton-horiz-hovered: url(neoahnm.gif); 
+               navbutton-vert-pushed: url(neoavns.gif); 
+               navbutton-vert-normal: url(neoavnd.gif); 
+               navbutton-vert-hovered: url(neoavnm.gif); 
+               navbutton-home-normal: url(neoahom.gif); 
+               navbutton-home-hovered: url(neoahomm.gif); 
+               navbutton-home-pushed: url(neoahom.gif); navbutton-up-normal: 
+               url(neoaup.gif); navbutton-up-hovered: url(neoaupm.gif); 
+               navbutton-up-pushed: url(neoaup.gif); navbutton-prev-normal: 
+               url(neoapre.gif); navbutton-prev-hovered: url(neoaprem.gif); 
+               navbutton-prev-pushed: url(neoapre.gif); 
+               navbutton-next-normal: url(neoanex.gif); 
+               navbutton-next-hovered: url(neoanexm.gif); 
+               navbutton-next-pushed: url(neoanex.gif) }
+.mstheme-bannertxt { font-family: Verdana, Arial, Helvetica; font-size: 6; color: rgb(0,255,0) }
+.mstheme-horiz-navtxt { font-family: Verdana, Arial, Helvetica; font-size: 2; text-align: left; 
+               color: rgb(255,255,0) }
+.mstheme-vert-navtxt { font-family: Verdana, Arial, Helvetica; font-size: 2; text-align: right; 
+               color: rgb(255,255,0) }
+.mstheme-navtxthome { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153) }
+.mstheme-navtxtup { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153) }
+.mstheme-navtxtprev { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153) }
+.mstheme-navtxtnext { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153) }
+ul           { list-style-image: url('neoabul1.gif') }
+ul ul        { list-style-image: url('neoabul2.gif') }
+ul ul ul     { list-style-image: url('neoabul3.gif') }
+a:link       { color: rgb(204,255,102) }
+a:visited    { color: rgb(0,255,255) }
+a:active     { color: rgb(255,204,51) }
+body         { color: rgb(255,255,0); background-color: rgb(0,0,0) }
+h1           { color: rgb(255,255,153) }
+h2, marquee  { color: rgb(255,255,153) }
+h3           { color: rgb(255,255,153) }
+h4           { color: rgb(255,255,153) }
+h5           { color: rgb(255,255,153) }
+h6           { color: rgb(255,255,153) }
+button       { background-color: rgb(255,255,153); color: black; border-color: 
+               rgb(255,255,153) }
+label, .MSTHEME-LABEL { color: rgb(255,255,255) }
+textarea     { color: black; border-color: rgb(153,153,102) }
+fieldset     { color: white; border-color: rgb(153,153,102) }
+legend       { color: rgb(255,255,153) }
+select       { color: black; border-color: rgb(153,153,102) }
+table        { table-border-color-light: rgb(255,255,153); table-border-color-dark: 
+               rgb(153,153,102); color: rgb(255,255,153); border-color: 
+               rgb(153,153,102) }
+caption      { color: rgb(255,255,153) }
+th           { color: rgb(255,255,153) }
+hr           { color: rgb(255,255,153) }
+td           { border-color: rgb(153,153,102) }
+.mstheme-bannertxt a:active { color: rgb(255,255,0) }
+.mstheme-bannertxt a:link { color: rgb(255,255,0) }
+.mstheme-bannertxt a:visited { color: rgb(255,255,0) }
+.mstheme-bannertxt-g { font-family: Verdana, Arial, Helvetica; font-size: 6; color: rgb(255,255,0); 
+               background-image: url('neodbnr.gif') }
+.mstheme-bannertxt-g a:active { color: rgb(255,255,0) }
+.mstheme-bannertxt-g a:link { color: rgb(255,255,0) }
+.mstheme-bannertxt-g a:visited { color: rgb(255,255,0) }
+.mstheme-bannertxt-s { font-family: Verdana, Arial, Helvetica; font-size: 6; color: rgb(255,255,0) }
+.mstheme-bannertxt-s a:active { color: rgb(255,255,0) }
+.mstheme-bannertxt-s a:link { color: rgb(255,255,0) }
+.mstheme-bannertxt-s a:visited { color: rgb(255,255,0) }
+.mstheme-horiz-navtxt a:active { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt a:link { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt a:visited { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-g { font-family: Verdana, Arial, Helvetica; font-size: 2; color: rgb(255,255,153); 
+               background-image: url('neodhnd.gif') }
+.mstheme-horiz-navtxt-g a:active { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-g a:link { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-g a:visited { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-gs { font-family: Verdana, Arial, Helvetica; font-size: 2; color: rgb(255,255,153); 
+               background-image: url('neodhns.gif') }
+.mstheme-horiz-navtxt-gs a:active { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-gs a:link { color: rgb(255,255,153) }
+.mstheme-horiz-navtxt-gs a:visited { color: rgb(255,255,153) }
+.mstheme-navtxthome a:active { color: rgb(255,255,153) }
+.mstheme-navtxthome a:link { color: rgb(255,255,153) }
+.mstheme-navtxthome a:visited { color: rgb(255,255,153) }
+.mstheme-navtxthome-g { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153); 
+               background-image: url('neodhom.gif') }
+.mstheme-navtxthome-g a:active { color: rgb(255,255,153) }
+.mstheme-navtxthome-g a:link { color: rgb(255,255,153) }
+.mstheme-navtxthome-g a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtnext a:active { color: rgb(255,255,153) }
+.mstheme-navtxtnext a:link { color: rgb(255,255,153) }
+.mstheme-navtxtnext a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtnext-g { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153); 
+               background-image: url('neodnex.gif') }
+.mstheme-navtxtnext-g a:active { color: rgb(255,255,153) }
+.mstheme-navtxtnext-g a:link { color: rgb(255,255,153) }
+.mstheme-navtxtnext-g a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtprev a:active { color: rgb(255,255,153) }
+.mstheme-navtxtprev a:link { color: rgb(255,255,153) }
+.mstheme-navtxtprev a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtprev-g { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153); 
+               background-image: url('neodpre.gif') }
+.mstheme-navtxtprev-g a:active { color: rgb(255,255,153) }
+.mstheme-navtxtprev-g a:link { color: rgb(255,255,153) }
+.mstheme-navtxtprev-g a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtup a:active { color: rgb(255,255,153) }
+.mstheme-navtxtup a:link { color: rgb(255,255,153) }
+.mstheme-navtxtup a:visited { color: rgb(255,255,153) }
+.mstheme-navtxtup-g { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153); 
+               background-image: url('neodup.gif') }
+.mstheme-navtxtup-g a:active { color: rgb(255,255,153) }
+.mstheme-navtxtup-g a:link { color: rgb(255,255,153) }
+.mstheme-navtxtup-g a:visited { color: rgb(255,255,153) }
+.mstheme-topbar-font a:active { color: rgb(255,255,153) }
+.mstheme-topbar-font a:link { color: rgb(255,255,153) }
+.mstheme-topbar-font a:visited { color: rgb(255,255,153) }
+.mstheme-topbar-font-g { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153); 
+               background-image: url('neogbl.gif') }
+.mstheme-topbar-font-g a:active { color: rgb(255,255,153) }
+.mstheme-topbar-font-g a:link { color: rgb(255,255,153) }
+.mstheme-topbar-font-g a:visited { color: rgb(255,255,153) }
+.mstheme-vert-navtxt a:active { color: rgb(0,255,255) }
+.mstheme-vert-navtxt a:link { color: rgb(0,255,255) }
+.mstheme-vert-navtxt a:visited { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-g { font-family: Verdana, Arial, Helvetica; font-size: 2; color: rgb(0,255,255); 
+               background-image: url('neodvnd.gif') }
+.mstheme-vert-navtxt-g a:active { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-g a:link { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-g a:visited { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-gs { font-family: Verdana, Arial, Helvetica; font-size: 2; color: rgb(0,255,255); 
+               background-image: url('neodvns.gif') }
+.mstheme-vert-navtxt-gs a:active { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-gs a:link { color: rgb(0,255,255) }
+.mstheme-vert-navtxt-gs a:visited { color: rgb(0,255,255) }
+.mstheme     { navbutton-background-color: rgb(0,255,255); top-bar-button: url(neogbl.gif) }
+.mstheme-topbar-font { font-family: Verdana, Arial, Helvetica; font-size: 1; color: rgb(255,255,153) }
+body         { font-family: Verdana, Arial, Helvetica; background-image: url('neobkgnd.jpg') }
+h1           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 24pt }
+h2           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 18pt }
+h3           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 14pt }
+h4           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 12pt }
+h5           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 10pt }
+h6           { font-family: Verdana, Arial, Helvetica; font-weight: normal; font-style: 
+               normal; font-size: 8pt }
+button       { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+label, .MSTHEME-LABEL { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal }
+textarea     { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+fieldset     { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+legend       { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal }
+select       { font-size: 8pt; font-family: Verdana, Arial, Helvetica; font-style: normal; 
+               border-style: solid; border-width: 1pt }
+table        { font-family: Verdana, Arial, Helvetica; font-style: normal }
+caption      { font-size: 14pt; font-family: Verdana, Arial, Helvetica; font-style: normal }
+th           { font-family: Verdana, Arial, Helvetica; font-style: normal }
+marquee      { font-size: 14pt; font-family: Verdana, Arial, Helvetica }

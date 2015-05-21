@@ -1,0 +1,225 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Thu, 11 Oct 2007 18:14:22 GMT
+Server: Apache/2.0.53 (Unix) mod_jk/1.2.8
+Content-Type: text/plain;charset=ISO-8859-1
+Client-Date: Thu, 11 Oct 2007 18:18:58 GMT
+Client-Peer: 128.146.135.37:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Set-Cookie: JSESSIONID=79615F74AC83F3FFA81C4AF7511CEF7A; Path=/queries
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 10/11/2007
+
+MCM
+Started with MCM,AIKEN_F5,19901204
+Finished with aiken_f5
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,ANDRSN_H1,19931120	 input file (MCM) line 652
+
+Started with MCM,ANDRSN_H1,19931120
+WARNING(101): WMEA = -11.6 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021123	 input file (MCM) line 1145
+
+WARNING(101): WMIN = -12.4 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021123	 input file (MCM) line 1145
+
+WARNING(101): WMAX = -10.6 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021123	 input file (MCM) line 1145
+
+WARNING(101): WMEA = -11.6 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021124	 input file (MCM) line 1146
+
+WARNING(101): WMIN = -12.9 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021124	 input file (MCM) line 1146
+
+WARNING(101): WMEA = -11.2 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021125	 input file (MCM) line 1147
+
+WARNING(101): WMIN = -12.4 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021125	 input file (MCM) line 1147
+
+WARNING(101): WMEA = -10.5 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021126	 input file (MCM) line 1148
+
+WARNING(101): WMIN = -12.9 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021126	 input file (MCM) line 1148
+
+WARNING(101): WMIN = -12.8 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021127	 input file (MCM) line 1149
+
+WARNING(101): WMIN = -11.9 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021128	 input file (MCM) line 1150
+
+WARNING(101): WMIN = -10.1 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021129	 input file (MCM) line 1151
+
+WARNING(101): WMIN = -10.8 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021130	 input file (MCM) line 1152
+
+WARNING(101): WMIN = -10.4 (min=-10 max=40) failed QC test at:
+	 MCM,ANDRSN_H1,20021201	 input file (MCM) line 1153
+
+Finished with andrsn_h1
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,CANADA_F1,19901124	 input file (MCM) line 1276
+
+Started with MCM,CANADA_F1,19901124
+WARNING(101): WMIN = -13.26 (min=-10 max=40) failed QC test at:
+	 MCM,CANADA_F1,19971112	 input file (MCM) line 1723
+
+Finished with canada_f1
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,CRESC_F8,19901207	 input file (MCM) line 2417
+
+Started with MCM,CRESC_F8,19901207
+Finished with cresc_f8
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,DELTA_F10,19901207	 input file (MCM) line 3050
+
+Started with MCM,DELTA_F10,19901207
+Finished with delta_f10
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,GREEN_F9,19901124	 input file (MCM) line 3640
+
+Started with MCM,GREEN_F9,19901124
+WARNING(101): WMIN = -31.18 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971129	 input file (MCM) line 3979
+
+WARNING(101): WMEA = -366.5 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971130	 input file (MCM) line 3980
+
+WARNING(101): WMIN = -6992 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971130	 input file (MCM) line 3980
+
+WARNING(101): WMIN = -20.49 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971207	 input file (MCM) line 3987
+
+WARNING(101): WMEA = -79.5 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971208	 input file (MCM) line 3988
+
+WARNING(101): WMIN = -6993.2 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971208	 input file (MCM) line 3988
+
+WARNING(101): WMEA = -78.1 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971209	 input file (MCM) line 3989
+
+WARNING(101): WMIN = -6993.4 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971209	 input file (MCM) line 3989
+
+WARNING(101): WMIN = -16.72 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971211	 input file (MCM) line 3991
+
+WARNING(101): WMIN = -16.2 (min=-10 max=40) failed QC test at:
+	 MCM,GREEN_F9,19971212	 input file (MCM) line 3992
+
+Finished with green_f9
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,HOUSE_H2,19931121	 input file (MCM) line 4484
+
+Started with MCM,HOUSE_H2,19931121
+WARNING(101): WMIN = -11.27 (min=-10 max=40) failed QC test at:
+	 MCM,HOUSE_H2,19981123	 input file (MCM) line 4821
+
+WARNING(101): WMIN = -10.26 (min=-10 max=40) failed QC test at:
+	 MCM,HOUSE_H2,19981124	 input file (MCM) line 4822
+
+WARNING(101): WMIN = -11.98 (min=-10 max=40) failed QC test at:
+	 MCM,HOUSE_H2,19981125	 input file (MCM) line 4823
+
+Finished with house_h2
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,HUEY_F2,19901204	 input file (MCM) line 5189
+
+Started with MCM,HUEY_F2,19901204
+Finished with huey_f2
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,LOSTSL_F3,19901208	 input file (MCM) line 5630
+
+Started with MCM,LOSTSL_F3,19901208
+Finished with lostsl_f3
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,PRISCU_B1,19931206	 input file (MCM) line 6307
+
+Started with MCM,PRISCU_B1,19931206
+Finished with priscu_b1
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,SANTAFE_B2,19931113	 input file (MCM) line 7139
+
+Started with MCM,SANTAFE_B2,19931113
+WARNING(101): WMEA = 67.3 (min=-10 max=40) failed QC test at:
+	 MCM,SANTAFE_B2,19981204	 input file (MCM) line 7533
+
+WARNING(101): WMIN = 56.21 (min=-10 max=40) failed QC test at:
+	 MCM,SANTAFE_B2,19981204	 input file (MCM) line 7533
+
+WARNING(101): WMAX = 87 (min=-10 max=40) failed QC test at:
+	 MCM,SANTAFE_B2,19981204	 input file (MCM) line 7533
+
+WARNING(101): WMEA = 48.5 (min=-10 max=40) failed QC test at:
+	 MCM,SANTAFE_B2,19981205	 input file (MCM) line 7534
+
+WARNING(101): WMAX = 86.8 (min=-10 max=40) failed QC test at:
+	 MCM,SANTAFE_B2,19981205	 input file (MCM) line 7534
+
+Finished with santafe_b2
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,VGUER_F6,19901205	 input file (MCM) line 7704
+
+Started with MCM,VGUER_F6,19901205
+WARNING(101): WMIN = -18.76 (min=-10 max=40) failed QC test at:
+	 MCM,VGUER_F6,19980202	 input file (MCM) line 7969
+
+Ended with MCM,VGUER_F6,20050206
+Started with MCM,COMMON_C1,19931130
+Finished with common_c1
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,HARNISH_F7,19971101	 input file (MCM) line 9198
+
+Started with MCM,HARNISH_F7,19971101
+Finished with harnish_f7
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,LAWSON_B3,19941206	 input file (MCM) line 9393
+
+Started with MCM,LAWSON_B3,19941206
+Finished with lawson_b3
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,ONYX_LW,19721204	 input file (MCM) line 10248
+
+Started with MCM,ONYX_LW,19721204
+Finished with onyx_lw
+
+WARNING(107) Station code changed without a corresponding header change at :
+	 MCM,ONYX_VNDA,19691205	 input file (MCM) line 12229
+
+Started with MCM,ONYX_VNDA,19691205
+Finished with MCM,ONYX_VNDA,20040126
+
+
+Summary of MCM follows:
+	ON INPUT:
+		13940 lines read. 
+		1 blank lines. 
+		2 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		49 warnings raised. 
+	ON OUTPUT:
+		38738 data points prepared for entry into centralized database.

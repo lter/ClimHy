@@ -1,0 +1,2214 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://alpine.lternet.edu/climhy/temp/vSjJl6iIna.xsl"?>
+
+<info xmlns:HTML="http://www.w3.org/Profiles/XHTML-transitional">
+  <stations>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>CENMET</station>
+		<name>Central Meteorological Station</name>
+		<first>1995-08-23  </first>
+		<recent>2008-06-02  </recent>
+		<last>2008-07-15  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>CS2MET</station>
+		<name>Climatic Station at WS#2                          </name>
+		<first>1957-10-01  </first>
+		<recent>2007-12-03  </recent>
+		<last>2008-07-15  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>H15MET</station>
+		<name>Hi-15 Meteorological Station</name>
+		<first>1963-10-01  </first>
+		<recent>2008-01-03  </recent>
+		<last>2008-07-18  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>PRIMET</station>
+		<name>Primary Meteorological Station</name>
+		<first>1972-05-10  </first>
+		<recent>2008-06-02  </recent>
+		<last>2008-07-15  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>UPLMET</station>
+		<name>Upper Lookout Meteorological Station</name>
+		<first>1994-10-01  </first>
+		<recent>2008-06-02  </recent>
+		<last>2008-07-15  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Meteorologic Station</type>
+		<station>VANMET</station>
+		<name>Vanilla Leaf Meteorological Station</name>
+		<first>1987-06-16  </first>
+		<recent>2008-06-02  </recent>
+		<last>2008-07-15  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSLOOK</station>
+		<name>Lookout Creek Gauging Station (USGS 14161500)</name>
+		<first>1949-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSMACK</station>
+		<name>Mack Creek Gauging Station</name>
+		<first>1979-10-01  </first>
+		<recent>2007-03-20  </recent>
+		<last>2009-01-22  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS01</station>
+		<name>GSWS01</name>
+		<first>1952-10-01  </first>
+		<recent>2007-03-20  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS02</station>
+		<name>GSWS02</name>
+		<first>1952-10-01  </first>
+		<recent>2007-03-20  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS03</station>
+		<name>GSWS03</name>
+		<first>1952-10-01  </first>
+		<recent>2007-03-12  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS06</station>
+		<name>GSWS06</name>
+		<first>1963-10-01  </first>
+		<recent>2007-03-19  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS07</station>
+		<name>GSWS07</name>
+		<first>1963-10-01  </first>
+		<recent>2007-03-13  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS08</station>
+		<name>GSWS08</name>
+		<first>1963-10-01  </first>
+		<recent>2007-03-20  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS09</station>
+		<name>GSWS09</name>
+		<first>1968-10-01  </first>
+		<recent>2007-03-19  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>AND</code>
+		<type>Gauging Station</type>
+		<station>GSWS10</station>
+		<name>GSWS10</name>
+		<first>1968-10-01  </first>
+		<recent>2007-03-19  </recent>
+		<last>2007-06-13  </last>
+	</station_item>
+	<station_item>
+		<code>ARC</code>
+		<type>Meteorologic Station</type>
+		<station>TLKMAIN</station>
+		<name>Toolik Lake Field Station</name>
+		<first>1988-06-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-05-14  </last>
+	</station_item>
+	<station_item>
+		<code>ARC</code>
+		<type>Gauging Station</type>
+		<station>Kuparuk </station>
+		<name>Kuparuk River</name>
+		<first>1983-07-15  </first>
+		<recent>2004-09-02  </recent>
+		<last>2007-03-09  </last>
+	</station_item>
+	<station_item>
+		<code>ARC</code>
+		<type>Gauging Station</type>
+		<station>Oksrukuyik</station>
+		<name>Oksrukuyik River</name>
+		<first>1990-05-27  </first>
+		<recent>2003-08-12  </recent>
+		<last>2007-03-09  </last>
+	</station_item>
+	<station_item>
+		<code>ARC</code>
+		<type>Gauging Station</type>
+		<station>Tlk_Inlet </station>
+		<name>Toolik Inlet</name>
+		<first>1992-06-19  </first>
+		<recent>2003-08-15  </recent>
+		<last>2007-03-09  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Meteorologic Station</type>
+		<station>BWI</station>
+		<name>BWI Airport</name>
+		<first>1999-01-01  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-05  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Meteorologic Station</type>
+		<station>DMH</station>
+		<name>Inner Harbor</name>
+		<first>2000-01-01  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-05  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Meteorologic Station</type>
+		<station>Mcdonogh1</station>
+		<name>McDonogh Primary</name>
+		<first>2000-04-27  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-13  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>BaismanRun</station>
+		<name>Baisman Run at Broadmoor, MD (USGS 1583580)</name>
+		<first>1964-08-01  </first>
+		<recent>2009-01-14  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>CarrollPk</station>
+		<name>Gwynns Falls at Rt 1/Carroll Park (USGS 01589352)</name>
+		<first>1998-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>DeadRun</station>
+		<name>Dead Run at Franklintown (USGS 01589330)</name>
+		<first>1959-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>Glyndon </station>
+		<name>Gwynns Falls at Glyndon (USGS 01589180 )</name>
+		<first>1998-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>Gwynnbrook</station>
+		<name>Gwynns Falls at Gwynnbrook/Delight (USGS 01589197)</name>
+		<first>1998-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>GwynnsRun</station>
+		<name>Gwynns Run at Gwynns Falls (USGS 158935180)</name>
+		<first>2001-10-01  </first>
+		<recent>2005-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>McDonough</station>
+		<name>McDonough School (USGS 01589238)</name>
+		<first>1999-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>PondBranch</station>
+		<name>Pond Branch  (USGS 01583570)</name>
+		<first>1983-01-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>RognelHgts</station>
+		<name>Rognel Heights storm sewer outfall at Baltimore (USGS 1589340)</name>
+		<first>1998-10-01  </first>
+		<recent>2007-09-30  </recent>
+		<last>2008-02-29  </last>
+	</station_item>
+	<station_item>
+		<code>BES</code>
+		<type>Gauging Station</type>
+		<station>VillaNova</station>
+		<name>Gwynns Falls at Villa Nova (USGS 01589300)</name>
+		<first>1957-02-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Meteorologic Station</type>
+		<station>FP3A</station>
+		<name>FP3A</name>
+		<first>1988-01-01  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-19  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Meteorologic Station</type>
+		<station>FP4A</station>
+		<name>FP4A</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-19  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Meteorologic Station</type>
+		<station>FP5A</station>
+		<name>FP5A</name>
+		<first>1989-07-11  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-19  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Meteorologic Station</type>
+		<station>LTER1</station>
+		<name>LTER1</name>
+		<first>1988-06-01  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-19  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Meteorologic Station</type>
+		<station>LTER2</station>
+		<name>LTER2</name>
+		<first>1988-06-02  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-19  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Gauging Station</type>
+		<station>C2_STRM</station>
+		<name>Caribou Watershed 2 stream gauge</name>
+		<first>1998-07-08  </first>
+		<recent>2006-09-26  </recent>
+		<last>2007-06-26  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Gauging Station</type>
+		<station>C3_STRM</station>
+		<name>Caribou Watershed 3 stream gauge</name>
+		<first>2001-04-23  </first>
+		<recent>2006-09-26  </recent>
+		<last>2007-06-26  </last>
+	</station_item>
+	<station_item>
+		<code>BNZ</code>
+		<type>Gauging Station</type>
+		<station>C4_STRM</station>
+		<name>Caribou Watershed 4 stream gauge</name>
+		<first>1998-05-21  </first>
+		<recent>2006-09-26  </recent>
+		<last>2007-06-26  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>1</station>
+		<name>Tucson</name>
+		<first>1987-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>10</station>
+		<name>U of A Citrus Farm</name>
+		<first>1987-02-12  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-01-11  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>11</station>
+		<name>Litchfield Park</name>
+		<first>1987-05-12  </first>
+		<recent>2003-02-03  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>12</station>
+		<name>Phoenix-Greenway</name>
+		<first>1987-07-29  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>13</station>
+		<name>Marana</name>
+		<first>1987-09-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>14</station>
+		<name>Yuma North-Gila</name>
+		<first>1988-01-22  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>15</station>
+		<name>Phoenix-Encanto</name>
+		<first>1988-08-26  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>16</station>
+		<name>Eloy</name>
+		<first>1987-11-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>17</station>
+		<name>Dateland</name>
+		<first>1990-03-09  </first>
+		<recent>1996-12-31  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>18</station>
+		<name>Scottsdale</name>
+		<first>1991-06-13  </first>
+		<recent>1998-09-09  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>19</station>
+		<name>Paloma</name>
+		<first>1989-05-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>2</station>
+		<name>Yuma Valley
+</name>
+		<first>1987-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>20</station>
+		<name>Mohave</name>
+		<first>1992-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>21</station>
+		<name>Laveen</name>
+		<first>1994-01-01  </first>
+		<recent>2001-09-30  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>22</station>
+		<name>Queen Creek   </name>
+		<first>1995-03-09  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>23</station>
+		<name>Harquahala   </name>
+		<first>1996-03-08  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>24</station>
+		<name>Roll   </name>
+		<first>1997-02-20  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>25</station>
+		<name>Ciudad Obregon</name>
+		<first>1997-04-04  </first>
+		<recent>1998-09-30  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>26</station>
+		<name>Buckeye   </name>
+		<first>1998-01-24  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>27</station>
+		<name>Desert Ridge</name>
+		<first>2002-08-13  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>3</station>
+		<name>Yuma Mesa
+</name>
+		<first>1987-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>4</station>
+		<name>Safford</name>
+		<first>1987-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>5</station>
+		<name>Coolidge</name>
+		<first>1986-01-01  </first>
+		<recent>2007-12-31  </recent>
+		<last>2009-01-12  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>6</station>
+		<name>Maricopa</name>
+		<first>1987-01-01  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-01-09  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>7</station>
+		<name>Aguila</name>
+		<first>1986-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>8</station>
+		<name>Parker</name>
+		<first>1986-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>9</station>
+		<name>Bonita</name>
+		<first>1987-01-01  </first>
+		<recent>2004-05-15  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>DBG </station>
+		<name>Desert Botanical Garden </name>
+		<first>2000-04-17  </first>
+		<recent>2002-12-06  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>PH </station>
+		<name>Presidents House </name>
+		<first>2001-01-26  </first>
+		<recent>2004-05-14  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CAP</code>
+		<type>Meteorologic Station</type>
+		<station>TCS </station>
+		<name>Community Services Building </name>
+		<first>2001-02-08  </first>
+		<recent>2004-05-14  </recent>
+		<last>2004-05-17  </last>
+	</station_item>
+	<station_item>
+		<code>CDR</code>
+		<type>Meteorologic Station</type>
+		<station>CC2</station>
+		<name>Cedar Creek 2</name>
+		<first>2000-03-22  </first>
+		<recent>2003-07-07  </recent>
+		<last>2004-06-17  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Meteorologic Station</type>
+		<station>CS01</station>
+		<name>Climate Station 01</name>
+		<first>1937-01-01  </first>
+		<recent>2007-12-31  </recent>
+		<last>2008-05-19  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>Bryson</station>
+		<name>Tuckasegee River at Bryson City, NC (USGS 03513000)</name>
+		<first>1897-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>Catalooche</station>
+		<name>Cataloochee Creek near Cataloochee, NC (USGS 03460000)</name>
+		<first>1934-04-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>Logan</station>
+		<name>Second Broad River Near Logan, NC (USGS 02150495)</name>
+		<first>1998-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>Needmore</station>
+		<name>Little Tennessee River at Needmore, NC (USGS 03503000)</name>
+		<first>1944-06-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>Prentiss</station>
+		<name>Little Tennessee River near Prentiss, NC (USGS 03500000)</name>
+		<first>1944-04-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>WS18</station>
+		<name>Flume at Watershed 18</name>
+		<first>1936-11-01  </first>
+		<recent>2007-10-31  </recent>
+		<last>2008-05-19  </last>
+	</station_item>
+	<station_item>
+		<code>CWT</code>
+		<type>Gauging Station</type>
+		<station>WS27</station>
+		<name>Flume at Watershed 27</name>
+		<first>1946-11-01  </first>
+		<recent>2007-10-31  </recent>
+		<last>2008-05-19  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Meteorologic Station</type>
+		<station>Everglades</station>
+		<name>Everglades NOAA</name>
+		<first>1931-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-11-03  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Meteorologic Station</type>
+		<station>FlamingoRS</station>
+		<name>Flamingo Ranger Station NOAA</name>
+		<first>1951-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-11-03  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Meteorologic Station</type>
+		<station>MIA</station>
+		<name>Miami Internation Airport NOAA</name>
+		<first>1948-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-11-03  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Meteorologic Station</type>
+		<station>RoyalPalmR</station>
+		<name>Royal Palm Ranger Station NOAA</name>
+		<first>1949-05-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-11-03  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Meteorologic Station</type>
+		<station>Tavernier</station>
+		<name>Tavernier NOAA</name>
+		<first>1948-03-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-11-03  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>C111_S18C</station>
+		<name>CANAL_111_S-18-C_FLORIDACITY (USGS 2290769)</name>
+		<first>1968-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>LEVEE31_1</station>
+		<name>LEVEE_31_NORTH_EXT_AT_1MILE_WESTMIAMI (USGS 22907647)</name>
+		<first>1988-11-07  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>LEVEE31_3</station>
+		<name>LEVEE_31_NORTH_EXT_AT_3MILE_WESTMIAMI  (USGS 2290765)</name>
+		<first>1992-03-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>LEVEE31_4</station>
+		<name>LEVEE_31_NORTH_EXT_AT_4MILE_WESTMIAMI (USGS 2290766)</name>
+		<first>1994-06-11  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>LEVEE31_5</station>
+		<name>LEVEE_31_NORTH_EXT_AT_5MILE_WESTMIAMI (USGS 2290767)</name>
+		<first>1994-06-16  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>LEVEE31_7</station>
+		<name>LEVEE_31_NORTH_EXT_AT_7MILE_WESTMIAMI (USGS 2290768)</name>
+		<first>1994-06-16  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>TAM_S12A</station>
+		<name>TAMIAMI_CANAL_AT_S-12-A (USGS 254543080491101)</name>
+		<first>1963-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>TAM_S12B</station>
+		<name>TAMIAMI_CANAL_AT_S-12-B (USGS 2289019)</name>
+		<first>1963-04-26  </first>
+		<recent>2007-09-30  </recent>
+		<last>2008-05-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>TAM_S12C</station>
+		<name>TAMIAMI_CANAL_BELOW_S-12-C (USGS 2289041)</name>
+		<first>1963-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>TAM_S12D</station>
+		<name>TAMIAMI_CANAL_AT_S-12-D (USGS 254543080405401)</name>
+		<first>1963-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>FCE</code>
+		<type>Gauging Station</type>
+		<station>WELLFIELD</station>
+		<name>NW_WELLFIELD_CANAL_NR_DADE_BROWARD_LEVEE_NR_PENN (USGS 2287497)</name>
+		<first>1991-02-06  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>GCE</code>
+		<type>Meteorologic Station</type>
+		<station>HUDSONCRK</station>
+		<name>Hudson Creek</name>
+		<first>2001-05-29  </first>
+		<recent>2009-01-01  </recent>
+		<last>2009-01-14  </last>
+	</station_item>
+	<station_item>
+		<code>GCE</code>
+		<type>Meteorologic Station</type>
+		<station>ML</station>
+		<name>Marsh landiing</name>
+		<first>2002-07-08  </first>
+		<recent>2009-01-01  </recent>
+		<last>2009-01-14  </last>
+	</station_item>
+	<station_item>
+		<code>GCE</code>
+		<type>Meteorologic Station</type>
+		<station>UGAMI</station>
+		<name>University of Georiga Marine Institute Met Station</name>
+		<first>1957-05-01  </first>
+		<recent>2008-11-30  </recent>
+		<last>2009-01-14  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_1</station>
+		<name>Weather Station 1</name>
+		<first>1955-10-20  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_14</station>
+		<name>Weather Station 14</name>
+		<first>1965-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_17</station>
+		<name>Weather Station 17</name>
+		<first>1999-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_1A</station>
+		<name>Weather Station 1A</name>
+		<first>1958-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_23</station>
+		<name>Weather Station 23</name>
+		<first>1995-09-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_24</station>
+		<name>Weather Station 24</name>
+		<first>1999-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_6</station>
+		<name>Weather Station 6</name>
+		<first>1961-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WEASTA_HQ</station>
+		<name>Weather Station HQ</name>
+		<first>1957-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS1P</station>
+		<name>Watershed 1 Precipitation</name>
+		<first>1956-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS2P</station>
+		<name>Watershed 2 Precipitation</name>
+		<first>1957-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS3P</station>
+		<name>Watershed 3 Precipitation</name>
+		<first>1957-10-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS4P</station>
+		<name>Watershed 4 Precipitation</name>
+		<first>1960-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS5P</station>
+		<name>Watershed 5 Precipitation</name>
+		<first>1962-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS6P</station>
+		<name>Watershed 6 Precipitation</name>
+		<first>1963-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS7P</station>
+		<name>Watershed 7 Precipitation</name>
+		<first>1965-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS8P</station>
+		<name>Watershed 8 Precipitation</name>
+		<first>1968-05-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Meteorologic Station</type>
+		<station>WS9P</station>
+		<name>Watershed 9 Precipitation</name>
+		<first>1995-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-08-27  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS1</station>
+		<name>Watershed 1</name>
+		<first>1956-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS2</station>
+		<name>Watershed 2</name>
+		<first>1957-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS3</station>
+		<name>Watershed 3</name>
+		<first>1957-10-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS4</station>
+		<name>Watershed 4</name>
+		<first>1960-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS5</station>
+		<name>Watershed 5</name>
+		<first>1962-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS6</station>
+		<name>Watershed 6</name>
+		<first>1963-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS7</station>
+		<name>Watershed 7</name>
+		<first>1965-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS8</station>
+		<name>Watershed 8</name>
+		<first>1968-05-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HBR</code>
+		<type>Gauging Station</type>
+		<station>GSWS9</station>
+		<name>Watershed 9</name>
+		<first>1995-01-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-06-01  </last>
+	</station_item>
+	<station_item>
+		<code>HFR</code>
+		<type>Meteorologic Station</type>
+		<station>Fisher</station>
+		<name>Fisher</name>
+		<first>2001-02-11  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-05  </last>
+	</station_item>
+	<station_item>
+		<code>HFR</code>
+		<type>Meteorologic Station</type>
+		<station>Shaler    </station>
+		<name>Shaler           </name>
+		<first>1964-01-01  </first>
+		<recent>2002-06-30  </recent>
+		<last>2002-07-01  </last>
+	</station_item>
+	<station_item>
+		<code>JRN</code>
+		<type>Meteorologic Station</type>
+		<station>JERHQWS</station>
+		<name>USDA ARS Jornada Experimental Range ranch headquarters weather station</name>
+		<first>1914-06-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+	<station_item>
+		<code>JRN</code>
+		<type>Meteorologic Station</type>
+		<station>LTERWS</station>
+		<name>LTER Weather Station</name>
+		<first>1983-03-01  </first>
+		<recent>2005-12-31  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+	<station_item>
+		<code>KBS</code>
+		<type>Meteorologic Station</type>
+		<station>LTERWS</station>
+		<name>NWS observing station at Gull Lake</name>
+		<first>1988-01-01  </first>
+		<recent>2007-08-20  </recent>
+		<last>2008-04-22  </last>
+	</station_item>
+	<station_item>
+		<code>KBS</code>
+		<type>Gauging Station</type>
+		<station>Augusta</station>
+		<name>Augusta Creek Near Augusta, MI (USGS)</name>
+		<first>1964-10-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>KBS</code>
+		<type>Gauging Station</type>
+		<station>KzooComst</station>
+		<name>Kalamazoo River at Comstock, MI (USGS)</name>
+		<first>1931-04-24  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Meteorologic Station</type>
+		<station>HQ1MET    </station>
+		<name>Konza Headquarters </name>
+		<first>1982-04-22  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-07-04  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Gauging Station</type>
+		<station>06879650</station>
+		<name>Kings Creek (USGS)</name>
+		<first>1979-04-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Gauging Station</type>
+		<station>N01B</station>
+		<name>N01B</name>
+		<first>1987-01-01  </first>
+		<recent>2004-12-31  </recent>
+		<last>2006-08-17  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Gauging Station</type>
+		<station>N02B</station>
+		<name>N02B</name>
+		<first>1987-01-01  </first>
+		<recent>2004-12-31  </recent>
+		<last>2006-08-17  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Gauging Station</type>
+		<station>N04D</station>
+		<name>N04D</name>
+		<first>1985-01-01  </first>
+		<recent>2004-12-31  </recent>
+		<last>2006-08-17  </last>
+	</station_item>
+	<station_item>
+		<code>KNZ</code>
+		<type>Gauging Station</type>
+		<station>N20B</station>
+		<name>N20B</name>
+		<first>1987-01-01  </first>
+		<recent>2004-12-31  </recent>
+		<last>2006-08-17  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Meteorologic Station</type>
+		<station>BisleyMet</station>
+		<name>Bisley Tower</name>
+		<first>1993-02-11  </first>
+		<recent>2005-11-30  </recent>
+		<last>2006-05-01  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Meteorologic Station</type>
+		<station>ELVERDE</station>
+		<name>El Verde Log</name>
+		<first>1975-01-01  </first>
+		<recent>2008-12-01  </recent>
+		<last>2008-12-12  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Meteorologic Station</type>
+		<station>EVFSTower</station>
+		<name>El Verde Tower</name>
+		<first>2000-04-26  </first>
+		<recent>2005-03-18  </recent>
+		<last>2005-07-28  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>ES50063800</station>
+		<name>RIO ESPIRITU SANTO (USGS)</name>
+		<first>1966-08-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>QG50074950</station>
+		<name>QUEBRADA GUABA (USGS)</name>
+		<first>1992-06-23  </first>
+		<recent>2008-12-19  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>QS50063440</station>
+		<name>QUEBRADA SONADORA (USGS)</name>
+		<first>1983-03-30  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>RG50064200</station>
+		<name>RIO GRANDE (USGS)</name>
+		<first>1967-05-09  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>RI50075000</station>
+		<name>RIO ICACOS (USGS)</name>
+		<first>1945-07-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>RM50065500</station>
+		<name>RIO MAMEYES NR SABANA (USGS)</name>
+		<first>1967-08-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>RM50066000</station>
+		<name>RIO MAMEYES AT MAMEYES (USGS)</name>
+		<first>1997-07-24  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>LUQ</code>
+		<type>Gauging Station</type>
+		<station>RS50067000</station>
+		<name>RIO SABANA (USGS)</name>
+		<first>1979-10-01  </first>
+		<recent>2009-01-20  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>BENM</station>
+		<name>Beacon Valley</name>
+		<first>2000-11-27  </first>
+		<recent>2006-11-30  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>BOYM</station>
+		<name>Lake Bonney</name>
+		<first>1993-11-24  </first>
+		<recent>2007-01-29  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>BRHM</station>
+		<name>Lake Brownworth</name>
+		<first>1994-12-30  </first>
+		<recent>2007-01-11  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>CAAM</station>
+		<name>Canada Glacier</name>
+		<first>1994-12-01  </first>
+		<recent>2007-01-27  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>COHM</station>
+		<name>Commonwealth Glacier</name>
+		<first>1993-11-22  </first>
+		<recent>2007-01-18  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>EXEM</station>
+		<name>Explorers Cove</name>
+		<first>1997-11-21  </first>
+		<recent>2007-01-30  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>FRLM</station>
+		<name>Lake Fryxell</name>
+		<first>1993-12-07  </first>
+		<recent>2006-12-21  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>HODM</station>
+		<name>Howard Glacier</name>
+		<first>1993-11-20  </first>
+		<recent>2007-01-19  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>HOEM</station>
+		<name>Lake Hoare</name>
+		<first>1993-12-18  </first>
+		<recent>2007-01-29  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>TARM</station>
+		<name>Taylor Glacier</name>
+		<first>1994-11-21  </first>
+		<recent>2007-01-20  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>VAAM</station>
+		<name>Lake Vanda</name>
+		<first>1994-11-24  </first>
+		<recent>2007-01-01  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Meteorologic Station</type>
+		<station>VIAM</station>
+		<name>Lake Vida</name>
+		<first>1995-11-24  </first>
+		<recent>2006-12-12  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>aiken_f5</station>
+		<name>Aiken Creek</name>
+		<first>1990-12-04  </first>
+		<recent>2005-01-27  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>andrsn_h1</station>
+		<name>Andersen Creek</name>
+		<first>1993-11-20  </first>
+		<recent>2004-02-08  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>canada_f1</station>
+		<name>Canada Stream</name>
+		<first>1990-11-24  </first>
+		<recent>2005-02-18  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>common_c1</station>
+		<name>Commonwealth Stream</name>
+		<first>1993-11-30  </first>
+		<recent>2005-02-19  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>cresc_f8</station>
+		<name>Crescent Stream</name>
+		<first>1990-12-07  </first>
+		<recent>2005-02-09  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>delta_f10</station>
+		<name>Delta Stream</name>
+		<first>1990-12-07  </first>
+		<recent>2005-02-08  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>green_f9</station>
+		<name>Green Creek</name>
+		<first>1990-11-24  </first>
+		<recent>2005-02-06  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>harnish_f7</station>
+		<name>Harnish Creek (F7)</name>
+		<first>1997-11-01  </first>
+		<recent>2005-01-27  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>house_h2</station>
+		<name>House Stream</name>
+		<first>1993-11-21  </first>
+		<recent>2005-01-31  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>huey_f2</station>
+		<name>Huey Creak</name>
+		<first>1990-12-04  </first>
+		<recent>2006-01-20  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>lawson_b3</station>
+		<name>Lawson Creek</name>
+		<first>1994-12-06  </first>
+		<recent>2005-02-18  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>lostsl_f3</station>
+		<name>Lost Seal Stream</name>
+		<first>1990-12-08  </first>
+		<recent>2005-02-05  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>onyx_lw</station>
+		<name>Onyx at Lower Wright</name>
+		<first>1972-12-04  </first>
+		<recent>2004-02-11  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>onyx_vnda</station>
+		<name>Onyx River at Vanda</name>
+		<first>1969-12-05  </first>
+		<recent>2004-01-26  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>priscu_b1</station>
+		<name>Priscu Stream</name>
+		<first>1993-12-06  </first>
+		<recent>2006-01-19  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>santafe_b2</station>
+		<name>Santa Fe Stream</name>
+		<first>1993-11-13  </first>
+		<recent>2000-02-20  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>MCM</code>
+		<type>Gauging Station</type>
+		<station>vguer_f6</station>
+		<name>Von Guerard Stream</name>
+		<first>1990-12-05  </first>
+		<recent>2005-02-06  </recent>
+		<last>2007-10-11  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Meteorologic Station</type>
+		<station>AIRPORTWOO</station>
+		<name>Noble F. Lee Municipal airport north of Minocqua</name>
+		<first>1989-01-01  </first>
+		<recent>2009-01-15  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Meteorologic Station</type>
+		<station>MADISON01</station>
+		<name>Madison raw climate data</name>
+		<first>1869-01-01  </first>
+		<recent>2002-05-31  </recent>
+		<last>2003-05-01  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Meteorologic Station</type>
+		<station>MADISON01A</station>
+		<name>Madison adjusted climate data</name>
+		<first>1869-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2009-01-08  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Meteorologic Station</type>
+		<station>MINOCQUA</station>
+		<name>MINOCQUA</name>
+		<first>1978-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2009-01-12  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05357215</station>
+		<name>ALLEQUASH CREEK AT CTH M NR BOULDER JUNCTION, WI (USGS)</name>
+		<first>1991-05-29  </first>
+		<recent>2001-09-30  </recent>
+		<last>2003-04-30  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05357225</station>
+		<name>STEVENSON CREEK AT CTH M NR BOULDER JUNCTION, WI (USGS)</name>
+		<first>1991-05-01  </first>
+		<recent>2001-09-30  </recent>
+		<last>2003-04-30  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05357230</station>
+		<name>NORTH CREEK @ TROUT LAKE NR BOULDER JUNCTION, WI (USGS)</name>
+		<first>1991-07-22  </first>
+		<recent>2000-09-30  </recent>
+		<last>2003-04-30  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05357245</station>
+		<name>TROUT RIVER @ TROUT LAKE NR BOULDER JUNCTION, WI (USGS)</name>
+		<first>1991-05-01  </first>
+		<recent>2001-09-30  </recent>
+		<last>2003-04-30  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05427718</station>
+		<name>YAHARA RIVER AT WINDSOR, WI (USGS)</name>
+		<first>1976-02-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05427948</station>
+		<name>PHEASANT BRANCH AT MIDDLETON, WI (USGS)</name>
+		<first>1974-07-01  </first>
+		<recent>2008-12-30  </recent>
+		<last>2009-01-02  </last>
+	</station_item>
+	<station_item>
+		<code>NTL</code>
+		<type>Gauging Station</type>
+		<station>05427965</station>
+		<name>SPRING HARBOR STORM SEWER AT MADISON, WI (USGS)</name>
+		<first>1976-02-23  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>NWT</code>
+		<type>Meteorologic Station</type>
+		<station>C1</station>
+		<name>C-1 Meterological Station</name>
+		<first>1952-10-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-02-21  </last>
+	</station_item>
+	<station_item>
+		<code>NWT</code>
+		<type>Meteorologic Station</type>
+		<station>D1</station>
+		<name>D-1 Meterological Station</name>
+		<first>1952-10-01  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-02-21  </last>
+	</station_item>
+	<station_item>
+		<code>NWT</code>
+		<type>Meteorologic Station</type>
+		<station>SADDLE</station>
+		<name>SADDLE</name>
+		<first>1981-07-09  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-02-21  </last>
+	</station_item>
+	<station_item>
+		<code>NWT</code>
+		<type>Gauging Station</type>
+		<station>ALBION</station>
+		<name>Albion Townsite</name>
+		<first>2003-10-27  </first>
+		<recent>2005-05-01  </recent>
+		<last>2005-08-03  </last>
+	</station_item>
+	<station_item>
+		<code>NWT</code>
+		<type>Gauging Station</type>
+		<station>GL4</station>
+		<name>Green Lakes 4</name>
+		<first>1981-06-12  </first>
+		<recent>2002-10-31  </recent>
+		<last>2005-08-03  </last>
+	</station_item>
+	<station_item>
+		<code>PAL</code>
+		<type>Meteorologic Station</type>
+		<station>PALOBS</station>
+		<name>Palmer Observatory</name>
+		<first>1989-04-01  </first>
+		<recent>2005-06-30  </recent>
+		<last>2005-10-28  </last>
+	</station_item>
+	<station_item>
+		<code>PIE</code>
+		<type>Meteorologic Station</type>
+		<station>GDA</station>
+		<name>Governor Dummer</name>
+		<first>2000-03-27  </first>
+		<recent>2006-12-31  </recent>
+		<last>2007-09-28  </last>
+	</station_item>
+	<station_item>
+		<code>PIE</code>
+		<type>Meteorologic Station</type>
+		<station>LOG</station>
+		<name>Boston Logan International Airport, Boston, MA</name>
+		<first>1920-01-01  </first>
+		<recent>2005-06-30  </recent>
+		<last>2005-10-31  </last>
+	</station_item>
+	<station_item>
+		<code>PIE</code>
+		<type>Gauging Station</type>
+		<station>IP1101500</station>
+		<name>Ipswich River at South Middleton MA (USGS)</name>
+		<first>1938-06-01  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>PIE</code>
+		<type>Gauging Station</type>
+		<station>IP1102000</station>
+		<name>Ipswich River near Ipswich MA (USGS)</name>
+		<first>1930-06-17  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>PIE</code>
+		<type>Gauging Station</type>
+		<station>PR1101000</station>
+		<name>Parker River at Byefield MA (USGS)</name>
+		<first>1945-10-26  </first>
+		<recent>2009-01-22  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046161</station>
+		<name>NEWHALL 5 NW</name>
+		<first>1997-05-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-09  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046162</station>
+		<name>NEWHALL S FC32CE</name>
+		<first>1949-01-01  </first>
+		<recent>2001-12-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046399</station>
+		<name>OJAI</name>
+		<first>1948-07-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046569</station>
+		<name>OXNARD</name>
+		<first>1948-07-01  </first>
+		<recent>2002-12-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046572</station>
+		<name>OXNARD WSFO</name>
+		<first>1998-05-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>046940</station>
+		<name>PIRU 2 ESE</name>
+		<first>1959-06-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>047735</station>
+		<name>SANDBERG</name>
+		<first>1948-01-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>047902</station>
+		<name>SANTA BARBARA</name>
+		<first>1927-12-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>047905</station>
+		<name>SANTA BARBARA MUNICIPAL AP</name>
+		<first>1941-01-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>047957</station>
+		<name>SANTA PAULA</name>
+		<first>1948-07-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>048014</station>
+		<name>SAUGUS POWER PLANT 1</name>
+		<first>1948-07-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Meteorologic Station</type>
+		<station>049285</station>
+		<name>VENTURA</name>
+		<first>1948-07-01  </first>
+		<recent>2003-01-31  </recent>
+		<last>2003-04-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11114000</station>
+		<name>SANTA CLARA RIVER AT MONTALVO CA (USGS)</name>
+		<first>1927-10-01  </first>
+		<recent>2004-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11118500</station>
+		<name>VENTURA R NR VENTURA (USGS)</name>
+		<first>1929-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11118501</station>
+		<name>VENTURA R NR VENTURA+ DIV. CA (USGS)</name>
+		<first>1932-10-01  </first>
+		<recent>2007-09-30  </recent>
+		<last>2008-02-29  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11119500</station>
+		<name>CARPINTERIA C NR CARPINTERIA CA (USGS)</name>
+		<first>1941-01-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11119745</station>
+		<name>MISSION C A RNP A SANTA BARBARA CA (USGS)</name>
+		<first>1983-10-28  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11119750</station>
+		<name>MISSION C NR MISSION ST NR SANTA BARBARA CA (USGS)</name>
+		<first>1970-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11119780</station>
+		<name>ARROYO BURRO A SANTA BARBARA CA (USGS)</name>
+		<first>1970-10-01  </first>
+		<recent>1993-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11119940</station>
+		<name>MARIA YGNACIO C A UNIV DR NR GOLETA CA (USGS)</name>
+		<first>1970-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120000</station>
+		<name>ATASCADERO C NR GOLETA CA (USGS)</name>
+		<first>1941-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120500</station>
+		<name>SAN JOSE C NR GOLETA CA (USGS)</name>
+		<first>1941-01-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120510</station>
+		<name>SAN JOSE C A GOLETA CA (USGS)</name>
+		<first>1970-10-01  </first>
+		<recent>2000-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120520 </station>
+		<name>SAN PEDRO C A GOLETA CA</name>
+		<first>1970-10-01  </first>
+		<recent>2009-01-21  </recent>
+		<last>2009-01-23  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120530</station>
+		<name>TECOLOTITO C NR GOLETA CA (USGS)</name>
+		<first>1970-10-01  </first>
+		<recent>1991-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>SBC</code>
+		<type>Gauging Station</type>
+		<station>11120550</station>
+		<name>GAVIOTA C NR GAVIOTA CA (USGS)</name>
+		<first>1966-10-01  </first>
+		<recent>1986-09-30  </recent>
+		<last>2007-05-11  </last>
+	</station_item>
+	<station_item>
+		<code>SER</code>
+		<type>Meteorologic Station</type>
+		<station>LIN6891648</station>
+		<name>Shanping forest ecological garden</name>
+		<first>2007-04-11  </first>
+		<recent>2008-04-26  </recent>
+		<last>2008-04-29  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>BLUEGRAMA</station>
+		<name>Blue Grama (50)</name>
+		<first>2002-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>BRONCOWELL</station>
+		<name>Bronco Well (45)</name>
+		<first>1990-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>DEEPWELL</station>
+		<name>Deepwell (40)</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>FIELDSTN</station>
+		<name>Field Station (01)</name>
+		<first>1992-01-01  </first>
+		<recent>2009-01-05  </recent>
+		<last>2009-01-16  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>FIVEPOINTS</station>
+		<name>Five Points (49)</name>
+		<first>1999-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>MONTOSO</station>
+		<name>Montoso (42)</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>REDTANK</station>
+		<name>Red Tank (43)</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>RIOSALADO</station>
+		<name>Rio Salado (44)</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>SAVANNA</station>
+		<name>Savanna (48)</name>
+		<first>1998-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SEV</code>
+		<type>Meteorologic Station</type>
+		<station>SOUTHGATE</station>
+		<name>Southgate (41)</name>
+		<first>1989-01-01  </first>
+		<recent>2008-12-11  </recent>
+		<last>2008-12-26  </last>
+	</station_item>
+	<station_item>
+		<code>SGS</code>
+		<type>Meteorologic Station</type>
+		<station>11        </station>
+		<name>Meteorological Station 11                         </name>
+		<first>1969-01-01  </first>
+		<recent>2008-07-31  </recent>
+		<last>2008-12-29  </last>
+	</station_item>
+	<station_item>
+		<code>SGS</code>
+		<type>Meteorologic Station</type>
+		<station>12</station>
+		<name>Meteorological Station 12</name>
+		<first>1986-01-01  </first>
+		<recent>2008-12-12  </recent>
+		<last>2008-12-29  </last>
+	</station_item>
+	<station_item>
+		<code>TAE</code>
+		<type>Meteorologic Station</type>
+		<station>72K22</station>
+		<name>Yuin-lin Branch Station</name>
+		<first>2000-01-01  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-22  </last>
+	</station_item>
+	<station_item>
+		<code>TAE</code>
+		<type>Meteorologic Station</type>
+		<station>G2L02</station>
+		<name>Chia-yi Litchi Orchard</name>
+		<first>2000-01-01  </first>
+		<recent>2004-12-31  </recent>
+		<last>2009-01-22  </last>
+	</station_item>
+	<station_item>
+		<code>TAE</code>
+		<type>Meteorologic Station</type>
+		<station>G2M35</station>
+		<name>Chi-ko Branch Farm</name>
+		<first>2000-01-01  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-22  </last>
+	</station_item>
+	<station_item>
+		<code>VCR</code>
+		<type>Meteorologic Station</type>
+		<station>HOGI</station>
+		<name>Hog Island</name>
+		<first>1989-04-03  </first>
+		<recent>2008-12-31  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+	<station_item>
+		<code>VCR</code>
+		<type>Meteorologic Station</type>
+		<station>OYSM</station>
+		<name>Oyster Virginia</name>
+		<first>1991-12-13  </first>
+		<recent>2007-12-31  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+	<station_item>
+		<code>VCR</code>
+		<type>Meteorologic Station</type>
+		<station>PHCK</station>
+		<name>Phillips Creek</name>
+		<first>1991-06-10  </first>
+		<recent>2007-11-28  </recent>
+		<last>2009-01-20  </last>
+	</station_item>
+  </stations>
+</info>

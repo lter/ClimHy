@@ -1,0 +1,3 @@
+[Fri Jan 23 04:58:04 2009] harvest.pl: Use of uninitialized value in string eq at E:\lter\climhy\harvest.pl line 49.
+[Fri Jan 23 04:58:04 2009] harvest.pl: Use of uninitialized value in string ne at E:\lter\climhy\harvest.pl line 75.
+[Fri Jan 23 04:58:04 2009] harvest.pl: Use of uninitialized value in string eq at E:\lter\climhy\harvest.pl line 96.

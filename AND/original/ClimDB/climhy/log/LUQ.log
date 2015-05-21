@@ -1,0 +1,92 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:11:51 GMT
+Accept-Ranges: bytes
+ETag: "625c32904a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 1284868
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:05:55 GMT
+Client-Date: Fri, 23 Jan 2009 11:11:57 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+LUQ
+Started with LUQ,ES50063800,20061017
+Ended with LUQ,ES50063800,20090122
+Started with LUQ,QG50074950,20061031
+Ended with LUQ,QG50074950,20081219
+Started with LUQ,QS50063440,20071018
+Ended with LUQ,QS50063440,20090122
+Started with LUQ,RG50064200,19681017
+WARNING(101): DSCH = 42475.28 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19681127	 input file (LUQ) line 2119
+
+WARNING(101): DSCH = 43891.12 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19690116	 input file (LUQ) line 2169
+
+WARNING(101): DSCH = 98259.47 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19690521	 input file (LUQ) line 2294
+
+WARNING(101): DSCH = 42475.28 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19691109	 input file (LUQ) line 2466
+
+WARNING(101): DSCH = 63996.08 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19691122	 input file (LUQ) line 2479
+
+WARNING(101): DSCH = 48138.65 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19700511	 input file (LUQ) line 2649
+
+WARNING(101): DSCH = 81835.70 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19701006	 input file (LUQ) line 2797
+
+WARNING(101): DSCH = 48421.81 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19701007	 input file (LUQ) line 2798
+
+WARNING(101): DSCH = 42758.44 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19701008	 input file (LUQ) line 2799
+
+WARNING(101): DSCH = 88914.91 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19701009	 input file (LUQ) line 2800
+
+WARNING(101): DSCH = 52952.51 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19701109	 input file (LUQ) line 2831
+
+WARNING(101): DSCH = 84667.38 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19750915	 input file (LUQ) line 4602
+
+WARNING(101): DSCH = 40776.26 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,19980921	 input file (LUQ) line 13009
+
+WARNING(101): DSCH = 45873.30 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,20031112	 input file (LUQ) line 14887
+
+WARNING(101): DSCH = 56067.36 (min=0 max=40776) failed QC test at:
+	 LUQ,RG50064200,20040915	 input file (LUQ) line 15195
+
+Ended with LUQ,RG50064200,20090122
+Started with LUQ,RI50075000,19450910
+Ended with LUQ,RI50075000,20090122
+Started with LUQ,RM50065500,20071019
+Ended with LUQ,RM50065500,20090122
+Started with LUQ,RM50066000,20061014
+Ended with LUQ,RM50066000,20090122
+Started with LUQ,RS50067000,20061002
+Finished with LUQ,RS50067000,20090120
+
+
+Summary of LUQ follows:
+	ON INPUT:
+		42071 lines read. 
+		0 blank lines. 
+		8 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		15 warnings raised. 
+	ON OUTPUT:
+		42063 data points prepared for entry into centralized database.

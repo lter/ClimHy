@@ -1,0 +1,129 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 19 Jan 2009 12:56:09 GMT
+Accept-Ranges: bytes
+ETag: "be020a-8956-460d20474ba40"
+Server: Apache/2.0.52 (Red Hat)
+Content-Length: 35158
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Mon, 19 Jan 2009 08:50:41 GMT
+Client-Date: Mon, 19 Jan 2009 12:56:09 GMT
+Client-Peer: 137.229.113.247:8000
+Client-Response-Num: 1
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/19/2009
+
+BNZ
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER1,20081201
+Ended with BNZ,LTER1,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,LTER2,20081201
+Ended with BNZ,LTER2,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP3A,20081201
+Ended with BNZ,FP3A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP4A,20081201
+Ended with BNZ,FP4A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Ended with BNZ,FP5A,20081219
+Started with BNZ,FP5A,20081201
+Finished with BNZ,FP5A,20081219
+
+
+Summary of BNZ follows:
+	ON INPUT:
+		962 lines read. 
+		0 blank lines. 
+		50 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		1102 data points prepared for entry into centralized database.

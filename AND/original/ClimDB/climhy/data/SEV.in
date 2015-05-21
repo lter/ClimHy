@@ -1,0 +1,18 @@
+!LTER_Site,Station,Date,Daily_AirTemp_Mean_C,Flag_Daily_AirTemp_Mean_C ,\
+#Daily_AirTemp_AbsMax_C,Flag_Daily_AirTemp_AbsMax_C, \
+#Daily_AirTemp_AbsMin_C,Flag_Daily_AirTemp_AbsMin_C, \
+#Daily_rh_Mean_Pct,Flag_Daily_rh_Mean_Pct, \
+#Daily_windsp_mean_msec ,Flag_Daily_windsp_mean_msec, \
+#Daily_ResWindSp_Mean_Msec,Flag_Daily_ResWindSp_Mean_Msec, \ 
+#Daily_ResWindDir_Mean_Deg,Flag_Daily_ResWindDir_Mean_Deg, \
+#Daily_SoilTemp_Mean_C,Flag_Daily_SoilTemp_Mean_C, \ 
+#daily_soiltemp_absmax_c,Flag_daily_soiltemp_absmax_c, \
+#daily_soiltemp_absmin_c,Flag_daily_soiltemp_absmin_c, \
+#daily_vappressure_mean_hpa,Flag_daily_vappressure_mean_hpa, \
+#Daily_Precip_Total_mm,Flag_Daily_Precip_Total_mm, \
+#daily_globalrad_total_mjm2,Flag_Daily_GlobalRad_Total_Mjm2
+SEV,FIELDSTN,20090101, 3.4,,15.9,,-9.1,,47.4,, 1.5,, 0.2,, 4.2,, 4.9,, 9.9,, 0.8,,0.329,, 0.0,,13.2,
+SEV,FIELDSTN,20090102, 5.1,,15.7,,-5.6,,41.2,, 1.9,, 0.7,,212.6,, 5.5,,10.4,, 1.3,,0.314,, 0.0,,13.2,
+SEV,FIELDSTN,20090103, 6.5,,16.8,,-3.9,,35.7,, 2.3,, 1.1,,255.0,, 6.9,,11.5,, 3.0,,0.338,, 0.0,,13.3,
+SEV,FIELDSTN,20090104, 1.3,, 5.7,,-3.2,,49.3,, 2.8,, 0.8,,100.2,, 6.0,, 7.2,, 4.6,,0.356,, 0.0,, 4.9,
+SEV,FIELDSTN,20090105,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.0,M,-999.000,M,-999.0,M,-999.0,M

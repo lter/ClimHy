@@ -1,0 +1,43 @@
+HTTP/1.1 200 OK
+Date: Wed, 16 Aug 2006 21:09:31 GMT
+Accept-Ranges: bytes
+ETag: "a0ec4d4178c1c61:14db"
+Server: Microsoft-IIS/6.0
+Content-Length: 605052
+Content-Type: text/plain
+Last-Modified: Wed, 16 Aug 2006 21:09:26 GMT
+Client-Date: Wed, 16 Aug 2006 21:11:52 GMT
+Client-Peer: 129.130.186.3:80
+Client-Response-Num: 1
+MicrosoftOfficeWebServer: 5.0_Pub
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 08/16/2006
+
+KNZ
+Started with KNZ,N20B,19870101
+Ended with KNZ,N20B,20041231
+Started with KNZ,N02B,19870101
+Ended with KNZ,N02B,20041231
+Started with KNZ,N01B,19870101
+Ended with KNZ,N01B,20041231
+Started with KNZ,N04D,19850101
+Finished with KNZ,N04D,20041231
+
+
+Summary of KNZ follows:
+	ON INPUT:
+		26300 lines read. 
+		0 blank lines. 
+		4 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		Fatal process errors raised. 
+		0 warnings raised. 
+	ON OUTPUT:
+		26296 data points prepared for entry into centralized database.
+
+
+		Due to the fatal error listed above the database can not been updated.

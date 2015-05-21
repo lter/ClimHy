@@ -1,0 +1,16 @@
+
+Running digestion routines on NTL
+Command 201 1 lines
+Command 202 1 lines
+Command 203 3780 lines
+Command 204 1 lines
+Command 205 1 lines
+Command 206 3780 lines
+Command 207 4 lines
+Command 208 0E0 lines
+Command 209 4 lines
+Command 210 0E0 lines
+ERROR: SQL command 211.
+[Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQL-22001)
+[Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (SQL-01000)(DBD: Execute immediate failed err=-1)
+Failed digestion on NTL

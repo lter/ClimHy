@@ -1,0 +1,47 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jan 2009 11:08:49 GMT
+Accept-Ranges: bytes
+ETag: "62355214a7dc91:1898"
+Server: Microsoft-IIS/6.0
+Content-Length: 161438
+Content-Type: text/plain
+Last-Modified: Fri, 23 Jan 2009 11:02:49 GMT
+Client-Date: Fri, 23 Jan 2009 11:08:53 GMT
+Client-Peer: 128.192.73.83:80
+Client-Response-Num: 1
+X-Powered-By: ASP.NET
+
+
+Beginning QA procedures...
+E:\lter\climhy\harvest.pl executed 01/23/2009
+
+BES
+Started with BES,BAISMANRUN,20081002
+Ended with BES,BAISMANRUN,20090114
+Started with BES,CARROLLPK,20071029
+Ended with BES,CARROLLPK,20090122
+Started with BES,DEADRUN,20071109
+Ended with BES,DEADRUN,20090122
+Started with BES,GLYNDON,20081005
+Ended with BES,GLYNDON,20090122
+Started with BES,GWYNNBROOK,20011211
+Ended with BES,GWYNNBROOK,20090122
+Started with BES,MCDONOUGH,20081005
+Ended with BES,MCDONOUGH,20090122
+Started with BES,PONDBRANCH,20071026
+Ended with BES,PONDBRANCH,20090122
+Started with BES,VILLANOVA,20071110
+Finished with BES,VILLANOVA,20090122
+
+
+Summary of BES follows:
+	ON INPUT:
+		4721 lines read. 
+		0 blank lines. 
+		8 header lines. 
+	DURING PROCESS:
+		0 duplicate errors raised.
+		0 process errors raised. (first 0 listed above)
+		0 warnings raised. 
+	ON OUTPUT:
+		7313 data points prepared for entry into centralized database.
